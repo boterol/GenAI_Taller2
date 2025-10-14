@@ -32,7 +32,7 @@ En el caso de EcoMarket, los documentos más relevantes para el sistema RAG de a
 
 * Un archivo JSON con preguntas frecuentes, que serviría como base para respuestas rápidas a consultas comunes.
 
-Respecto al chunking, la segmentación debe equilibrar el contexto y la eficiencia computacional. Para el PDF de políticas de devoluciones, lo ideal sería usar fragmentos de alrededor de 700 tokens, lo bastante amplios para incluir informacion clave completa sin romper la coherencia semántica. En el caso del CSV, cada fila puede considerarse un chunk independiente, ya que cada producto representa una unidad semántica separada. Por último, para el JSON, lo más adecuado es generar un embedding por cada par pregunta–respuesta (key–value pair), ya que juntos conforman una unidad semántica completa que facilita una recuperación más precisa durante las consultas.
+Respecto al chunking, la segmentación debe equilibrar el contexto y la eficiencia computacional. Para el PDF de políticas de devoluciones, lo ideal sería usar fragmentos de alrededor de 700 tokens (aunque nosotros usaremos los 512 limite por defecto del all-MiniLM-L6-v2 en la implementacion propia), lo bastante amplios para incluir informacion clave completa sin romper la coherencia semántica. En el caso del CSV, cada fila puede considerarse un chunk independiente, ya que cada producto representa una unidad semántica separada. Por último, para el JSON, lo más adecuado es generar un embedding por cada par pregunta–respuesta (key–value pair), ya que juntos conforman una unidad semántica completa que facilita una recuperación más precisa durante las consultas.
 
 Mantener una dimensionalidad uniforme en los embeddings de todas las colecciones permite realizar operaciones cruzadas —por ejemplo, asociar una pregunta frecuente con un producto o con un punto de la política de devoluciones—, ampliando así las capacidades del sistema en casos especificos. Tambien es una opcion manejar distintas dimensiones (por ejemplo ampliando en el  caso del pdf y reduciendo en  el caso de el csv) pero complicaria la  implementacion a cambio de una ligera mejora en performance de retrieval para los casos de menor dimensionalidad. 
 
@@ -40,7 +40,9 @@ En conclusión, una estrategia de chunking moderadamente amplia (alrededor de 80
 
 
 ## Implementación
-La implementación presentada corresponde a un prototipo del sistema RAG descrito en los textos anteriores, utilizando Ollama junto con el modelo all-mini-v6 para llevar a cabo la operación de los agentes. Este prototipo permite que los agentes respondan consultas de manera semántica, recuperando información relevante de los documentos de EcoMarket y generando respuestas coherentes a partir de los embeddings, sirviendo como prueba de concepto para la arquitectura y flujo de trabajo planteados.
+La implementación presentada corresponde a un prototipo del sistema RAG descrito en los textos anteriores, utilizando gpt-4o-mini junto con el modelo all-mini-v6 para llevar a cabo la operación de los agentes. Este prototipo permite que los agentes respondan consultas de manera semántica, recuperando información relevante de los documentos de EcoMarket y generando respuestas coherentes a partir de los embeddings, sirviendo como prueba de concepto para la arquitectura y flujo de trabajo planteados.
+
+Para la implementación local se utilizó el modelo gpt-4o-mini de OpenAI, ya que es funcional y puede usarse con el Free Tier de OpenAI. Sin embargo, en un contexto de producción, sería conveniente usar el 2.5 Flash. Si no fuera posible, se recomendaría el 2.5 Flash Lite o incluso el 2.0 Flash, ya que, a pesar de tener una ventana de salida más limitada y una inferencia ligeramente más lenta, ofrece respuestas más coherentes que el 2.5 Flash Lite en ciertos casos específicos.
 
 ### Ejecución
 Aquí tienes una guía simple y clara que puedes pegar en el README de tu repo:
