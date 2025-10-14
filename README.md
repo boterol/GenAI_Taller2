@@ -41,3 +41,60 @@ En conclusión, una estrategia de chunking moderadamente amplia (alrededor de 80
 
 ## Implementación
 La implementación presentada corresponde a un prototipo del sistema RAG descrito en los textos anteriores, utilizando Ollama junto con el modelo all-mini-v6 para llevar a cabo la operación de los agentes. Este prototipo permite que los agentes respondan consultas de manera semántica, recuperando información relevante de los documentos de EcoMarket y generando respuestas coherentes a partir de los embeddings, sirviendo como prueba de concepto para la arquitectura y flujo de trabajo planteados.
+
+### Ejecución
+Aquí tienes una guía simple y clara que puedes pegar en el README de tu repo:
+
+---
+
+## Cómo ejecutar el proyecto
+
+Sigue estos pasos para levantar y usar el proyecto:
+
+1. **Clonar el repositorio** (si no lo has hecho aún):
+
+2. **Instalar las dependencias de Python**:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Crear el archivo de entorno `.env`**:
+
+En la raíz del proyecto, crea un archivo llamado `.env` con el siguiente contenido:
+
+```env
+OPENAI_API_KEY=tu_api_key_de_openai_aquí
+```
+
+> Sustituye `tu_api_key_de_openai_aquí` por tu clave real de OpenAI.
+
+4. **Levantar Qdrant en Docker**:
+
+El proyecto utiliza Qdrant como base de vectores. Para levantarlo, ejecuta:
+
+```bash
+docker-compose up -d
+```
+
+Esto iniciará Qdrant en un contenedor de Docker.
+
+5. **Ejecutar el programa**:
+
+```bash
+python main.py
+```
+
+6. **Usar el programa**:
+
+* Elige el agente con el que quieras interactuar:
+  1 - Devoluciones
+  2 - Pedidos
+  3 - Preguntas y Respuestas
+
+* Sigue las instrucciones en pantalla para hacer consultas.
+
+* Para regresar al menú de agentes, escribe `back`.
+
+* Para salir del programa, escribe `exit`.
+

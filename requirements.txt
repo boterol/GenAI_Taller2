@@ -1,9 +1,8 @@
 # Core LlamaIndex modules (modular architecture)
 llama-index-core>=0.10.55
-llama-index-llms-ollama>=0.1.5
 llama-index-vector-stores-qdrant>=0.1.5
 llama-index-embeddings-huggingface>=0.1.5
-
+llama-index-llms-openai>=0.10.55
 # Vector database
 qdrant-client>=1.11.0
 
@@ -14,14 +13,10 @@ html2text>=2020.1.16
 pypdf>=4.2.0
 requests>=2.31.0
 python-dotenv>=1.0.1
-
-# Monitoring / tracing
-arize-phoenix>=0.3.15
-openinference-instrumentation
-openinference-instrumentation-llama-index
-
-# forlocal Ollama models
-ollama>=0.1.8
+pdfplumber
 
 # embedding model
 sentence-transformers
+
+# env
+python-dotenv>=1.0.1
