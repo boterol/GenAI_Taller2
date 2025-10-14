@@ -8,6 +8,7 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.openai import OpenAI
 from qdrant_client import QdrantClient
 import pdfplumber
+import tiktoken
 
 # === Load .env ===
 load_dotenv()
@@ -15,17 +16,31 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     raise ValueError("No se encontró la variable de entorno OPENAI_API_KEY")
 
-# === Load documents ===
-def load_pdf(file_path):
+# Función para dividir texto en chunks de N tokens
+def chunk_text(text: str, chunk_size: int = 512, model_name: str = "gpt-4o-mini"):
+    encoding = tiktoken.encoding_for_model(model_name)
+    tokens = encoding.encode(text)
+    chunks = []
+    for i in range(0, len(tokens), chunk_size):
+        chunk_tokens = tokens[i:i + chunk_size]
+        chunk_text = encoding.decode(chunk_tokens)
+        chunks.append(chunk_text)
+    return chunks
+
+# === Load documents con chunks de 512 tokens ===
+def load_pdf(file_path, chunk_size=512):
     documents = []
     with pdfplumber.open(file_path) as pdf:
         for page in pdf.pages:
             text = page.extract_text()
             if text:
-                documents.append(Document(text=text))
+                for chunk in chunk_text(text, chunk_size):
+                    documents.append(Document(text=chunk))
     return documents
 
-pdf_docs = load_pdf("./data/devoluciones/devoluciones.pdf")
+pdf_docs = load_pdf("./data/devoluciones/devoluciones.pdf", chunk_size=512)
+
+
 
 
 class CSVReader:

@@ -14,9 +14,11 @@ pypdf>=4.2.0
 requests>=2.31.0
 python-dotenv>=1.0.1
 pdfplumber
+tiktoken
 
 # embedding model
 sentence-transformers
+
 
 # env
 python-dotenv>=1.0.1
