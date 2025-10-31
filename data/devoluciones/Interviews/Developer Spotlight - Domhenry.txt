@@ -1,0 +1,89 @@
+Developer Spotlight - Domhenry
+
+Introduction
+
+In this new series of developer interviews, we meet Domhenry, a name many of us in the X-Plane community are familiar with. His models are renowned for their quality, not only in how they look, but also in how they perform. But how did it all begin? Learn more about Domhenry’s inspiration and techniques in our very first Developer Spotlight.
+
+X-Plane Development 
+
+Dom, when did you start developing for X-Plane, and what got you interested in it?
+
+Back in 2010, I moved over to Apple Macs and needed a compatible flight simulator – the obvious (only) choice was X-Plane – and it ran very well. At first, I just flew aircraft, but soon got interested in how the systems all hung together. I’m a scientist / IT guy by background, so couldn’t resist a little tinkering. For a while, I had a break from simulation but came back to it when X-Plane 11 was released. I found the PBR challenge interesting and started to get my head around how it all worked. 
+
+Like many folks who use X-Plane, I started releasing a few bits and bobs (2018), and these were liveries. It took a little while for the process to click into place and to understand the NML balances that work well together, but I eventually got the hang of it. It was during this time that I noticed a few of my favourite aircraft were X-Plane 10, which meant no PBR, and that some of their functions were not working as they should. I investigated why and found that some older aircraft used datarefs that no longer behaved in X-Plane 11, plus a few other issues. 
+
+I decided to seek permission for two of my personal must-have aircraft – the Hurricane and Spitfire. Having got the necessary permissions, I set about working on the PBR, tweaks, and dataref changes. There was no 3D editing at this stage – this was all text editing the .obj files – so a lot of hit and miss until I worked out what was happening. I released both aircraft in late 2018. To date, the Spitfire now has over 24,000 downloads.
+Having had success with both the Spitfire and Hurricane, I continued in much the same way with other aircraft that I thought needed to be fully X-Plane 11 compatible, namely the P-38 and the Vulcan BMk2. Whilst working on these models, I also created liveries for various other aircraft. It was at this stage that I thought it was time to get into 3D editing – the main reason being, that I thought we needed an Avro Lancaster for X-Plane 11. So, I got kitted up and started to learn 3D editing and with that FMOD.
+
+How much detail do you attempt to put into your X-Plane designs? 
+
+I don’t strive to submit ultra-realistic almost study-level aircraft but hats off to those developers who are at that level. My new aircraft strive to be pretty realistic – with flight models that behave reasonably well – and systems that reflect the real systems without being exact models – in this way I can publish three or four aircraft a year. 
+
+In the latest models I have created, I have started to implement full 3D instrumentation and controls. With these, I try to mirror the original equipment but modify them to be “sim friendly” – so switches may be more accessible – or dials easier to see. I tend not to implement controls that are not particularly well simulated in X-Plane – however, that is changing somewhat, now that I have got into plugin coding. I also like to implement different aircraft marks or features with “in aircraft” switches – so I don’t have to support multiple versions.
+
+This is always a tricky question to answer, but what do you consider to be your best or most popular X-Plane model?
+
+I tend to only submit aircraft that I like – aircraft that I want to learn more about. If I am flying purely for fun, then I often go to the DH Vampire as it’s so nifty and neat – it still has 2D instruments, so perhaps it’s time for an update. I also like to fly the EE Lightning as it was such a wonderful aircraft, and the XP version still gets that excitement. Of course, my newer models are more refined and are certainly improvements over my earlier work. 
+
+What would you say is the greatest challenge you face when creating a model? 
+
+Well – without a doubt it is the research. The web is an excellent source of course, but many aircraft are either no longer operational, scrapped, or in museums – so getting information can be challenging. For example, I often join a Facebook group in which to ask questions. With the Lightning, I had to ask real RAF Lightning pilots where the navigation lights were – and also get to the bottom of how long the fuel lasted. I am making a cockpit for a JU-88 at the moment – the research for that is certainly interesting.
+
+What software packages and tools do you use to develop your aircraft?
+
+I use AC3d, Photoshop 2022, Plane Maker, XP Plugin Code, BBEdit text editor, FMOD Studio and Audacity, and on any one day, I would use most of those. My development approach tends to push all elements of the aircraft along at the same time – so I am constantly going between all the tools in which to move the project along.
+
+Dom, who would you consider to be your mentors or inspiration in the X-Plane world? 
+
+When I first started creating liveries, my go-to reference was Leen de Jager. He was extremely patient and helpful, so a big thank you to him. Of course, I must also mention the late Heinz Dziurowitz, plus Nils at ND Art & Technology and Daniel G.
+
+When creating your models, do you work solely by yourself or as part of a team?
+
+Just me, as I am a Jack of all trades! 
+Actually, this is not entirely true, as just recently, a few folks have approached me with the intention of moving their external 3D models into XP. For example, Matt @MDIvey has donated some excellent external models – and I have added animations, a flight model, a 3D cockpit, FMOD (huge learning curve), plus plugin code. I have also worked with other teams or individuals so as to contribute bits and bobs to their work. In fact, I am working with a new 3D model at this very moment from another source.
+
+Real Life
+
+Do you have any experience in real aviation?
+
+Not a great deal, but my first ever flight was in a DH Comet. I’m not a pilot, but this work certainly would be a good foundation if I happened to change my mind.
+
+How did your interest in aviation begin?
+
+Like many youngsters at the time, I would make Airfix or Revell models, usually every week – and yes, I did make a Spitfire, a Lightning, and a Lancaster! 
+
+Do you have any memorable flights you would like to share with us?
+
+The flights which I remember, include one with an exceptionally long air pocket drop over the Himalayas (not for the faint-hearted) - and a big thunderstorm landing at Nice, which was exhilarating! 
+
+When you’re not busy creating models for us to enjoy, what other hobbies or things do you like to do for enjoyment?
+
+I’m a cyclist – say 250km a week – leading a local group of up to twenty riders three times a week – and then some solos. I also enjoy the odd craft beer, try to travel as much as I can – and combine that with a lifelong love of photography.
+
+Future
+
+How do you choose which aircraft to develop next? 
+
+At present, the “donated” models are keeping me busy, but I hope to get a few more RAF aircraft on the go soon. To me, it’s all about preserving some of these wonderful machines and bringing them to a wider audience in the way I hope I did with the Mosquito, Buccaneer, and Canberra.
+
+In what ways do you see development changing in the future?
+
+It will be interesting to see what X-Plane 12 brings. For my own part, I have started plugin coding for new aircraft, and that certainly opens up options for implementing more complex systems, even those from WW2.
+
+Your Thoughts
+
+What can sites like the Org do to support you and the hobby better?
+
+I think the Org does a good job in supporting both pilots and developers – of course not everyone wants to give away trade secrets as it were, but there are many members here who are more than willing to push you in the right direction – for example on painting, PBR, FMOD, and coding.
+
+How do you feel about the future of flight simulation in general?
+
+Highly positive, as the release of Microsoft Flight Simulator 2020 has revitalized the simulation community – which in turn has helped X-Plane. Hardware constraints are also less of an obstacle, as even a laptop, thanks to the advancements in technology, can run X-Plane. 
+
+What can the X-Plane community do to help developers more?
+
+The community is very generous in their reaction to contributions - although just a very few folks might need to be reminded that freeware developers are amateurs and are putting their necks out for the enjoyment of others.
+
+Lastly Dom, what would you like people to know most about your work?
+
+For my part – I’m British (go figure) living in Australia – therefore with significant time zone differences to most of the community, so responses may be a little delayed. This also doesn’t help with my ability as a moderator, as those northern hemisphere European and US folks seem to get all the work done whilst I’m asleep

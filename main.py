@@ -38,7 +38,39 @@ def load_pdf(file_path, chunk_size=512):
                     documents.append(Document(text=chunk))
     return documents
 
-pdf_docs = load_pdf("./data/devoluciones/devoluciones.pdf", chunk_size=512)
+
+
+
+def load_txt_folder(folder_path, chunk_size=512):
+    """
+    Load all .txt files from a folder and split their content into chunks of tokens.
+    Returns a list of Document objects.
+    """
+    documents = []
+
+    # Iterate over all .txt files in the folder
+    for filename in os.listdir(folder_path):
+        if filename.lower().endswith(".txt"):
+            file_path = os.path.join(folder_path, filename)
+
+            # Read text file
+            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                text = f.read()
+
+            # Skip empty files
+            if not text.strip():
+                continue
+
+            # Chunk and wrap into Document objects
+            for chunk in chunk_text(text, chunk_size):
+                documents.append(Document(text=chunk, metadata={"source": filename}))
+
+    return documents
+
+
+
+
+pdf_docs = load_txt_folder("./data/devoluciones/Interviews", chunk_size=512)
 
 
 
@@ -105,7 +137,7 @@ storage_contexts = {
 # === Set up OpenAI LLM and embeddings ===
 llm = OpenAI(model="gpt-4o-mini", openai_api_key=OPENAI_API_KEY, temperature=0)
 Settings.llm = llm
-embed_model = HuggingFaceEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embed_model = HuggingFaceEmbedding(model_name="intfloat/e5-base-v2")
 Settings.embed_model = embed_model
 
 # === Load system prompts for each agent ===

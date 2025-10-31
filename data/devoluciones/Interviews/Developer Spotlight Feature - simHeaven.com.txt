@@ -1,0 +1,69 @@
+Developer Spotlight Feature - simHeaven.com
+
+Welcome to our latest Developer Spotlight Feature, this time with Armin, the founder of simHeaven, quite possibly the most impressive (and ambitious) freeware scenery project for X-Plane to date.
+
+With a passion for flight simulation dating back to the early 1980s, Armin's enthusiasm and passion are clear to see, especially if you've ever had the pleasure of using any of his wonderful X-World packages. But how did his interest in flight simulation begin and what prompted him to start developing for X-Plane? 
+
+Read on to find out more...
+
+ 
+
+Armin, thank you for taking the time to talk to X-Plane.Org. 
+
+Could I start by asking how your interest in flight simulation began?
+
+This year I celebrate my 40th anniversary of flight simulation, much like Microsoft Flight Simulator, which began in the early 80s. At the time, it was developed by Sublogic and was known as Microsoft Flight Simulator 1.0. I used this platform for a long time and enjoyed doing European “interstate competitions” with it. Then, about ten years ago, I switched over to X-Plane and have never looked back. During the past forty years, I have used numerous computer platforms, starting with the Sinclair Spectrum ZX81, followed by the Commodore C64 and Amiga 1000, and then finally, to Windows-based machines. 
+
+At the same time, my interest in real aviation was progressing. In 1988 I began flying paragliders and then a short time later in 1991, acquired my PPL licence. Since those early days, I have flown many hours; did my seaplane rating in Toronto Canada, and ATPL courses in Sabadell near Barcelona in Spain. After thirty years, I mainly fly VFR, and each flight is just as exciting as the first!  
+
+What prompted you to start the X-World project for X-Plane? 
+
+The X-World project began after I started using X-Plane 10 (which was the current version at that time). It came about because I wanted to use X-Plane to prepare for my real-world flights but was disappointed by the autogen it offered. As a VFR pilot, I simply couldn’t recognise areas essential for my planning. For that reason, I began to create my first sceneries, first with OSM2XP, and then later using World2XPlane. So in effect, the project began with my own OSM sceneries, followed by the X-Packages for X-Plane 11 and now, X-World for X-Plane 12.  
+
+How does X-World differ from the default X-Plane autogen?
+
+X-World and X-Plane autogen are very different approaches. X-Plane’s autogen uses landclass information to set elements by automatic rules which result in a “plausible scenery”. X-World on the other hand, sets elements from the real world, derived from OSM (OpenStreetMap) and MS building footprint data. X-World sets special objects and facades for different building types if the information is available, i.e., for residential, commercial, and industrial buildings, but also for (and not limited to), schools, universities, kindergartens, fire and railway stations, hospitals, hotels, castles, churches and so on. As well as those buildings mentioned, many other objects are generated, e.g., chimneys, GSM and communication towers, cranes, windmills, water towers, cooling towers, tanks, silos etc. You will also find very small objects like wastebaskets, benches, pollards, hydrants, hunting stands, vending machines and much more. Each X-World package might also include different defined regions, so the look and feel of what is seen below, changes as you fly, for example, going from Northern Europe to the Alps, and then further south to the Mediterranean. This is in contrast to the default autogen in X-Plane, where many elements remain the same and can look boring. 
+
+How do you go about creating the different regions? 
+
+My first task is to acquire the necessary continental OSM and global MS building footprint data. Whilst processing and filtering the OSM data for each layer, I am also (in parallel), processing the footprint data. I then compare every single building with OSM, filtering out the buildings which are already in OSM. I then start to generate every layer of every continent (this includes the forest layer in two versions). Finally, I optimise the dsf files in which to filter out flickering buildings and to improve the overall performance. All in all, this is a massive undertaking for one person and to give you some idea of the workload…for all continents, it takes between six to eight weeks, running my PC 24/7, day, and night (that’s a lot of electricity). 
+
+Before releasing any new version, I check each package for errors or anything unexpected, and this is done by conducting many flights around the area being built. Then, when I am satisfied with the results, the layers are packed, uploaded, and then checked again. Finally, the download pages at simHeaven.com are updated and the new versions are announced.  
+
+Are some areas more detailed than others and if so, what is the reason for this? 
+
+Yes, they are, as I am using mainly OSM for generating elements and the quality of my sceneries is directly dependent on the quality of the OSM data. For example, in Europe, we have very good OSM data available, but in other continents, the OSM (for numerous reasons), data is lacking.  Because of this, I have encouraged readers of the X-World thread at the Org, to help improve OSM data and have started an additional discussion for this sole purpose. Those that are interested in helping, will get support along the way, not just from myself, but also from the community. 
+
+Think about it, any improvements “YOU” make in OSM, be it, adding buildings, vegetation, or any other elements, will then be seen in the next major update of X-World!  
+
+Do the different areas of X-World contain custom-made buildings? 
+
+Yes, they do. For example, in the “layer 1-vfr” of Europe, we use 1,141 handmade objects, and these substitute the automatically generated objects found in X-Plane, such as cathedrals, castles, sightseeing objects etc. In Brussels, the Atomium, the European Parliament, the Town Hall, the Royal Palace and the Expo are also custom-made.
+
+Compared to using the default X-Plane autogen, is there a framerate hit when using X-World?
+
+If you use the standard XP autogen as a base, I think yes, there is a performance hit, but if you use orthos as a base, the framerate should be almost comparable to when using X-Plane’s default autogen. If anyone experiences performance issues when using X-World, they should first try to disable “layer 3-details”, which has all the little objects you probably don’t see from higher altitudes. They should also try to disable “layer 4-extras”, which automatically sets objects not in OSM, such as shrubs along rivers, boats at piers, sailing boats at lakes and elements for solar fields, allotments, caravan and construction sites, beaches etc. 
+
+Can you use X-World with X-Plane's default ground textures, or is it best to use it with photographic scenery, for example, those created with ortho4XP?
+
+ X-World can be used with X-Plane’s default ground textures, but it’s best to use orthos for the terrain as these fit perfectly with the buildings and elements placed by X-World. You should also  (theoretically), experience better framerates when using orthos (without overlays). Yes, I know orthos need a lot of disk space and if none are already available for your desired region, you must create your own in Ortho4XP, but I think it’s worth it if you fly mostly VFR.
+
+Armin, do you work with others, or is the project run solely by yourself? 
+
+I have a few people helping me, for example, Peter who creates objects, user @ueid, who helps with the integration of the MS building footprints, Jörn, who helps optimise the scenery after generation, and of course, we have a strong German community who have been working together for years and who help and support each other. However, even with all that support, I wish there were more people creating objects, for example, Asian-styled houses. To be honest, simHeaven is just me…one person, who generates all the packages, maintains the website, answers emails, plus questions on the forum, whilst at the same time, doing my normal full-time job. 
+
+That’s a lot of work for one person. Is there any way the X-Plane community can help with the project? 
+
+Yes, there is Dom. Firstly, as mentioned above, making improvements in OpenStreetMap (which is really easy to learn), would be a big help for me. Secondly, it would be highly beneficial if regional objects or VFR objects looked and felt more authentic depending on their particular region. For example, my own personal focus was and is Europe. The other continents were created solely for the X-Plane community, so I wish there was a little group for each continent. By having that, people could work together and share their improvements. Therefore, my wish/desire is that the X-World project doesn’t remain a one-man show, but that in the future, it will become a community project.
+
+What are your plans for X-World’s future?
+
+For now, and for the foreseeable future, I am making small improvements to X-World, e.g., eliminating incorrect buildings from the MS building footprints or setting boats at piers when only in water. The last few months have been particularly stressful, what with the preparation and then release of the X-World packages, followed by support emails. However, things are a little quieter now, so I am slightly more relaxed and free to enjoy the packages I have created. For reference, I am planning the next major update beginning in February, with an eye on finishing the following month in March before the outdoor season begins. During these months, I am more focussed on flying the Piper or exploring Europe in the camper.
+
+With X-Plane 12 now heavily in beta, do you have a wish list for areas you’d like to see improved? 
+
+My wish for X-Plane 12 is (like many readers), for the standard scenery to improve from a plausible rendition, into a realistic representation of what is actually there. If they used orthos, then I might finally be able to retire! Performance could also do with a boost, as compared to X-Plane 11 (which is what I use for testing), framerates in X-Plane 12 are (at this time), disappointing. 
+
+Lastly Armin, what would you like people to know most about your work?
+
+First, I have to say a big thank you to all the people who have not only helped me but also donated to the project and supported me in various ways. Since the release of X-World, the feedback I have received has been fantastic. This not only makes me happy, but it also encourages me to continue working on improving X-World. 

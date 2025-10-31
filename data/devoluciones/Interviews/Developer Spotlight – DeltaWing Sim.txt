@@ -1,0 +1,66 @@
+Developer Spotlight – DeltaWing Simulations
+
+Conducted By Dominic Smith
+
+In our latest Developer Spotlight, we chat with DeltaWing Simulations, the team behind the impressive F-16C, the officially licensed M-346 trainer, and most recently, the SF-37 Viggen for X-Plane 12. Known for their focus on modern military jets, the team shares how they got started, the challenges of building something as unique as the Viggen, and what’s coming next.
+
+To begin with, who’s behind DeltaWing Simulations and how did the team come together?
+
+Hi there and thank you very much for the opportunity to introduce our team to the flight simulation community.
+
+Our team consists of my father, Konstantinos D. Koronakis, (3D, textures, sounds, manuals, testing), myself, Dimitrios K. Koronakis (programming, manuals, testing), and Borysewicz Andrzej (3D, manuals, testing). We were brought together by our shared passion for aircraft, and once I had completed my university studies and was able to focus on programming, we officially formed our team in October 2020.
+
+What first drew you to flight simulation, and what made you want to develop for X-Plane specifically?
+
+All of us have a strong passion for aircraft, and after many years of using various flight simulation platforms, we felt that X-Plane was the most complete and accurate option available. That’s why we chose to develop our aircraft for this platform.
+
+Your first major release was the F-16C. Why did you choose to start with such a complex and iconic aircraft, and how did the project evolve during development?
+
+Yes, our first release was indeed the F-16C. It’s a jet that my father (K.D. Koronakis) is very passionate about, and at the time, there wasn’t a version in any flight simulator that included the specific features of the Hellenic Air Force variant, like the parachute tail, CFT tanks, and so on. So, we decided to start with that.
+
+It was also my first project as a programmer, and I learned a great deal during development. Andrzej created the very detailed external 3D model of the F-16, and Prof. Garry Hunter supported us with the flight characteristics. Some news that hasn’t been shared anywhere yet is that a version 2 of the F-16 is on the way. It’s already in development, being rebuilt from scratch with many new features. More details will be announced after a few other projects that currently have priority.
+
+The F-16 is well known, but the SF-37 Viggen is a more niche choice. What inspired you to take on this particular Swedish reconnaissance jet?
+
+The Viggen is a different story. It’s a piece of aviation history. The idea was suggested to us, and after giving it some thought, we decided to develop it. Believe me, it was a big challenge for us.What makes the Viggen so unique is that it was one of the first fighter jets developed through a collaboration between Sweden and NASA.
+
+NASA supported the aerodynamic development of the aircraft, while the United States also played a role in the development of the engine. The Viggen was one of the first jets, and possibly the very first, to feature an early analog fly-by-wire system. In many ways, it can be seen as a predecessor to the modern systems used in today’s aircraft.
+
+Can you tell us what makes the SF-37 Viggen different from the other Viggen variants, and how you approached simulating its specialised reconnaissance role in X-Plane?
+
+The SF-37 is a reconnaissance version of the Viggen and is very different from the fighter variant. It was used for reconnaissance missions and, as you can see, it’s packed with cameras. In fact, it has more cameras than weapons. We tried to bring this unique role to the users by making it possible to take photos of different areas, just like the real jet would. This gives users a better idea of how the real system worked. It also has STOL capability (short take-off and landing), as the Viggen was one of the only military jets to feature a thrust reverser.
+
+Looking back, what were some of the biggest technical or design challenges you faced during the development of either aircraft?
+
+Each aircraft has its own personality and its own challenges, both in 3D modelling and programming. The F-16 was our first development, and we had to learn as we built it. The M-346 is a trainer, which means it’s a two-seater. With that in mind, we developed two completely separate and independent cockpits, similar to our F-16D. The Viggen came with a language barrier, and the cockpit had a completely different design philosophy that we had to adapt to. You learn something every day, no matter how big or small the project is. There’s always something new to understand.
+
+Did the community help shape the final versions of the F-16, M-346 and SF-37? If so, how?
+
+We always try to check, evaluate, and address any comments or suggestions we receive from the community. All feedback, whether positive or negative, is helpful. It helps us understand many things, and we do our best to release updates as soon as possible.
+
+The Viggen includes quite a few advanced features like data tapes, camera pods, HUD modes, and a central computer. Were any of these particularly difficult to simulate in X-Plane, and do you have a personal favourite system or feature?
+
+Yes, it was a bit of a challenge. I had to use some programming tricks, but in the end, I think it turned out quite well. One of my favourite systems that we developed for the Viggen is the custom Data-Tape system. It brings a new flavour to the aircraft by making some of the internal systems more interactive and helping the aircraft feel more realistic.
+
+From now on, all our new jets, and gradually the ones we have already released, will include some of the systems we created for the Viggen. That includes the sharable Data Cartridge, fully customised flight plans based on each aircraft’s specific setup, and many more custom features tailored to each jet.
+
+
+Many developers talk about how their second project feels very different from their first. Did you find that building the Viggen came with a new mindset or approach compared to the F-16?
+
+Not exactly. The Viggen’s philosophy as a jet has nothing to do with the F-16 or any other Western aircraft, so we had to adapt our thinking to match. One of the biggest challenges was that the cockpit was in Swedish. Another barrier was the layout itself, which followed a completely different design philosophy from Western jets. Fortunately, a very good friend of ours from Sweden helped with the translation, so we were able to include both Swedish and English cockpit versions.
+
+Looking ahead, are there any future projects or updates in the works that you're able to share with us? Or is it a case of letting the Viggen settle for a bit first?
+
+We’ve also developed the military jet trainer Leonardo Aermacchi M-346 with the official licence from Leonardo. It’s a modern trainer jet, used by many air forces around the world to prepare pilots for next-generation fighters. Leonardo gave us full permission and support to develop the aircraft, and it remains one of our best projects to date. Right now, we have two active projects in development. One is in the early stages, and the other is almost ready to be announced, as it’s in the final phase. The 3D model, textures, animations and so on are all complete, and we’re currently working on the programming.An old promise is finally coming to life. We’ll be sharing more details very soon.
+
+X-Plane 12 has introduced some major changes to lighting, flight dynamics, and weather. How have these changes influenced the way you approach aircraft development, and do you see new possibilities opening up because of it?
+
+Every new feature that X-Plane gives us brings new challenges and new results. We try to make the most of them in order to deliver the best experience we can.
+
+Finally, what would you say to simmers who might be new to military aircraft in X-Plane? Is there a best way to get started, or a mindset that helps when learning complex jets like yours?
+
+We try to bring the X-Plane community closer to military jets, and we believe we’re currently the only team developing them with the same respect and attention to detail as commercial aircraft.
+
+We hope more users will discover the joy of flying military jets. There’s no need to approach them with a combat mindset, you can simply enjoy flying them. In fact, that’s why our first release of the F-16 was an airshow version only. More military jets, as well as civilian aircraft, are coming in the near future, with even greater complexity and realism.
+
+A big thank you to the DeltaWing Simulations team for sharing their journey. I'm sure the whole community will be watching with interest to see what comes next.

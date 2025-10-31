@@ -1,0 +1,109 @@
+Developer Spotlight Feature - Marc1227
+
+Conducted By Dominic Smith
+
+Introduction
+
+Meet Marc Morand, known as "marc1227" in the X-Plane community, a dedicated and skillful contributor to this dynamic world of flight simulation. As an integral member of the HSF team, his work, especially on the Alouette project, highlights his commitment to detail and quality in freeware development. Marc's genuine passion for aviation drives his efforts, showcasing not only his personal expertise but also the collaborative and creative spirit that is the essence of the X-Plane community.
+
+Marc, could I being by asking what sparked your interest in flight simulator development, and when did you begin your journey?
+
+My journey into flight simulator development began with FSX. I started with basic tasks like creating small, default sceneries for my own enjoyment; this was around 2014. Initially, it was a form of escapism from real life; a space where I could create anything I wanted. Whether it was fictional landscapes or bringing to life real-world locations that weren’t represented in the game, it was a transformative experience for me.
+
+Could you describe the nature of your designs and what your development process involves?
+
+Helicopters have always fascinated me, and living in Switzerland, which is an ideal setting for helicopter flights (even in the sim) has influenced my designs significantly. I've developed numerous heliports, rescue scenarios, and hospital sceneries to enhance the experience. The Alouette project was my first major undertaking. Prior to that, my focus was on creating sceneries that brought to life the flight scenarios I imagined while playing the sim.
+
+Marc, what do you consider your best or most popular work to date?
+
+Without a doubt, it’s the Alouette. I had previously created a scenery pack for a part of Switzerland, which I was quite proud of, but the Alouette project was a long-term endeavour, taking one and a half years to complete. The overwhelmingly positive feedback and reviews from the community have been incredibly rewarding. This project made our team immensely proud, especially considering the countless nights spent working on it. It's honestly the work I am most proud of.
+
+What challenges have you encountered during the development of your projects?
+
+Honestly, the challenges were numerous, especially since this was my first complex project. I had to rapidly learn everything I could. A member of the team, Ceds73, who was far more experienced, essentially became my coach and handled the more intricate aspects. The biggest challenge though, was dealing with the original 3D work. After purchasing MSK 3D, I realized there were many aspects that needed correction. It took six months just to work on the 3D component alone, remapping everything, rebuilding the interior from scratch, and fixing errors in the 3D model. I'm still not completely satisfied with the Alouette's nose shape; getting it perfect would have required an immense amount of work to adjust and fix various elements, which just wasn't feasible. So, the main challenge was realizing the extent of learning and knowledge required to create a 'simple' helicopter without complex systems. I initially thought it would be a long but straightforward task, but I was quite mistaken.
+
+Which aspects of the Alouette project was the most enjoyable for you, and why?
+
+My favourite part was definitely working on the 3D interior and the equipment. 3D modelling is my forte, and so I love a good challenge. Thanks to Ceds73, who had access to N316BJ (previously F-GUAD), I had a wealth of real-life photos to assist me in creating the most detailed and accurate interior possible. That was the most enjoyable aspect for me. However, once the 3D work was completed, I quickly realized that having only 3D skills wasn't going to be enough.
+
+What software packages and tools do you use for development?
+
+People often express surprise when I tell them I use Sketchup. I chose it because it’s my favorite 3D tool and is quite user-friendly. However, Sketchup has its limitations, which led me to learn AC3D for animations and other settings needed for X-Plane. I also used RizomUV for mapping all objects. The workflow involved creating objects in Sketchup, exporting them in .fbx format to RizomUV, and then finalizing animations in AC3D. I discovered Substance Painter (an outstanding tool for painting) only later, after much of the work was done. So, all of the Alouette, from exterior to interior, was created by hand using my old Photofiltre 7 program.
+
+Are there any individuals or groups in the X-Plane community who have particularly inspired, mentored, or collaborated with you on your projects?
+
+Yes, I've been fortunate to have been inspired and mentored by several key figures in the community. Ceds73 has been an invaluable mentor and collaborator, especially with his experience as a pilot of the Alouette II and access to the last Alouette III flying in France. His extensive knowledge in X-Plane development was instrumental for the Alouette project.
+
+I also had the pleasure of working closely with Ithirul, a Spanish friend who excels in 3D programs. Our collaborative work on the 3D aspects of the Alouette for six months was a pivotal experience. Additionally, Squirrel Dev's expertise, particularly his development of the first Alouette III for FSX and his deep understanding of the systems and manuals, brought invaluable insights to our project. The collaboration with these individuals was not only pivotal for the Alouette project but also enriched my own skills and knowledge in X-Plane development.
+
+Do you primarily focus on developing payware, freeware, or both, and what motivates your choice?
+
+I primarily develop freeware, and there are two main reasons for this choice. Firstly, I view development as a hobby, not a business. I don't want to create a company, deal with financial obligations, or manage the complexities that come with running a business. Secondly, my experience with FSX deeply influenced me. Like the X-Plane community, many developers generously offered their projects for free, dedicating their time and effort without expecting payment. This ethos deeply resonated with me. I wanted to be someone who gives back to the community, sharing my time and skills freely, just as others have done.
+
+Can you share some insights about the HSF team, such as the number of members and their specific roles?
+
+The HSF team consists of five members. It was during Covid that Mimile brought us together in a Discord channel. He saw that we each had unique skills in creating scenery and suggested we collaborate. That's how we started working on the HeliAlpes Pack, aiming to create as many sceneries as possible in our local areas for an enhanced X-Plane experience.
+
+The team is made up of Mimile, Ceds73, Pilotevirtuel, Davton, and myself. Ceds73 has extensive experience in helicopter development, as seen in his work on the EC130 for X-Plane 12. Mimile, Pilotevirtuel, and Davton, specialize in 3D scenery and WED for the landscapes. We have a supportive and dynamic team, with each member bringing their unique skills to the table.
+
+Real Life
+
+Do you have any real-life aviation experience?
+
+Sadly, no. I never actively pursued my dreams in that direction. After realizing I couldn't become a fighter pilot in the Swiss Air Force, I turned to other ways to experience flying. Now I enjoy listening to the stories and experiences of friends who fly or work in aviation. Their stories have been a source of inspiration and a way for me to connect with the aviation world, even if not directly as a pilot.
+
+Can you remember how your interest in aviation began?
+
+My fascination with aviation wasn't, like some, triggered by any specific event. It's been a part of me since my childhood. I always loved playing with airplane toys, and this interest has never faded. As a kid, I was eager to learn the names of different planes. I also travelled quite a bit at an early age, which meant spending time at airports, and found immense joy in seeing the variety of airplanes there. This early exposure and curiosity naturally nurtured my interest in aviation throughout my life.
+
+Marc, do you have any memorable real-life flight experiences that you'd like to share?
+
+Yes, one particular experience stands out. Back in 2001, I had the incredible opportunity to fly in an S-55QT helicopter around the Grand Canyon, and the views were absolutely breathtaking. I always thought that this model of helicopter had an unusual look, but having flown in it, I now cherish that unique experience, and it's a memory I’ll never forget. 
+
+Would you be comfortable sharing a bit about your life outside of X-Plane development?
+
+Of course. Outside of X-Plane development, my life might seem quite straightforward. Having completed my business degree, I've always been someone who values the freedom to do things on my own terms. This desire for autonomy is why I spend a lot of my time on hobbies I'm passionate about, such as developing, creating liveries, and designing scenery. Recently, I've been focusing more on helicopters, and I plan to continue as long as it brings me joy. Essentially, my life outside of professional commitments revolves around pursuing my interests and enjoying the flexibility to engage with my hobbies whenever I wish.
+
+Aside from your work in flight simulation, what other hobbies or interests do you enjoy?
+
+Well, my passion for aviation extends beyond just flight sim development. Ever since I was young, I've been fascinated with model scale building. It's a hobby that I find both enjoyable and relaxing. Building these models allows me to creatively engage with aviation in a different way. Additionally, I love spending time at Geneva airport engaged in plane spotting. It's always exciting to observe the variety of aircraft and the dynamics of the airport.
+
+Have you ever considered making X-Plane development your full-time career?
+
+No, I haven't seriously considered it. The Alouette project was an eye-opener for me in terms of the extensive skills and knowledge required to deliver a highly accurate simulation. Today's users expect the most realistic airplanes and helicopters, which I completely understand. However, the time and effort required to meet these expectations make it a challenging proposition to sustain as a full-time job. I have immense respect for those who choose to make flight simulator development their career, but I've realized it's not the path for me. I prefer keeping it as a passionate hobby that I can engage with on my own terms.
+
+Future 
+
+How do you decide on your next design or project?
+
+When considering a new project, the most crucial question I ask myself is whether I am passionate enough about it to dedicate the next one to two years and countless hours of work. My commitment to a project is key, given the extensive time and effort involved. The second consideration is the availability of a suitable 3D model. Creating the perfect shape for some helicopters can be challenging, so I often prefer to start with an existing 3D model. This approach allows me to adapt and refine it according to my vision for the project.
+
+Which flight simulators are you currently developing for, and do you have plans to expand to others in the future?
+
+Currently, I am exclusively developing for X-Plane 12. I've chosen this platform because it provides the most realistic flight model for helicopters, which is my area of interest and expertise. As for the future, I am keeping an eye on MSFS2024 to see how it evolves. However, for now, I prefer to stick with X-Plane 12. This decision is partly because I'm familiar with its development tools, and there's no immediate need for me to learn a new system like the one used for MSFS2020.
+
+From a developer’s perspective, what advancements or changes do you anticipate in the tools and processes of flight simulator development? 
+
+I see a very bright future for flight simulator development. The creators of these simulators are increasingly recognizing the importance of simplifying the work for developers, which is making our job easier. This is one of the reasons I have a strong preference for X-Plane. The X-Plane development team is particularly responsive to our feedback and concerns, striving to assist us in integrating more add-ons into the simulator. It's a mutually beneficial situation. The next step is to encourage and motivate new developers to explore and contribute to the 'behind the scenes' world of flight simulation, and so I'm optimistic about the direction we're heading.
+
+In your opinion, how could platforms like X-Plane.Org further support you and others in the flight simulation community?
+
+I believe X-Plane.Org is already doing a commendable job. The moderators are attentive, quick to assist, and always available when needed. However, if I were to suggest an area for improvement, it would be the website's layout, particularly for sections like liveries and add-ons. A more modern, user-friendly design could enhance the experience. As it stands, unless you know exactly what you're looking for, it can be quite time-consuming and complex to navigate and discover new content, like unique sceneries or repaints. Streamlining this aspect would not only benefit developers but also users who are exploring and looking to find something new.
+
+What are your thoughts on the overall future of flight simulation?
+
+My outlook is quite optimistic. There’s a notable competition between MSFS and X-Plane, as each offers a distinct approach to flight simulation. MSFS tends to prioritize aesthetics. While developers are making efforts to integrate perfect add-ons, I've personally found the flight model lacking. On the other hand, X-Plane focuses more on in-depth systems, flight models, and realistic behaviour, which are remarkable. However, without using Ortho or other photo scenery packs, the visual aspect might initially seem underwhelming. This competition, in my view, drives both communities to continually improve. It's a healthy rivalry that motivates advancements in both visual quality and flight behaviour, striving to provide the best possible experience in each aspect of flight simulation.
+
+In your opinion, what can communities or platforms do to better support developers in flight simulation?
+
+From my experience, I feel that communities and platforms are already performing exceptionally well in supporting developers. The flight simulation community is truly incredible, extremely supportive and enthusiastic about new additions. This enthusiasm is a huge encouragement for developers like myself. The platforms that host our work provide a perfect blend of help and support, facilitating a space where both developers and users can interact and grow. Honestly, I think they are doing their best, and as a developer, I feel genuinely supported and valued in this environment.
+
+Lastly Marc, is there anything special you would like to share with our readers about yourself, the HSF team, or your work?
+
+First and foremost, I'd like to express my heartfelt thanks to the incredible team I've had the privilege of working with. Without their dedication and talent, the Alouette project would not have achieved the success it has. I'm also immensely grateful to everyone who has supported, helped, and provided feedback, and to those who have enjoyed our project. Your engagement and feedback are the greatest gifts to a developer, as they bring our projects to life.
+
+I want to extend a special thanks to Nicolas, the founder of X-Plane.Org, for his support and spotlighting our project and the team behind it, and also to you, Dominic, for this feature.
+
+So, a big thank you to the entire community, your support means the world to us.
+
+Marc, it's been a real pleasure learning about your journey and insights. Your dedication and work in the X-Plane community are genuinely valued and have made a significant impact. Thank you for sharing your experiences with us.

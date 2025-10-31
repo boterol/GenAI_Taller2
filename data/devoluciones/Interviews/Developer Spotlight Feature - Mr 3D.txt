@@ -1,0 +1,73 @@
+Developer Spotlight Feature - Mr 3D
+
+Conducted by Dominic Smith
+
+Introduction
+
+In this edition of the Weekly Digest, we turn our spotlight towards Shaun Leatham, widely known as Mr 3D in the X-Plane community. While he may not be as active in development these days, his contributions from early scenery objects to iconic creations like EGOD and the A6M Zero have left an indelible mark. Highly regarded by peers and users alike, Shaun opens up about his experiences, his favourite projects, and the sense of community that's made it all worthwhile.
+
+Shaun, could I start by asking about what initially drew you into the world of flight simulation development, and can you share the story of your early beginnings?
+
+My entry point into the fascinating realm of flight simulation development was when I joined X-Plane.org in 2006, and what truly captivated me was the sheer volume of contributions from members, as well as the generous amount of free content available. This inspired me to get involved, so I joined the UK development forum, where I became an active part of a community that hosted UK-based fly-ins on weekends and online air shows during the summer. The moment that really kicked off my interest in developing scenery was when the forum chose to focus on my local airfield, EGNM, for one of our weekend events. With my existing skills in 3D graphics and imagery, I thought it would be a perfect opportunity to create some promotional billboards for the UK development team. I incorporated these into an existing freeware version of EGNM, and that project became my first hands-on experience with X-Plane scenery development, which has continued to captivate me ever since.
+
+Can you give us an insight into the nature of your designs and your journey in the development process?
+
+Back in 2008, we didn't have the extensive library of object files that are available today. If you wanted to populate your scenery, you had no other option but to build it yourself. Ben Supnik had generously published all the essential information for anyone keen on creating scenery objects. Initially, my focus was on soaking up as much knowledge as possible. This covered a range of topics, from obj files, transparencies, and UVs to Levels of Detail (LOD) and animation datarefs. My early efforts concentrated on individual buildings, static objects, and static people. Although the learning curve was steep at first, I found myself becoming increasingly comfortable as time progressed.
+
+Growing up, my family would spend holidays in the '70s at Llandanwg, Harlech, in North Wales. There was an RAF base, Llanbedr (EGOD), nearby with a 7100ft (2164m) runway. I would spend entire days on the beach, captivated by aircraft performing touch-and-gos from RAF Valley, located across the bay at Anglesey. These are highly cherished memories for me, so when the time came for my first major project, I chose to recreate EGOD as a WWII airfield, allowing me to exercise some creative liberties in assembling the whole thing. I like to think of EGOD as a themed airfield—a fun, imaginative place where you could land your warbirds. I later reworked EGOD into a payware product, which, thanks to Nicolas here at X-Plane.org, can now be downloaded for free.
+
+EGOD was essentially an exploration of the boundaries of X-Plane scenery. It was about stretching the limits with animations, intricate buildings, and various effects—all done without a programming background. It may have been an imaginary place, but for me, it was a labour of love.
+
+Shaun, what challenges have you faced during project development, and how have you overcome them?
+
+One of the most challenging undertakings was HMS Jackdaw Fife, a project that consumed over 18 months of continuous work. In 2008, a member of the UK development team who lived near this old, deteriorating airfield in Scotland, reached out to me. He proposed taking extensive photographic references of each building, which would then serve as a blueprint for me to recreate Jackdaw in its original WWII glory.
+
+The task was undoubtedly daunting, involving months of meticulous work to recreate each building, not to mention creating the appropriate texture files. However, the end result is something I'm extremely proud of. I received an enormous amount of support from fellow members; some offered moral encouragement while others contributed authentic static aircraft.
+
+The project was a mammoth undertaking, featuring an incredible level of detail and animations. Yet, throughout it all, my thoughts frequently drifted to the men and women who served at that base. I can only hope that if they were to see the X-Plane version of Jackdaw today, they'd recognise it as it was back in 1942. If you're interested, HMS Jackdaw is available for download here at the Org (inserted link). Included in the zip files is a small PDF detailing the airfield's history, which alone makes the download worthwhile.
+
+What do you consider to be your best or most popular project and why?
+
+One of my most popular X-Plane projects has to be the A6M Zero from 2013. I was captivated by the idea of creating an aircraft that was fully 3D, right down to the text on each dial in the cockpit. Admittedly, it might have been a bit over-the-top, but I was thrilled with the outcome. I must extend a huge thank-you to Dreamfoil, who graciously allowed me to utilise their cutting-edge DreamEngine plugin for the sound effects. Their collaboration elevated the project and made it something truly special.
+
+What challenges did you face during the Zero’s development?
+
+Initially, while I was confident in my ability to create a 3D version of the Zero, I had little to no knowledge about aerodynamics or Plane Maker. It took me three years of continuous learning, experimentation, and digging into Plane Maker to understand data refs and their functions, as well as sourcing sound files I could use. I must say, the immense support from the X-Plane community was invaluable, as without it, I don't think I would have been able to complete the Zero. Even now, I can't imagine undertaking such a demanding project.
+
+Which projects have been your favourites and why?
+
+It's difficult to pick favourites because each project is special in its own right. The Zero, built for X-Plane 10, remains a wonderful achievement for me. On the other hand, flying into and parking at EGOD is always an enjoyable experience, especially with the added liveliness from Marginal's GroundTraffic plugin. Lastly, HMS Jackdaw holds a special place as a historic build; it's simply wonderful.
+
+What software packages and tools do you utilise for development?
+
+For all my scenery work, I've relied on AC3D, which has plugin integration provided by Ben. Without the ability to export for X-Plane through AC3D, I wouldn't have been able to even start my projects. For textures in DDS format, I use GraphicConverter. Before World Editor came into the picture, Marginal's OverlayEditor was indispensable. Additionally, BlueSideUpBob's HangarOps plugin has been crucial for animating opening and closing hangar doors. And of course, all of this was done on my old MacBook Pro, which has sadly stopped working.
+
+Shaun, are there any individuals or groups in the development world who have particularly inspired or mentored you?
+
+Oh, there are just so many individuals who've been both an inspiration and a support system for me. The old members of the UK development team were instrumental in shaping my Zero build, providing an invaluable sounding board for ideas. When it comes to scenery, industry figures like Marginal, BlueSideUpBob, and Chris Noe, have all been enormously helpful. Nicolas, here at the Org, has been particularly supportive of my work and has invested a lot of time into it. I'd also like to give special mention to Heinz Dziurowitz. While I never had the chance to know him personally, he left an indelible impact on me; I've always been a huge fan of his WWII aircraft. Sadly, he's no longer with us, but his work continues to inspire.
+
+Do you primarily focus on developing payware, freeware, or both? 
+
+A large portion of my object files are still accessible through the download manager. For instance, Real Flag is an object file that many scenery packages continue to use; it's freely available as long as Mr 3D is credited as the original creator. My A6M Zero was initially released as payware, as was the upgraded version of EGOD. However, both of these packages have since been purchased by X-Plane.org and are now freely accessible through the download manager.
+
+Do you have any real-life aviation experience?
+
+Actually, I have none whatsoever. Interestingly though, it was just this year that I stepped onto an aircraft for the first time in my 58 years.
+
+My father served his National Service in the RAF and would take us to RAF Church Fenton's annual air show. While the Black and Red Arrows were always the showstoppers, I believe it was the Vulcan Bomber roaring over the crowd, which they could do in those days, that truly ignited my passion for aviation. As well as the Vulcan, witnessing aircraft from RAF Valley skim along the beach in Wales at low altitude, was always a thrill.
+
+Would you be comfortable sharing a bit about what you do outside of flight sim development?
+
+Outside of my work in flight sim development, I have a long-standing career in the print industry. I've worn many hats over the years, from working in reprographics to roles as a graphic designer and retoucher.
+
+What other hobbies or interests do you have?
+
+Besides flight simulation, which I still engage in most weeks, I have a variety of interests that span from photography and 3D fabric design to a love of vintage horror films.
+
+Lastly Shaun, is there anything specific you'd like our readers to know about you, or your work?
+
+I can't emphasise enough how vital the X-Plane.org community has been to my journey in flight sim development. Without the incredible support I've received, I doubt I'd have published any work at all. I've poured countless hours into creating for X-Plane, finding every moment both fun and fulfilling. I'd like to extend my heartfelt gratitude to all the community members who have contacted me with their kind words and encouragement over the years. 
+
+Here's to X-Plane.org continuing to inspire the next generation of X-Plane creators.
+
+Shaun, thank you so much for taking the time to share your story and expertise with us. Your contributions to the X-Plane community are truly appreciated.

@@ -1,0 +1,90 @@
+Developer Spotlight: Jeff Buchanan & the Boeing 314 Clipper
+
+Conducted by Dominic Smith
+
+This week I had the chance to chat with Jeff Buchanan, the developer behind the Boeing 314 Clipper for X-Plane. The Clipper is one of aviation’s true icons, representing the golden age of flying boats, and Jeff’s work has brought it to life in the sim with incredible depth.
+
+Jeff talks about how he first got into flight simulation and development, what inspired him to take on the mighty Clipper, and the challenges of recreating such a complex aircraft in X-Plane. He also shares a bit about his own aviation background, his hobbies outside of development, and what might be next on his list.
+
+Background and Inspiration
+
+Jeff, could I begin by asking how you first got into flight simulation and X-Plane development? Was it something that grew from the hobby, or did you set out from the start to build aircraft?
+
+My interest in aviation started when I was very young. I was always excited to visit air shows, aircraft displays, and museums with my dad. My X-Plane journey began in 2006 with version 8. It started as a hobby to learn how to fly, and experience how different aircraft operated. As I got more involved, I started modifying existing aircraft. I created liveries and got familiar with Plane Maker by adding floats to different aircraft and making other customizations. After years of casually modifying aircraft, I had a good foundation for the basics of aircraft development.
+
+What first inspired you to take on the Boeing 314 Clipper? Was it the challenge of building it, its place in history, or simply a love of that golden age of flying?
+
+I had been longing for a highly detailed 314 for years. It’s always been one of my favorite aircraft and, along with other large flying boats, was never well represented in X-Plane. I was drawn to the art deco design, it’s massive scale as a flying boat, and the romance of the early era of trans-oceanic flight. Since no one was developing a 314 for X-Plane, in late 2017 I decided that I would create my own. I thought I had acquired enough skills to develop my first full-fledged aircraft. Turns out I had a lot to learn.
+
+The Clipper is such an iconic choice. Why do you think it still captures people’s imaginations today?
+
+The 314 was a pioneer of cross ocean flight and did so with unparalleled luxury and comfort. Each trip was a multi-day experience with stops in beautiful tropical islands en route to the final destinations. The lure of adventure combined with the striking visual design of the 314 makes it a timeless classic.
+
+Research and Development
+
+You’ve clearly done a lot of research. What kind of sources did you use, and how did they help shape the model?
+
+I was fortunate to get ahold of the original pilot operating handbook and maintenance manual for the 314 when they used to be available online. These helped immensely for the flight model, cockpit, and interior layout. I searched far and wide for every available photo of the Clipper to make sure the exterior looked accurate from all angles. The gauges and instruments were meticulously recreated from these original photos as well. The team from Pilot’s offered me all of their extensive research into the 314 from their fantastic model for MSFS and P3D. This was a big help to understand how some of the unique systems operated.
+
+The book titled Last of the Flying Clippers: The Boeing B-314 Story by M.D. Klaas had a lot of great info regarding the design, build, operation and stories about the aircraft. Another book titled The Long Way Home by Ed Dover detailed the around the world trip of NC18602 after the Pearl Harbor attack and provided info about the stops used during the journey. This helped to place the sealanes for the scenery package and get a feel for what it took to control the behemoth 314.
+
+Out of all the systems you recreated, from the Wright Cyclone engines to the Sperry A-3 Gyropilot, which was the hardest to get right, and which are you happiest with?
+
+The Sperry A-3 Gyropilot was definitely the most difficult and time consuming to implement. A lot of elements went into the system to make it behave like the real world Gyropilot. I’m happiest with the simulation of the Wright R-2600 Twin Cyclone engines. A lot of effort was spent to make their performance match the real aircraft. The takeoff, climb, cruise, and maximum speeds all match the real aircraft for the correct engine and propeller settings and load weights. I enjoy the startup procedures and hearing the large powerplants roar to life. I personally recorded the engine sounds when I took a ride on a B-25 Mitchell, which used the same Twin Cyclone engines as the 314.
+
+The Clipper in X-Plane
+
+You’ve included three versions of the aircraft, including a Basic VFR model. What led to those choices, and how do you see sim pilots using them?
+
+There is one ACF file included in the package that is a one-size-fits-all model. You can make it as simple or in-depth as you desire. If you load the aircraft with engines running, you can just hit the throttles, take off and be flying in no time. If you want to go into more depth and explore the systems, you can load the aircraft without the engines running and go through the full startup procedures. The manual provides all the procedures for starting and warming up, taxi, takeoff, climb, cruise, landing, and more that are all derived from the original POH. It took a minimum of 5 crewmen to fly the 314. There was the Pilot, Co-Pilot, Radio Operator, Engineer, and Navigator. I’ve recreated the stations and controls for all the roles and provided pre-saved views to easily move between them.
+
+Depending on which livery is selected, both the 314 and 314A variants are represented visually for the external model. The six initial 314 models that were built were upgraded to the 314A specs, so the performance and cockpit are based on the 314A.
+
+Were there any parts of X-Plane that made life difficult, where you had to come up with a workaround, like with the engine torque or water handling?
+
+Oh yes, large flying boats are kind of uncharted territory in X-Plane 12, so there were lots of challenges. The engines on the real-world aircraft all rotated the same direction, but in X-Plane 12 this caused the plane to torque over and submerge a wing when the throttles were increased. No amount of control input would counteract the torquing. To correct this, I made two of the engines rotate the opposite direction and this alleviated the issue. X-Plane 11 doesn’t exhibit the torquing issue, so the version 11 model has all 4 engines rotating the same direction. Also, the center of gravity had to be put very low in the bottom of the hull to keep it from tipping over in the water.
+
+X-Plane 12.1.2 introduced new water dynamics that unfortunately cause extreme porpoising of large hulls at certain speeds. This affects the Clipper at taxiing speeds of 15-25 knots. I tried many workarounds without success. The good news is that I’ve spoken with Austin about it and he agrees it’s a bug with X-Plane. It’s going to be fixed in 12.4 and I will be part of alpha testing to make sure the water physics are corrected.
+
+Beyond the Clipper
+
+You didn’t just build the Clipper, you added sealanes, routes, and even a Lua script for anchoring on water. What made you want to go that extra mile?
+
+I wanted to create a comprehensive experience for users of the 314 that supplemented what was available in X-Plane. The 314 has no landing gear, so it can only load on a sealane. Many of the islands and locations where the Clippers operated did not have a sealane provided in X-Plane. I wanted to make it easy to load the aircraft at any of the historic locations and fly a leg or entire route and follow in the footsteps of the real Clippers. Each one was carefully placed using satellite imagery and knowledge of the types of conditions that were ideal for a sealane.
+
+The LUA script was needed because the anchor function in X-Plane doesn’t keep the plane from drifting in the water. It made engine starting and warmup very difficult. The script simulates mooring the aircraft so the procedures can be performed accurately.
+
+The livery set is huge, covering Pan Am, BOAC, wartime camouflage, and even the Pacific Clipper’s round-the-world trip. Do you have a personal favourite?
+
+Having a background in livery creation, I wanted to represent every livery configuration, tail number, and Clipper name. I enjoyed researching all the changes that occurred to the liveries throughout the 314s service. I gravitate toward the American Clipper livery when I want clean and shiny, and the Round-the-World livery for a dirty and weathered look.
+
+Outside of Development
+
+Do you have any real-world aviation experience, or was the Clipper project mainly driven by research and a passion for its history?
+
+I've worked in aircraft manufacturing and engineering for nearly two decades. I had the opportunity to pilot smaller planes on several occasions. During these experiences, I got a sense of the way aircraft handle and how they should feel in flight. X-Plane has always been my simulator of choice because the flight characteristics are very accurate and feel like the real thing. The Clipper was a passion project and the more I researched it the more I was infatuated with its legacy.
+
+When you’re not developing for X-Plane, what do you enjoy doing in your spare time?
+
+I love spending time with my family and playing with my two kids. We build a lot of Lego sets and have a whole town layout. I enjoy traveling and have visited many parts of the US and Europe. National Parks are one of my favorite places to visit and experience natural wonder. I'm experienced in photography and love taking photos during my travels. I have a passion for playing guitar and enjoy recording my original music.
+
+You can see more of Jeff’s photography here and check out his music on YouTube.
+
+Looking Ahead
+
+Do you see yourself expanding the Clipper further, or are there other classic aircraft you’d like to bring into X-Plane?
+
+I’m always on the lookout for ways to improve the package. I’m currently working on an update that will enhance the realism of the engine startup animation by adding custom starter sounds, reducing the rotation speed and releasing puffs of smoke when they fire up. The update will include other particle updates as well. As for other aircraft, I’d love to develop a Lockheed Constellation variant someday.
+
+If you could have been a passenger on a real Clipper, which part of the trip would you have looked forward to most, the luxury inside, the long ocean legs, or just the sheer adventure of it?
+
+I would be most excited for the adventure of the whole journey. Stepping onto such an awe-inspiring machine and knowing it would be flying to exotic destinations that were only accessible by ship prior to the Clippers entering service would be an amazing feeling.
+
+Final Thoughts
+
+What’s your own favourite feature of the Boeing 314 as you’ve recreated it for X-Plane?
+
+My favorite aspect of the 314 is what a joy it is to fly. It’s very forgiving and it handles quite smoothly. It has plenty of power to takeoff and climb, but not too much where you can get carried away. As per the original POH, flap usage is optional, and takeoffs can be accomplished with or without them. It lifts off the water gracefully and climbs steadily to cruising altitude. Control surfaces react smoothly to input and won’t let you lose control of the aircraft. It’s excellent for beginners and experts alike.
+
+Many thanks to Jeff for taking the time to share his story and for giving us such a detailed look into the world of the Boeing 314 Clipper.
+

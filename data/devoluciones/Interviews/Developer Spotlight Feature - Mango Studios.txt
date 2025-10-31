@@ -1,0 +1,69 @@
+Developer Spotlight Feature - Mango Studios
+
+Conducted by Dominic Smith
+
+In our latest Developer Spotlight, we are thrilled to feature Simon, the innovative mind behind Mango Studios, based in Miami, Florida, known for their exceptional X-Plane sound packs. Simon shares his journey from an early interest in sound design to becoming the leader of a premier sound pack developer and discusses the creative passion that drives Mango Studios' ongoing growth.
+
+Simon, could I start by asking how Mango Studios began, what its initial vision was, and how you came up with the name?
+
+Mango Studios started as a one-man project driven by my personal dissatisfaction with the sound quality of some high-priced aircraft models in X-Plane. Frustrated by the subpar .wav files, I decided to take matters into my own hands and began creating improved sound files. My first freeware add-on was for the SSG 748. The turning point came when a friend, disappointed by the sounds in a pricey add-on aircraft he purchased, asked me to create some enhanced sounds for him. This project evolved significantly from just replacing a few files; I ended up developing a comprehensive FMOD sound pack, which was released as Mango Studios’ first product, the Flight Factor A350 Sound Pack. Throughout this process, I was fortunate to have the support of a friend, Wolfair, who was incredibly patient and instrumental in helping me master FMOD. As for the name "Mango Studios," it was inspired by fond childhood memories of my grandmother’s mango tree in Venezuela. Naming the company after her and those cherished moments felt like the perfect tribute.
+
+Can you walk us through the process of capturing and creating the sounds for an aircraft pack?
+
+Absolutely! The process begins with our team reaching out to a network of pilots, flight engineers, and maintenance hangars to gather authentic sound samples. After selecting the ideal sounds for our sound pack, we import these recordings into our studio. Here, we meticulously modify and tailor each sound to meet the specific requirements of the aircraft pack we are developing.
+
+What are the most challenging sounds to capture and recreate in X-Plane?
+
+The most challenging sounds to capture are often the miscellaneous ones, such as windshield wipers, warning signals, and seat motor sounds, especially in Airbus models. These sounds are particularly tricky to isolate because they're frequently masked by louder, more dominant noises like the aircraft’s air conditioning packs, passenger chatter, avionics, and the myriad of other sounds simultaneously occurring in an airliner.
+
+Are there any particular technologies or software that are crucial to your sound pack development?
+
+A key piece of technology in our sound pack development is my portable audio recording device. I take it with me everywhere, especially when flying, to ensure I capture every possible sound. This thorough recording process allows us to potentially utilize these sounds in our products later on.
+
+How do you test the sounds within X-Plane to ensure they are as realistic as possible?
+
+We have a dedicated team of testers who meticulously check for any bugs or minor issues. Once we confirm that there are no problems, we begin the detailed process of tweaking the sounds. This involves comparing our sounds to the videos we’ve recorded or received, ensuring that the final product is as realistic as possible.
+
+What has been the most challenging project for Mango Studios, and what made it so?
+
+The MD-11 Sound Pack was undoubtedly our most challenging project. Finding the necessary audio samples was particularly difficult; there were virtually no suitable recordings available online, and even direct contacts with pilots and mechanics yielded very little usable material. This scarcity of resources significantly prolonged the development process. Additionally, this project was our first attempt at creating sound packs for dual engine variants through our plugin, as well as our first engine modification. These complexities combined to make the project immensely challenging, stretching over several months before we could finally release the product.
+
+How do you incorporate community feedback into your development process?
+
+We place great importance on ensuring that every customer is heard. Whenever we receive feedback, we take it seriously, documenting each comment in our testing feedback section. If the feedback points to a bug, we record it in our bug list. This documentation helps us continuously improve our products based on user insights.
+
+Have you worked with aircraft developers to synchronize your sound packs with their models? What does this collaboration look like?
+
+Our collaboration with aircraft developers has mostly been indirect. For instance, we worked with Rotate to obtain a list of data references related to the MD-11’s EGPWS/TCAS warnings. This collaboration enabled us to ensure that all necessary warnings were accurately included in our sound pack. Additionally, we've directly collaborated with AKD, where we completely remade and enhanced some sounds at his request. He was extremely satisfied with the upgraded sounds within his budget. We are also engaging with a few other small developers on projects, though details of these are not yet public.
+
+Which of your sound packs has received the most significant community response, and why do you think it resonated so well?
+
+I believe our A350 Sound Pack has garnered the most significant community response. Despite being almost 3-4 years old, it continues to receive a high volume of orders. We think it resonates so well because of its enduring quality and relevance to our users' needs. Encouraged by this lasting popularity, we are planning to further enhance this sound pack soon.
+
+Are there any new or upcoming projects you’re particularly excited about? What can the X-Plane community look forward to?
+
+I am both thrilled and excited to begin work on a sound pack for the IXEG 737. It's a project I've been eager to start for a long time, as I've always wanted to create sounds for a 737. Additionally, we are on the brink of releasing a Version 2 update for our sound pack for the SSG 747-8. These projects are sure to bring some exciting developments to the X-Plane community.
+
+How do you see the role of sound design evolving in X-Plane over the next few years?
+
+I believe that the standards for sound in X-Plane are set to rise significantly. At Mango Studios, we're prepared to adapt to these increasing demands in any necessary way. Our aim is to continually evolve and refine our sound packs to meet and surpass these new standards.
+
+If you could create a sound pack without any constraints, what would it be and why?
+
+If I had no constraints, my dream project would be to fully recreate the MD-80 Sound Pack, capturing every unique sound and noise the aircraft makes. The MD-80 is one of my all-time favourite aircraft, but due to its age, it's been challenging to collect every desired sound. With unlimited resources, I'd love the opportunity to develop a truly comprehensive and authentic sound pack for this classic plane.
+
+Are there any individuals in your life that have significantly influenced your approach to your work at Mango Studios?
+
+Two pivotal figures have greatly shaped Mango Studios. The first is my good friend Wolfair, who not only taught me how to use FMOD but also provided invaluable advice throughout my journey. The second is Nicky, our Media/Support Director. Nicky has profoundly transformed the trajectory and quality of our products. His proactive involvement in our development process and his willingness to voice his opinions are qualities that I deeply value and rely on. Together, they have been instrumental in shaping the direction and success of Mango Studios.
+
+How do you balance your passion for sound design and flight simulation with other aspects of your life?
+
+Balancing my passion for sound design with other life commitments can be challenging. Currently, as I pursue a career in commercial aviation and navigate the demands of flight school and various exams, Mango Studios isn't always my top priority. However, I'm fortunate to have a supportive team, especially Nicky, our Media/Support Director. He reliably steps in to manage responsibilities whenever I'm stretched thin, ensuring that our projects maintain momentum.
+
+Besides aviation, do any other hobbies inspire your approach to sound design at Mango Studios?
+
+Yes, my interest in cars, particularly rebuilding my 2006 Subaru STi, has been influential. This hobby has taught me the value of patience in building something you love. At Mango Studios, this patience has transformed how I approach detailed tasks. Initially, I found creating sounds for every cockpit button overwhelming, but now I find it relaxing and fulfilling.
+
+Lastly, Simon, if you could choose one feature to be added to X-Plane in the future, what would it be and why?
+
+I’d like to see more realistic ground handling, as the present ground handling has always seemed off to me. Enhancing this feature would not only improve realism but also allow me to develop specific sounds for it, which I’d really enjoy.

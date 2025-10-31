@@ -1,0 +1,83 @@
+Developer Spotlight
+Sean McLeod
+Conducted by Dominic Smith
+
+Introduction
+
+In our latest Developer Spotlight feature, we meet Sean McLeod, a real-world pilot and an avid member of the X-Plane community.
+
+Having adopted X-Plane as his primary flight sim over twenty years ago, Sean has participated in the development of some of our most well-known models. Read on to find more about Sean’s inspiration and design techniques in our interview below.
+
+Development 
+
+Hi Sean, great to chat with you again after all these years! 
+
+Could I start the interview by asking about how your interest in flight simulation began? 
+
+Hi Dom, great to be back in the hot seat! 
+
+The earliest memory I have is using Microsoft Flight Simulator on our family's PC in the early to mid-1980s. That was the very first flight sim program I had the opportunity to use. My imagination was of course fuelled by my fascination with aircraft in general. There was a healthy dose of wonder and enjoyment of old military/aviation-themed movies and TV shows that would appear on the TV afternoon specials. It wasn’t until I grew up and got a real job to be able to afford what was my holy grail once I learned of it - X-Plane. The way the X-Plane flight model is built hooked me immediately; Blade Element Theory allows you to build any shape and see how it performs. In the early days, X-Plane was priced at $200 US dollars per copy. I believe it was in the last days of the original price point that I purchased the software, and not too long after Laminar Research dropped the price to a more affordable $60 per copy. It wasn’t until X-Plane 6 or so that I tried my hand at building a flight model - the FJ100 Aerostar Jet.
+
+When creating your X-Plane models, what do you find to be the most challenging?
+
+Building the 3D art assets (which includes animating and painting) is by far and away the most challenging part of any project. My 3D skills are at this time, limited at best, but I’m struggling my way through the process, seeking the satisfaction of learning and hopefully someday mastering 3D asset creation.
+
+Sean, what have been your favourite X-Plane projects to work on to date?
+
+I’m very pleased to have participated in the early development of the FlyJSim Boeing 727 model package. At the time I was flying 727 cargo and occasionally passenger flights, so of course, had direct access to the real aircraft in which to provide any information that could help the project. I also participated in the early development of the FlyJSim Q400 as well, in much the same capacity because I was then flying the Q400. Jack and his team are excellent at what they do, and I’m honoured to have contributed in some way to the development of these models in X-Plane.
+
+More recently I’ve been able to begin working with Phil over at Virtavia, who is of course legendary on the Microsoft Flight Sim side of the simming world. I’m hoping I can be of service and help him to bring some more of his excellent creations to the X-Plane corner of the sky. We’re currently working on the Grumman F7F-3 Tigercat model, and I’ve provided some support on the Stirling and Hampden as well.
+
+Many developers have a certain set of tools they use when modelling, so with that in mind, what software packages do you like to use? 
+
+I like to use Gimp for painting textures, mainly because it’s free to access. I’ve had an AC3D licence for some time, which I’m using more these days because the GUI is more friendly than Blender. I also have Blender on the HDD but even with the GUI development and improvements to make it more user-friendly, I still find the interface somewhat overwhelming. Thank goodness for the generosity of Dan Klaue and Gary Hansen sharing their knowledge and experience via their YouTube tutorials, excellent assets to the community. I’ve invested in a licence to use Profili2 for the development of airfoils and worked on some but haven’t used any in a project to this point - stay tuned and watch this space! At some point, I’ll bend my mind to FMOD for the sound assets.
+
+Are there any developers in the X-Plane community who you would say are a source of inspiration? 
+
+Many are still active in the community, but some have faded into the mists of time, so in no order of rank, here are some of the developers that inspire me: Heinz Dziurowitz, Jacques Brault, Barry Leger, Propsman, Gerald Rader, Jason Chandler, Dan Klaue, Aerobask Team, Dom Henry and the AOA Simulations Team (David Austin, Fabrice Kaufmann).
+
+Sean, are you going to stick with creating freeware designs, or do you plan to try payware as well? 
+
+My plan is that I intend to develop for both.
+
+Real Life
+
+You mentioned earlier that you’re a real pilot, so could you tell us a little about how that all started?
+
+Sure. I started my flying career in 1998, working for a courier cargo charter company based at CYVR Vancouver International Airport, operating Piper Navajo and Mitsubishi MU2 aircraft. Just before 9/11 I began operating the Boeing 727 as a Second Officer; the events of the time delayed my progression to First Officer until 2006. I was able to achieve Captain on the 727 by 2009 and stayed there until 2014 when the company lost the cargo contract. At that time, I was able to get a position flying the Dash 8 Q400, and later transition to the Boeing 737 where I am today.
+
+How did your interest in aviation being?
+
+It was all the WW2 movies and TV shows that played on the television that got me hooked. Any time I could watch the TV series Baa Baa Black Sheep, I was in my glory, and any movies with Spitfires, Hurricanes, Mustangs or B-17s totally captivated me.
+
+Being a real-world pilot, do you have any memorable flights in real life you’d like to share with us?
+
+Yes, absolutely, and a few come to mind right away. One is losing a turbocharger when flying a Navajo while departing Kamloops, British Columbia, Canada at night with moderate turbulence and heavy winds. Another was running low on gas when the weather turned terrible while arriving at Stephenille, Newfoundland in a winter storm at night. And lastly, flying from the Caribbean back to Canada, passing Cape Canaveral, Florida, turning to look out my window and seeing a rocket launch heading for space! I later checked the launch schedule and if I recall, it was a Saturn V sent to deploy a satellite.
+
+Have you ever considered doing flight simulator development full-time?
+
+The recent changes in the global transportation infrastructure have caused me to take a more serious look at some kind of career diversification. I’ve been lucky enough to turn my passion for flying into an airline career, why not another passion turned into a career?
+
+Future
+
+How do you go about choosing your next X-Plane project?
+
+For me personally, I think the aircraft in question has to sort of stick out like a sore thumb in some kind of way. For example, is it the fastest, highest, wildest aircraft, or does it have a number of stand-out characteristics? It also has to connect with my own romantic ideas and sentiments connected to aviation.
+
+Sean, are you planning to stick with X-Plane development, or do you see yourself perhaps exploring different platforms? 
+
+I like to keep an open mind, but for the foreseeable future, it’s X-Plane. That said, I have learned to never say never. I’ve dabbled with FlightGear and even though FlightSimulator 2022 looks amazing visually, I’m just not attracted by the manner in which the aircraft flight characteristics are modelled.
+
+Your Thoughts
+
+Is there anything the Org could do to better support the hobby? 
+
+Keep on doing what you’re doing. For the time being, I wouldn't suggest changing a thing. Always be on the lookout though for new developments in forum and website designs that could potentially elevate the platform and maintain relevance for the benefit of all of us flight simmers!
+
+Lastly Sean, what are some of the most important things the community could do to help developers such as yourself?
+
+I think by being a friendly and encouraging community, the results will always be positive. However, in this day and age of rapid online interaction, I observe a degree of bluntness in how people communicate their opinions. This leads to negative interactions born from misunderstandings that could be avoided by either not engaging with the antagonist or more tactfully expressing the original opinion. Constructive criticism, which is not the same as being critical of someone’s creation, is difficult to articulate but not impossible - we must not be afraid of trying, perhaps failing in the process, and not giving up as a result. In other words, if you fall seven times, get up eight times.
+
+Sean, thank you so much for sharing your thoughts with X-Plane.Org, it was a real pleasure.
+
+Thank you Dom, I really enjoyed it! 

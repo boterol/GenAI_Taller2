@@ -1,0 +1,87 @@
+X-Crafts Developer Spotlight
+
+Marko Mamula 
+
+Here in our latest Developer Spotlight feature, we meet Marko Mamula, the founder of X-Crafts. In this community-based interview, Marko talks about his journey into the world of X-Plane development, his love for Embraer jets, and why he thinks the X-Plane community is so special.
+
+Marko, could I begin by asking you about how you got into flight simulation and the story behind X-Crafts beginnings? 
+
+Hi Dom, thanks for having me. 
+
+First off, let me introduce myself to readers who are unfamiliar with both myself and X-Crafts. I’m Marko Mamula and I'm the founder of X-Crafts. I’m half Czech, half Serbian, and born in Italy. However, I am currently based in London, UK.
+
+Since my family lives all over Europe, I spent a lot of time on airplanes ever since I was a little kid, and I was always fascinated by them. When I was a teenager, I got an iPod Touch and I downloaded this cool-looking app called X-Plane. Soon after that, I got myself the desktop version (X-Plane 9) and I became immersed in the flight sim world. It didn’t take long before I started making custom liveries and I was shocked that people downloaded and used them. I loved that I could contribute to the community.
+
+After some time, I became curious about making an entire airplane, not only liveries, so I started learning about Plane Maker, 3D modelling, and all the other tools needed to create an aircraft. Back then the resources were really scarce, but thanks to Dan Klaue’s tutorials and a lot of questions on the forums, I was slowly becoming obsessed with making airplanes for X-Plane. At this point, I was still about 18 years old, and I had no idea that my obsession and hobby would turn into a career. Now at 28, I couldn’t be happier to do this for a living.
+
+What made you decide to concentrate on regional jets? 
+
+I guess it was the fact that I mostly flew on regional jets in real life during those family visits. The funny thing is that Embraers were not that common in Europe back then, and I only flew on an Embraer for the first time about 3 years after I started selling the E195 v1.0! 
+
+After spending hundreds of hours modelling and researching something, seeing it then for the first time in real life was a surreal experience. I remember approaching the door and hugging the fuselage, which must have been a hilarious sight for the passengers boarding behind me!
+
+Note: All images (except for the final image), are of the upcoming E-Jets Family Project. These products have not been released yet.
+
+Marko, do you have real-world pilots flight test your products prior to release? 
+
+Yes, we have many, with one main pilot - Mike Chaney who has been helping us for a good while now and who has really pushed us to create something a lot better than we initially planned, which I am really grateful for! 
+
+What makes the X-Plane platform so attractive to you and are you tempted by MSFS? 
+
+Right now, X-Plane is the only platform that allows us to create the add-ons that the devoted flight sim community deserves. With X-Plane, the limits of what is possible are mainly defined by our abilities and skills, rather than the sim itself. Developing the same systems for MSFS is much more difficult and requires creating custom solutions for many things that X-Plane has by default, and I’m not even going to mention the flight model. The way MSFS calculates the flight model makes it extremely difficult to get accurate and realistic behaviour (and that’s why Austin started X-Plane all those years ago!). In my opinion, MSFS is a game, while X-Plane is a flight simulator. And right now, we at X-Crafts want to get as close as possible to flying the real thing, which is why we are developing for X-Plane.
+
+What was the most enjoyable model you have worked on?
+
+We’ve only ever worked on Embraers, so there hasn’t been that much variety. First on the E-Jets, then the ERJs and now back to the E-Jets and I always loved every second of working on any of them. Although I have to say that I have now modelled the E-Jets three times over, and I really do not want to model them again. That is why I really wanted to make sure this time the models are as accurate as they possibly can be. You can see the difference between the old and new modelling here. 
+
+How many people make up the X-Crafts team and what are their roles? 
+
+There are five developers that have been working on the E-Jets family, and I am really lucky to be surrounded by such talented people!
+
+Steve Wilson is the Software developer who has been with X-Crafts ever since 2015. He is responsible for the FMS, systems and Autopilot customization, updater automation and DRM management. And if you ever happen to need any technical support with any of our products, Steve will most likely be the one who will take great care of any issue you might have!
+
+All the sounds for all our products have been created by Todd Fleck. For the E-Jets Family, Todd has rebuilt his original E-Jets FMOD from the ground up to get a truly immersive audio experience for the new E-Jets Family. Our real-world pilots have really praised his work so far, which is great because this is really something only real pilots can judge.
+
+Then we have the talented Amy Parent, who joined us for the E-Jets project. She is responsible for the new Nav Map, EFB and Settings menu.
+
+Cameron Garner, a well-known X-Plane veteran, and a moderator at X-Plane.org, is responsible for the flight models. He has really tried to match the real performance and flight characteristics of the E-Jets as closely as possible. These have all been tested and approved by our team of real-world pilots!
+
+The person that pushes our limits to the next level is Mike Chaney, who is our main real-life E-Jets pilot whose expertise helps us make things right. In addition to him, there are many other pilots who have offered to help us test and improve the add-ons. 
+
+We are also collaborating with a couple of very talented livery painters that are creating over forty liveries that will be ready on release. Let’s not forget all our beta testers who tirelessly test our products and who make us aware of any shortcomings.
+
+And finally, I am responsible for all the 3D work - interior and exterior modelling, texturing, animations, lighting etc. And I also created all the avionics and manipulators, plus being the project manager at X-Crafts.
+
+How is the development progressing on your E-Jets family, and what can we expect in terms of systems modelling and accurate avionics simulations? 
+
+It’s going really well, and all versions are up and running at this point. But there are still some crucial features and elements that we need to get right from the start, so we are currently focusing on that. I will not make the mistake of guessing a percentage of completion, because I really want to avoid the 90%-done syndrome. 
+
+Marko, for customers who already own your products, when could they expect to see compatibility with X-Plane 12, and will it be a free or paid upgrade?
+
+If nothing major changes, we are planning to release the E-Jets Family to be fully compatible with both X-Plane 11 and X-Plane 12.  As for the ERJ Family, that is still a bit difficult to judge since we first need to release the E-Jets Family and make sure that it is stable before jumping onto updating the ERJ Family. I think that our goal will be (*and this can change*) to only provide a free compatibility update for the ERJ Family, which will not bring any new features, but it will make it compatible with X-Plane 12.
+
+Do you have any plans for an additional aircraft line, such as the Phenom or Praetor light business jets?
+
+Not at the moment. I can share that the next big thing after the E-Jets Family release will be ERJ Family 2.0, where we will add all the new and fancy features from the E-Jets Family also to the ERJs, and make sure that we can update the systems and flight model to our new standard of the E-Jets and X-Plane 12. But there is no timeframe for that yet.
+
+As a developer what would you like to see most improved in X-Plane 12? 
+
+Without getting too technical, we would really like to see a complete update of the X-Plane SDK in the navigation section.  This is what gives FMS and systems developers access to the autopilot, and it hasn't been updated in many years.  Developers have no software access to many procedures, airways or unique leg types that are frequently found in modern IFR-capable aircraft, which are available in the sim, but we are not able to use and customize them.  The steady improvement in the quality of GPS/FMS systems in stock aircraft has been really exciting, and we want to be able to bring that excitement to new products as well!
+
+How do you see the future of X-Plane compared to the likes of MSFS? 
+
+It’s still too difficult to judge, but I feel that there will be two camps. One group of people that appreciates accuracy and correctness will choose X-Plane, while the other group that cares more about visuals and maybe who just fly for fun, will opt for MSFS. But I think that X-Plane will always have a strong user base, and the community and support is something that will be very hard to replicate.
+
+Marko, one of the things I have always loved about X-Plane is its wonderful community. What do you think makes it so special?
+
+I feel that on other platforms or even in gaming in general, people feel disconnected from the developers and they either like a product or hate it and thrash it, but they don't think at all about why things are a certain way and that by giving feedback, they can get a better product. This kind of approach doesn't help anyone. 
+
+From my point of view, I'd say that the majority of people who talk to us are supportive, respectful, and understanding. In turn, we are trying to be as transparent about our development as possible, and I think that it is this mutual understanding between the customers and developers that holds this community together. We are really grateful to the users for their candid feedback, and for being patient when waiting for updates. We are always doing our best to improve our products and our services, and being supported by such a strong community, motivates us even more. It has been my goal to close the gap between us and our customers even more for some time now, and that is why I started the Not-A-Newsletter. In it, a few times a year I talk about the development, and I reveal the behind-the-scenes of what we have to do and why we do it, in order to deliver great products to the community.
+
+Lastly Marko, what would you like people to know most about you and the team at X-Crafts? 
+
+In short, I don’t want us to be the “fast-food chain” and create as many products as possible and neglect their quality. Instead, I would really like X-Crafts to evolve into the “fine-dining restaurant” that only has a few items on the menu, and in turn, we will be able to dedicate all our love and energy to making each one of those products fantastic.
+
+We want to be approachable, just like the chef who goes out of the kitchen to greet the customers and chat with them. We want the customers to know us personally and know that they can always talk to us, suggest improvements or ask for help. So please come and have a chat! :)
+
+Thank you so much for giving me the opportunity to be interviewed here at X-Plane.Org

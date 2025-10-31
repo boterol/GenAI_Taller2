@@ -1,0 +1,73 @@
+Developer Spotlight John Bray
+
+Introduction
+
+In our latest Developer Spotlight feature, we are introduced to John Bray. Having first started out with FlightGear on the Mac, John turned his attention to X-Plane, where he is probably best known for his Aérospatiale Gazelle and Folland Gnat. Read on to find out more about how John got into flight simulation, his tips for would-be developers and his thoughts on X-Plane 12 in our interview below.
+
+John, thanks for taking the time to talk to X-Plane.Org. 
+
+Could I start by asking how you got into flight simulation and how your journey with X-Plane began? 
+
+The first flight sims I remember were the FA/18, A10, and Harrier on the Mac back in the early 1990s. Unfortunately, I drifted away from the genre and didn't have a machine capable of running a "proper" flight sim until about 2015 when I got into FlightGear, a free open-source simulator. About a year later I came across X-Plane and since then, have gradually devoted more of my time to that platform. 
+
+What makes the X-Plane platform so attractive (from a developer’s perspective)? 
+
+Plane Maker, in spite of its complexity (and some limitations), is very good as a basis for developing an aircraft simulation. I also like the way the .obj file format allows you to build animations into the 3D model.
+
+Having created both fixed-wing and rotor aircraft, which would you say presents the greater challenge and why? 
+
+I think helicopters are a greater challenge because there are a number of differences in the way X-Plane simulates a helicopter and my understanding/knowledge of them. That could well be because I have much more experience with helicopter engineering than fixed-wing. It's a case of having to reconcile the two and sometimes having to create "optical illusions" either in the 3D model or aided by a plug-in. The rotorhead is the most obvious example. Most early Sud Aviation,  Aérospatiale and Eurocopter/Airbus designs have single-spool engines with a clutch/freewheel/rotor brake/ throttle combination for starting, autorotation and shutdown control. If this option is available in X-Plane, then I have failed to find it.
+
+What software packages do you use to create your models?
+
+I use a wide variety of tools, but the ones I mainly use are AC3D, Photoshop, Illustrator, BBEdit, and X-Plane’s built-in Plane Maker (most days). I also use Daz3D if I need to do some fancy rendering for an object's graphics or need a model of a human.
+
+On a slight side note, probably less than half of what I create ends up being uploaded to the .org. I only do GPL (General Public License) for distribution, which means everything for that must either be handcrafted by myself or come from a GPL licensed source. However, for my own personal use, I can take things from anywhere.
+
+Designing and then modelling an aircraft is no easy task, so where do you find all the relevant data required for a project? 
+
+The most common places to start are Google, Google Books and Wikipedia.  However, I also subscribe to Scribd, Avialogs.com and academia.edu, as I find these extremely useful. 
+
+Out of all the models you have created, do you have a particular favourite? 
+
+My favourite model (and coincidentally most popular aircraft) is probably the Gazelle. It was the first aircraft I ever worked on - so I'll always have a soft spot for it.
+
+Do you have any real-life experience with aviation? 
+
+Yes, I do, as I learnt to fly a Cessna 150 in my teens from an RAF flying scholarship. Later, I spent about ten years as an avionics technician from the late 1970s to the late 1980s. Like most people reading this, I think it’s safe to say that I have always had an interest in aviation.
+
+With all those years spent around aircraft, do you have any memorable experiences you’d like to share with us?  
+
+My most memorable experiences were when I entered fog whilst in helicopter formations.  However, the scariest moment was during a flight in a single helicopter, when the pilot I was flying with, decided to enter fog thinking his senses were better than our instruments. As an avionics guy, I knew this was unlikely to be the case. Fortunately, the job doubled as a checkride with a QHI who explained to the pilot, in no uncertain terms, that he was doing it wrong. At this point, I had the side door slid open just in case. It ended with a rapid pole under the armpit climb, followed by a radar-guided approach to an international airport, which (funnily enough), was closed to traffic at the time due to fog!
+
+How do you go about deciding what model to start on next? 
+
+I don't really have any fixed system for deciding what I work on - but usually, it’s something that is not already in X-Plane (or not particularly well done). Quite often I feel that I have all the aircraft I need in the sim, so why create more? But then something catches my eye and off I go again! I've been retired now for almost twenty years and have only just reached state pension age, so I need something to keep my mind active.
+
+When you’re not designing your latest and greatest for us to enjoy, what do you like to do in your free time? 
+
+Yes, too much X-Plane can be bad for your health! 
+
+My other pastimes include cooking, photography, oil painting, woodwork, and metalwork, plus general building, and combat-gardening!!  I also own two acres of hillside in southern Spain, so this keeps me pretty busy.
+
+John, what are your thoughts on X-Plane 12 in its current form and what areas do you think need improving?  
+
+I have been using X-Plane 12 since the Beta was released for sale and I do think there are a number of eye-candy improvements, such as the 3D trees, volumetric clouds, glass-rain, auto-gen houses (even if everywhere in Andalucia looks like suburban Germany). There also seems to have been some changes in how the default autopilot operates, but I suppose that's a trial-and-error experiment thing I'll have to deal with. With regards to my own models, I haven't really noticed any changes in the handling characteristics of the aircraft I've developed when they are flown in X-Plane 12, not that I've had time to check every single aspect of them yet. X-Plane 12 is (and will be for some time) a moving target, so I'll be waiting until it becomes stable before I do much development with it. Right now, I'm simply enjoying flying around various parts of the world, as the autogen terrain textures are much improved. If it happens to be a location you have no knowledge of, then I think it looks quite convincing.
+
+However, there are a few things in X-Plane 12 where I think there is room for improvement:
+
+The dialogue panels could do with shrinking down in size in the sim - and they are particularly bad in Plane Maker where you really need a second monitor to see the effects of changes you are making. 
+A comprehensive list of the changes between X-Plane 11 and X-Plane 12 would be nice to have. I accept that the latest Plane Maker has a new title and different dialogue panels, but I don't think I'll have the patience/determination to go through them line by line to spot other changes (if there even are any).
+Roads, coastlines, and rivers are still less than ideal. When the X-Plane 12 version of WED comes out, I'm hoping it will make it easier to impose my will on the landscape.
+
+What advice would you give to budding designers thinking of starting their first X-Plane project?
+
+Read the Plane Maker manual thoroughly and stop at the first thing you don’t understand. Do enough studying of aeronautical engineering to enable you to carry on reading the manual. There are plenty of textbooks available. Learn how to create/edit 3D models and graphics files and practise doing this. Keep practising what you’ve learned as experience is the best teacher.
+
+Lastly John, is there anything the X-Plane community could do to help developers more?
+
+To be honest, I develop my models for myself, and if I think they are good enough and they meet the GPL licensing requirements, I’ll give them away. Someone once likened it to holding the door open for someone if you were going that way anyway. It's not particularly noble or altruistic on my part, but that’s the way I work.  
+
+There is a tiny minority in the "community" that are contributors, and they know who they are. I welcome their input because it tends to provide useful fault-finding tips. I used to do fault-finding for a living, so I appreciate its value. So, to me, I get all the help I'm likely to get as it is. I have worked with a lot of people on projects over the years, both in public on the forum and behind the scenes. The great thing about the X-Plane community is that there are some really good freeware developers out there as well as non-developers who can still help constructively.
+
+Thank you for sharing your thoughts with X-Plane.Org John, it was a real pleasure.

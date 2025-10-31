@@ -1,0 +1,58 @@
+Cowan Simulation Developer Spotlight
+Joshua Cowan 
+
+In our latest Developer Spotlight feature, we meet Joshua Cowan, the driving force behind Cowan Simulations. Here he explains how his journey with flight simulation began, his love for helicopters and why X-Plane is his chosen platform for development. 
+
+Questions from the X-Plane Community
+
+Josh, thanks for taking the time to answer these questions put forward by the X-Plane community. Could I start with our first question, which is how did Cowan Simulation begin? 
+
+I've been intrigued by flight sims since the 80s. I bought my first decent computer while in the military and MSFS was installed immediately. Eventually, I found X-Plane and the hobby grew from there. Sadly, real-life commitments took over, and I ended up taking a 10-year break from it all. 
+
+I got back into sims around 2018 and chose X-Plane 11. I quickly found my way back to helicopters since they were something I've always been passionate about. I'm a curious type of person, so the questions came about quickly, such as how do they make this stuff? I just had to go and figure it out. I started with simple things first, like creating liveries and then editing or modding freeware and payware products. I have a background in all types of computer-related work, so it came to me quickly. The curiosity evolved into my first projects, the 222s for X-Plane 11. From there, Cowan Simulation was born and became official in 2019.  The rest is history. 
+
+What made you choose X-Plane and not MSFS as the platform to release your work on?
+
+As mentioned above, X-Plane was my chosen sim for getting back into the hobby. My reasoning for that is mostly due to YouTube videos and eventually learning that the helicopter flight dynamics in X-Plane are excellent. I'm no pilot but I've built my fair share of RC helicopters in the past. Flight dynamics are important for the vast majority of simmers, and so I get my tips and direction from real-world pilots, customers, and friends.
+
+Josh, how do you go about deciding which helicopters to create?
+
+For the last release, the H125 (AS350B3e), was chosen due to it being the #1 requested model. The first release was the 222s and a lot of that had to do with the show “Airwolf”. I did not create the Airwolf model, but rather the real-world versions with wheels and skids. I was a young one when the show was on TV (41 years old now), but it has stuck with me. The 206s and the 500E were also helicopters that I liked, so another reason to develop them.
+
+Which tools do you use to build your helicopters?
+
+I used Blender for 3D modeling, AC3D for some modelling, animations and final exports, GIMP for painting/texturing, Substance Painter, Zero Brane Studio for coding, Reallusion 3D Character Creator and plenty of other programs for things related to the projects.
+
+Your helicopters are renowned for their excellent sounds, so where do you get these from? 
+
+Sounds are either donated or paid for from several online vendors. I've even requested the use of sounds from YouTube videos for the 222s, plus customers have offered sounds on occasions as well.
+
+So, Josh, can you tell us which helicopter is next on your list?
+
+Haha, well, I’m sorry to say that there isn’t a particular model at present. The reason being, I have plenty of work to do before thinking about a new project. However, my eye is on “something that can lift a lot”…
+
+You mentioned earlier that your H125(AS350B3e) was born out of requests, so can readers contact you with requests?
+
+They sure can Dom, and if I get enough requests for a certain model, then who knows… 
+
+How long does it take to complete a model, for example, the H125?
+
+The H125(AS350B3e) took me four months to get to v1.00. I took a one-week break in June, but the reason it only took four months is that I worked on it for 12-16 hours every day. I did take a few breaks to become human again, but if you want a project to take less than a year or more, then you have to put in the hours. It averages out to about 14 hours a day.
+
+When it comes to pricing, how do you determine how much to charge?
+
+I’ve always wanted my products to be affordable and so they are priced on the lower end of the spectrum. I take notes when reading comments online and it seems the big gripes are mostly about high prices. Due to this, I decided to stick with the more affordable range as it was what simmers wanted. 
+
+In X-Plane, there is a strong focus and userbase behind fixed-wing aircraft, so how strong do you see the helicopter side of simulation and what would you say to encourage more people to give helicopters a go?
+
+Helicopter simulation is an entirely different animal compared to fixed-wing aircraft, the same as in the real world. It's more of a challenge but that's what makes it fun! You can land anywhere you want to, yet cruise around just as a plane would. It's a niche market/hobby and that's what I like about it. I think everyone should give it a try! What's life without a bit of a challenge? Bland and boring. 🙂
+
+Speaking as a developer, what areas would you like X-Plane 12 to improve on over its predecessors? 
+
+Laminar Research is a small but exceptionally talented and seriously focused team. They want things to be just as authentic in X-Plane as both you and I. They work hard towards reaching that goal every day, and being a new developer, I can only bow down in respect of that. It's not always easy, but it's fun work! The only thing they can do as a team is to improve and learn from the previous day (the same for each one of us). There is only one way to go, and that is up! For me personally, I'm an eye candy dude, I love the visual aspects of the sim as it immerses me into the virtual world of X-Plane. So, what would I like to see in X-Plane 12? Greater visual fidelity!
+
+Lastly Josh, what would you like the community to know most about Cowan Simulations and the models you create? 
+
+My work speaks for itself. Either people like what I do, or they don't, and as individuals, we will always have a mix of opinions no matter what. In saying that, what I think I would like people to know most about me, is that I put my life and soul into the entirety of everything I create. If something is not correct, then I take constructive criticism and add it directly to my to-do list. My customers pave my way. When I release a new v1.00 product, then that is when the most valuable information starts flowing in from the community! So, I want you all to know that I hear you and I respect all of you for your valuable input.
+
+Blue skies!!

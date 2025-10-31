@@ -1,0 +1,107 @@
+Developer Spotlight Feature - AeroX Simulations
+
+Conducted by Dominic Smith
+
+
+Introduction
+
+In this edition of our Developer Spotlight series, we're excited to introduce you to Finn, a key member of AeroX Simulations. This dedicated group of young developers is known for crafting top-notch freeware sceneries for X-Plane. Despite being a relatively new team, AeroX Simulations has quickly made a name for themselves within the X-Plane community. Read on to discover more about this talented team's origins and their journey with X-Plane.
+
+Hi Finn,
+
+Thanks for taking the time to talk to X-Plane.Org. 
+
+Can you tell me about when you first started developing for flight simulators and what inspired you to get into it?
+
+We started our development journey in early 2020 as a team of three friends. At that time, we were all avid X-Plane users and enjoyed flying together on networks like VATSIM. However, we felt that our X-Plane experience could be enhanced with new add-ons that we felt were missing. To fill this gap, we started modifying existing airplanes in X-Plane to learn more about what we could do. Vincent focused on programming while the rest of us worked on textures and other visual elements. Although our early work was amateurish, it gave us valuable insight into X-Plane development. By summer 2020, we began working on our first project.
+
+Out of the X-Plane sceneries you have created so far, which do you consider to be the team’s best or most popular work?
+
+My personal favourite is KSBA, as I love how it looks and how it closely resembles the real airport. Our most popular work, on the other hand, is probably our first version of EDSB, which we released on December 24, 2020.
+
+Santa Barbara Airport (KSBA)
+
+What do you find to be the most challenging aspect of creating X-Plane scenery?
+
+The most challenging aspect of creating scenery, for me, is staying motivated to model and texture objects on my own. The feeling of having a new project finished and seeing it in X-Plane for the first time is what keeps me motivated to continue working on a project. However, we've also encountered technical difficulties in the past, such as getting meshes to work properly.
+
+Finn, what have been your favourite X-Plane projects to date?
+
+KSBA is definitely my favourite. I had a lot of fun creating the airport, especially replicating the stunning architecture. The shapes and forms were particularly challenging. EDSB V2 comes in at a close second. It was really interesting working on that airport, particularly since I had to figure out how to reproduce it in X-Plane from pictures and references online.
+
+Karlsruhe/Baden-Baden Airport (EDSB)
+
+What software and tools do you use for creating scenery?
+
+I primarily use SketchUp 2019 Pro for architectural modelling and GIMP and Photoshop for texturing. These are the tools I'm most comfortable with, although they may not necessarily be the best choice for everyone.
+
+Do you have any mentors or inspirations in the development world?
+
+We don't really have any role models or specific inspirations in the development world. However, we do (on the quiet) often compare our work to existing payware or freeware sceneries to see how we measure up.
+
+The Team
+
+How many people make up the AeroX Simulations team?
+
+We have a team of just three people.
+
+Could you tell us a bit about what each member does?
+
+I (Finn) handle all of the scenery content, social networking, and planning. Vincent, who is a programmer, is responsible for creating our website and plugins. Lee works on World Editor tasks such as ground layouts, lines, and lights.
+
+In the left photograph, we have Finn, and on the right, we have Lee.
+
+Have you ever had the chance to collaborate with other developers or teams before?
+
+We had started a big project with another team to develop a major US airport, but unfortunately, it was abandoned. Currently, we are working with Crosswind Simulations to get some of our sceneries into MSFS. None of us on the team use MSFS, so we are grateful for Crosswind Simulations' help since we are not familiar with development for MSFS.
+
+Finn, do you have any experience in real aviation?
+
+Yes, I do have some experience in real aviation. As a 17-year-old, I am eligible to work towards my PPL in Germany, and if everything works out, I will be able to fly a Cessna 150 again this summer. X-Plane has been a great tool for me to learn the basics of navigation, aircraft handling, technical aspects, radio communication, and orientation around the world, such as identifying runways and airfields.
+
+Skiathos International Airport (LGSK)
+
+I know you've told me you like to travel Finn, so are there any flights you've been on in real life that really stick out?
+
+One of my most memorable flights was when I landed for the first time in my favourite city, San Francisco. The airport is located on the shore of San Francisco Bay, and during the approach, all you can see is water, water, water, and then suddenly the runway appears, which looks absolutely stunning!
+What are some of your other hobbies or activities that you find enjoyable?
+
+Apart from going to school, I've recently taken up playing the guitar and exploring music in general, including listening to vinyl records. Additionally, as you know Dom, I have a great passion for traveling to foreign countries and experiencing new cultures. I particularly enjoyed my recent trips to California and Southeast Asian countries like Thailand, but my most memorable journey was to San Francisco, which has a unique charm that is difficult to put into words.
+
+Have you considered pursuing flight simulator development as a full-time career?
+
+No, that's not something I can see myself doing. I prefer to avoid office jobs. While Vincent works in IT, he doesn't develop for flight simulation.
+
+Future
+
+How do you decide on your next X-Plane project?
+
+It's usually quite random. Most projects stem from personal interests like SBA or IAH, but for others, it's simply a matter of what we find interesting.
+
+Karlsruhe/Baden-Baden Airport (EDSB)
+
+Are you planning on staying with X-Plane for the foreseeable future or are you considering trying out other simulator platforms?
+
+I currently design for X-Plane 12 and the same will be true for any upcoming versions. As previously mentioned, thanks to Crosswind Simulations, I also work with MSFS, but I don't plan to switch from X-Plane. It's what I'm used to, and I'm always disappointed to see developers abandoning X-Plane for MSFS.
+
+How do you envision the future of flight simulator development?
+
+That's an interesting question. I believe that it will largely depend on the advancements made by companies such as Laminar Research. The possibilities are endless, but it ultimately comes down to what they are able to develop with the tools at their disposal. From the team’s perspective, I hope we can resume our abandoned projects and continue to push the limits of what is possible. Personally, I would love to see a tool from Laminar that is similar to WED but with better functionality for editing mesh. Large airports can make the current World Editor slow and cumbersome, which can be frustrating.
+
+How can sites like X-Plane.Org better support you and the hobby?
+
+To be honest, there is not much to complain about. I appreciate the community and the tools that are available on the site.
+
+What are your thoughts on the future of flight simulation in general?
+
+It's difficult to predict what the future holds, but I hope X-Plane remains a strong player in the industry and can withstand the pressure from other simulators such as MSFS.
+
+What can communities do to better support developers like yourself?
+
+Feedback is crucial! We value the input of the community and appreciate constructive criticism that helps us improve our work.
+
+Lastly Finn, what would you like people to know about you, your team, and your work?
+
+At AeroX Simulations, our goal is to create sceneries that the community wants to use. It's not always an easy task, as it takes time and motivation to work on projects such as IAH, EDSB V2, and others. We are not professionals, but rather a team of enthusiasts who want to enhance the X-Plane experience.
+
+Many thanks Finn for taking the time to speak with us here at the Org. We wish you all the best with your next exciting scenery release!

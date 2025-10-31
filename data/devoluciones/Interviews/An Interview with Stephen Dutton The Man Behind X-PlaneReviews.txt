@@ -1,0 +1,87 @@
+An Interview with Stephen Dutton: The Man Behind X-PlaneReviews
+
+Conducted by Dominic Smith
+
+Introduction
+
+Stephen Dutton is the man behind X-PlaneReviews, one of the Org's most trusted review sites. Over the years, Stephen’s passion for X-Plane, combined with his eye for detail and extensive experience, has made him a key figure in the world of flight simulation.
+
+In this interview, we learn more about Stephen’s fascinating journey, the origins of X-PlaneReviews, and the challenges of running a review site. We also explore how his work, as part of the X-Plane.Org team, has contributed to the growth of the community and its developers.
+
+Stephen, to start, could you tell us about your history with aviation and your background in business?
+
+I was born about two miles from the now Airbus Hawarden complex outside Chester UK, so I’m Welsh, and most of my family have or are still working at Airbus, but back then it was Hawker Siddeley Aviation building the HS 125, so you were aware of the industry, and family were always talking about their work. I would have probably gone there, but my father had a serious accident, and we moved to Blackpool. My best friend at school was the first aviation nut I encountered, I visited his home and there was literally hundreds of model aircraft hanging from the ceiling and covering every space in the front living room, so we went spotting, Speke in Liverpool and Ringway at Manchester, watching turboprops (Viscounts, HS 748) and early jets (BAC one-eleven, Tridents). Martin wanted to go into the RAF, but was not accepted, and actually he later ended up working for Airbus at Hawarden!
+
+At the same time my father became a chef at Heathrow in the hotel off season, so I would spend the winter holidays at the London airport, this was the late sixties, early 70’s, the B747 services had just started and Concorde was doing service trials, but my eyes were always on the Vickers VC10’s, the most beautiful machine ever flown, but you still had the dozens of 707’s, DC-8’s, Caravelle’s, more Tridents, all trafficking around you, and you had a lot of airport access back then, until the Middle East high-jackings.
+
+But I was never going to be a pilot. I had a tonsil operation at six that went wrong by pulling a nerve in my neck, I was left deaf and slightly blind on the left side, so I would never pass a medical, certainly not back then, but maybe I would actually pass today. So, an aviation or Service career was never possible. My father then moved to Australia in the early seventies, so my career was riding the technological waves from the late 70’s to mid-2000’s. I never worked for anyone else, but ran businesses that started with renting Video Recorders, opening the first Video Store, Video Cameras, then went pro into AV (Audio Visual) in supplying conventions and tradeshows with video projectors and pro monitors stacked together. I then moved into the first computer Video editing work with the just opened Qld Film Studios at Coomera, then moved into creating and developing DVDs for distribution. This aspect required a lot of graphic work, so anything visual, imaginative was my forte, then streaming came along…  so, I was then looking at Digital Signage (my email is still dirdigital when I registered it), or the big video display signage that are very common now, anyway my doctor told me that if I didn’t stop working 15-hour days I would be dead in a year, today it’s what you would call a career change.
+
+What was the first flight sim you used, and when did you start using it?
+
+Microsoft put out an Apple Mac version of Flight Simulator in eighty-six, so I suppose I used it around eighty-eight. I was confronted with VOR’s, ILS, NDB’s, Waypoints, it was 2d (or even 1d if you think back) just a horizon and sky, very basic but it taught me the basics with a little desktop joystick. Then later I tried Fly2 in the early 2000’s, which was far better, still got it somewhere. So, around 2008, I went to a RAAF Open day at Amberley, by Brisbane, and there was a group of Simulation pilots flying F16’s in frames with keyboards strapped to the top and bottom, joysticks and rudder pedals, it was totally brilliant, and I thought “Yeah I want to do that”.
+
+When was the first time you tried X-Plane, and what drew you to it?
+
+Again, it was because X-Plane was an Apple Mac Flight Simulator, I had never used Windows at that point in 2009, as I hated Bill Gates for stealing the idea from Steve Jobs (who stole it from Xerox). Being in graphics the Mac was always far superior for graphic manipulation and video editing, I went to study art and had to use the Windows in a classroom, hated it even more, usually took the assignments home and redid them in a fraction of the time on the Mac, they printed out better as well with a colour-laser printer. Now I use Windows as my main X-Plane computer, for one Windows 10 went towards the Apple graphic model, secondly Windows are far more easily updated internally and is essential for running plugins, but the site and graphic work is still completed on a Mac, connected to the Windows. So, I had a new Mac Mini at the time and X-Plane would run quite well on that in X-Plane 9, and it was a load of fun.
+
+And why did you choose X-Plane over MSFS or other flight simulators?
+
+I quickly realised that MSFS was not great at the aerodynamics, plus the old, dated code restrictions that came with it like with 3gb file sizes. Whereas as X-Plane felt and acted more like in what a real aircraft would fly (The famous blade element theory) as I am big on authenticity, I wasn’t interested in MSFS.
+
+What inspired you to start X-PlaneReviews.com, and how has being part of the Org team helped you in running the site?
+
+Starting X-PlaneReviews wasn’t my idea. Like anything, when I do something I’m all in, and at the time around 2009 review sites were pretty average. I quickly became the third person in with Chip and Simon W at X+Sim+Reviews as it was the best one around at the time, mostly at first to clean it up graphic wise, make the site look more modern, then I was soon doing reviews. And I found I was very good at it, and learning fastIt was a crazy, mad place and a lot of fun. Then, life took its toll as Simon left and Chip faced significant challenges, and the site eventually fell apart. But it was a very good and entertaining site.
+
+I was then recruited by Aerosoft for their own new ASN Review Site, it was badly put together and badly run, very restricting creatively, not very innovative, so I left well before Aerosoft also gave up ASN and shut it down. I went on to what you would now call “Gardening Leave” for six months in the wilderness, but I really missed being part of that side of the X-Plane world, then I got an email from Nicolas Taureau, of the X-Plane.Org.
+
+He asked me if I wanted to run a review site and helped me set it up by allowing me access to the Org Store product and setting up the IPB site format, so basically X-PlaneReviews is his idea. Like everything, most X-Plane users don’t see the background work and the help the .Org does for the Simulator and in attracting new talent, but this massive support should be acknowledged in the history and growth of X-Plane, it also gave me a new career, and it’s nearly twelve years since that initial August start that X-PlaneReviews have been active.
+
+Running a review site sounds like a lot of work. What’s been the biggest challenge for you in keeping X-PlaneReviews going, and how has being part of the Org supported your efforts?
+
+If you want a successful site on the internet, then consistency is the most important aspect in achieving that goal, always being there and posting regularly is important, it can also mean a lot of work and effort, mostly time, and time is your enemy in reviewing. So, running a site is very demanding, it takes up a lot of your time, even personal time, and so you must be very careful in not to burn out.
+
+You’ve reviewed countless products over the years. What’s your process when putting a review together, and are there specific things you always look out for?
+
+The other issue is trying to keep content interesting, as in most cases you are in reality doing the same review over and over again. Thankfully a lot of the content has a new feature or highlights, say a new FMS system or something to focus the review on, or the feature list. Another point is to teach users on in how to use these complicated new features, so I combine the review with a tutorial as part of the process, again study and actually in mostly working it all out to simplify the transition for new users or even people not associated with aviation, in a format they can understand and can then easily use the technical information. This aspect is important, as when I started in X-Plane I found a lot of the systems confusing or finding it hard to find the information in on how to use it. I never forgot this aspect, so I see myself as a teacher as well as a reviewer.
+
+What’s something you wish more people knew about X-PlaneReviews or the Org team’s efforts in keeping the community engaged?
+
+It is the behind-the-scenes efforts. Feedback and testing of the new products, now more so as a lot of developers have dropped alpha testing, throwing betas out there, now the later fixing is the opposite of refining the product before it goes on sale. I tend to drive developers mad in finding things early, then, them saying “oh I don’t see that issue”, then three weeks after the release saying, “Okay I found that and fixed it”. The Org is a huge support system for developers, and that aspect is critically important, as the developers are at the heart of the Simulator, a lot of users contribute to X-Plane, but quality developers are the soul of the Simulator, they move it forward and keep us wanting the clever products they deliver. 
+
+Again X-PlaneReviews I will note is the central balance, our aim is to deliver the best product for users and at a value price so the feedback going both ways is critical in achieving this. But it is very important that the developers are rewarded for the huge amount of work they put in, it is an important balance, if developers are found wanting in loss for their work, they will move on or leave to do something that rewards their skills better.
+
+As part of the Org team, how do you see the community’s role in helping platforms like ours continue to thrive, especially with the flight sim market becoming more competitive?
+
+The core and heart of X-Plane is the experimental aspect, and the Org is the engine room that allows users to say tinker, adjust, try ideas and create great tools for other users, it is a share environment, and a community project that we all do together, and we must continue to attract such people and their talents. 
+Allow them to thrive in a good accommodating atmosphere, at the heart it is great community that I have been very proud to have been associated with as we all share the same spirit.
+
+Was there a particular moment in X-Plane’s history or development where you felt it picked up a gear? Maybe something that had a direct impact on how you saw the sim or how you approached writing your reviews?
+
+You basically react to the X-Plane Simulator itself, as it goes through its version changes. X-Plane 10 was the most significant release, it brought in big ground texture changes, 3d cockpits, FMS Systems and the most significant was the introduction of plugins to give aircraft developers freedom from the restricting Plane Maker system, X-Plane 11 built on that foundation, refining it, also bringing in the Vulkan/Metal changes. X-Plane 12 is certainly another huge breakthrough, but those original ground textures are now feeling their age.
+
+The flight sim world has changed a lot over the years. How do you think X-Plane has evolved, and what excites you most about where it’s headed?
+
+X-Plane has always been an innovator in Simulation, it is a very wide platform as well covering the Windows, Apple and Unix systems, so you are not restricted only to Windows, like with MSFS. That allows for a much wider scope and a vastly different user base. But it is in its consistent forward innovation that has been keeping the Simulator relevant, it is also very adaptable to new ideas, and can implement those ideas quicker, can adjust to those changes better. The Vulkan/Metal changes were extremely important to move X-Plane forward into the future, as everything new will be built on and supported by that APL platform. But it was a deep surgical operation to install it, one we can only now move on from, so I do expect X-Plane to move forward, as it lost a lot of its pace with that coding transformation, but you can now see that quicker forward building momentum returning.
+
+With Laminar Research starting their own store and forum, how do you think the X-Plane community can continue to thrive in the future?
+
+This is a tricky situation. As we have seen, the X-Plane.Org is a huge support network for users and developers, it also supports itself financially by the Org Store. I don’t think that on the surface Laminar Research has thought through the situation enough by just following the Microsoft model in using a built-in store. Even to damage a very successful central support hub could even be seen as even careless, I can understand it, and why, but X-Plane’s foundation is built on Laminar managing the Simulator’s technical side, and the Org supporting the big user base. 
+
+That said, the one biggest challenge facing X-Plane at this point is growth. If anything, MSFS 2020 has shown that there is a very big user base out there that is interested in Simulation, and X-Plane will need to tap into that huge market to grow, as its user base has been flatlined for a few years. So, the future should all be about growth, building, even doubling that user base and welcoming new pilots to the platform, this aspect will benefit everyone and the Simulator itself.
+
+What advice would you give to new users looking to get more involved in the X-Plane.Org community and become a true part of it?
+
+I was like most new users when I started in X-Plane, I devoured hard drives and hard drives of free content, most of that content is still all loaded on platters in the cupboard, and I rarely use it. I was even blocked on my first day for over downloading, so the Org shut me down quick smart.
+
+What I found is there are two tiers of X-Plane, the what I call the “Low Res” X-Plane built on default aircraft and tons of free downloads, and “Hi Res”. This is a simpler X-Plane built on Quality Aircraft+Quality Scenery+ and a few clever Plugins. My X-Plane folder is a fraction of the size of what I used in the first two or so years of the Simulator. But my quality of Simulation is very high, I have invested to have the best and rarely now download free stuff unless required for a review. So yes, I invest a lot back into my Simulation, or as I see it in returning benefits to the developers in what they deliver in quality product. This aspect helps everyone. (note, reviewing aircraft is earning it, in testing and refining the product, so it is not actually free).
+
+When you’re not reviewing, what other hobbies or interests keep you busy?
+
+Most hobbies have usually turned into my main life’s work, X-Plane is a good example of that. I’m older now, so time off is usually resting, I have always loved Film, and the production of Film, and had the experience of being a part of that process for a few years, but I feel film as a medium is struggling, lost its narrative in Special Effects, so I rarely go to the cinema now, note I say Film not Movie, as it is now more an entertainment medium, not an ideas or creative medium anymore, but I do have a big DVD collection to watch none-streaming films. Travel of course, anything that will get me on a seat on an aircraft or a berth on a ship and I am happy, I’m also a trained Travel Consultant, so I am very good at building up travel arrangements and ideas. In my off time, I’m also still flying my Boeing 747’s from London to Singapore, but in vastly different conditions and circumstances than in X-Plane 9, the tools and detail you have available today in X-Plane 12 is sensational.
+
+Finally what advice would you give to someone looking to get more involved in the X-Plane.Org community and become a true part of it, and what do you think makes the Org community stand out in this often-crowded environment?
+
+The beauty of the X-Plane.Org community is that anyone, from a 10-year-old to a 90-year-old can be a part of it, help each other, and we all grow together as basically a big family. The advice is also there as Simulation is also very complex, the Community admin, and experienced users (old timers) will help you with your problems, and mostly sort out your issues, and the support base is massive as is the huge amount of content available. But overall, it is the respect we give each other, treat each other for the support of one another that has made it one of the best online communities, and one we are proud to say the one we are also committed to.
+
+Now you know the man behind the reviews and the incredible dedication he brings to the X-Plane community. Stephen, I know firsthand how busy you are, so thank you for taking the time to do this.
+

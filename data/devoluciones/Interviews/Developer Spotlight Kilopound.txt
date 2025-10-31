@@ -1,0 +1,98 @@
+Developer Spotlight: Kilopound
+
+Introduction
+
+Welcome to our second Developer Spotlight feature in which we meet Kilopound. Having first been introduced to flight simulation with FSX, he soon moved over to X-Plane where he began experimenting with Plane Maker. In this interview, Kilopound tells us about the nature of his designs/mods, the tools he uses in which to create them, and what got him interested in aviation in the first place. 
+
+X-Plane Development
+
+Hi Kilopound, thank you for taking the time to speak to X-Plane.Org. 
+
+Could I begin by asking about how your interest in flight simulation began and what got you started in developing for X-Plane? 
+
+I first got into flight simulators with FSX many years back but didn’t start developing until I was introduced to X-Plane through a class I took a couple of years ago. I soon discovered that X-Plane shipped with Plane Maker and started poking around in the program to figure out how it worked. It took a significant amount of trial and error, but I eventually became proficient enough to start building my own flight models from scratch. I’ve always been fascinated by aviation and especially by aircraft design, so it was a delight to discover the limitless possibilities offered by X-Plane.   
+
+Yes, X-Plane’s Plane Maker seems to be a favourite tool among many freeware developers. Could you tell us a bit more about the models you create? 
+
+The majority of my work doesn’t actually end up at X-Plane.Org. I like to make my own simple approximations of my favorite real-world aircraft, as well as the occasional custom design. One of my earlier projects was to make a simple Vashon Aircraft Ranger R7 in Plane-Maker, and it was very satisfying to discover that X-Plane’s flight model was accurate enough to get performance that very nearly matched the figures in the POH without an excessive amount of tweaking. Since then, I’ve done a little bit of everything – airliners, fighters, seaplanes, helicopters, and even a flying replica of an Ohio-class submarine complete with launching Trident missiles. Most of these projects are just for fun, but I’ll occasionally upload one that I especially like. I’ve never taken the time to learn proper 3D modeling or digital art, so most of my work isn’t very visually impressive. 
+
+Most of my uploads to X-Plane.Org have been updated versions of older aircraft that I’ve enjoyed flying. I try to maintain or improve the accuracy of their performance, as well as iron out any bugs that occur in the update process. I think it’s important to keep these older projects alive and well as the simulator evolves since in many cases, they can be the only decent options available for a specific aircraft type.
+
+Looking at the aircraft you have uploaded, which ones do you consider to be your best or most popular models to date?
+
+Going by the number of views/downloads at the time of writing this, the 777-9 is my most popular upload. That being said, it’s still very much a work in progress, and I’m not yet completely satisfied with its quality – I’d love for it to have a proper 3D model.
+
+I think my best upload might be the S-92 – it’s one of my favorite helicopters, and I’m happy with the way my version flies.
+
+When working on a project, what aspect do you find to be the most challenging? 
+
+Trying to get around the limitations of X-Plane’s flight model is always tricky. I’ve done a lot of work on high-performance jets that can really push the simulator’s capabilities to their limit in terms of flight dynamics. One of the most annoying issues to work around is X-Plane’s inability to properly model flight at high angles of attack, which is critical for something like the F/A-18 which is famous for its high-alpha performance. I’m definitely looking forward to leading-edge vortices being simulated in X-Plane 12, even though I’ll have to go back and undo all my workarounds.
+
+What have been your favorite X-Plane projects so far?
+
+In no specific order: the S-92, the JF-17, the 707, the A380 (unreleased), and the 787 family (also unreleased). 
+
+What software packages and tools do you use to develop your models?
+
+For software: just Plane Maker, Airfoil Maker and occasionally Photoshop CS6. Other resources: airfoiltools.com, the POH or FCOM if I can find it, and Google images for aircraft blueprints/line drawings to use as reference in Plane Maker.
+
+Who would you consider to be your mentors or inspiration in the world of X-Plane?
+
+Too many to list here! There are so many incredibly talented individuals out there doing amazing work, and I am constantly in awe of the things they do. I’ve had the chance to work with several of these people on a couple of projects, and it was a wonderful experience.
+
+
+Do you think you will stick to creating freeware models, or do you see yourself trying payware in the future? 
+
+Freeware only, as I’m a big fan of free/open-source software in general, and freeware X-Plane addons are more accessible to more people. On top of that, I don’t think the work that I can do is quite up to the high-quality standards people have for payware.
+
+What other X-Plane developers have you had the pleasure of working with? 
+
+I had the pleasure of working with @MRL and @troopie on the S-92. @MRL created the amazing 3D model, and @troopie helped tie it together with my flight model. I’ve also worked quite a lot with @PILOT7X, who made the 3D model for the freeware JF-17 uploaded a while back.
+
+Real Life
+
+Do you have any experience in real aviation?
+
+I certainly do Dom, as at the time of writing this, I am a student pilot preparing for my Private Pilot checkride, with 55+ hours in the Cessna 172 (mostly SP, occasionally N).
+
+How did your interest in aviation begin?
+
+Regular trips to the Museum of Flight at KBFI as a young lad were definitely a factor. I loved to watch Boeing test flights takeoff and land and would always feel jealous of the Cessnas in the pattern who probably had a much better view than I did (I can now attest that the view is definitely better).
+
+Do you have any memorable flights in real life that you would like to share with us?
+
+Yes, quite a few actually! 
+
+Early on in my flight training, I had an alternator failure in flight and had to head back to the field a bit early. I had to answer the ominous question, “how many souls on board?” and was followed back to the ramp by the airport’s fire truck and a few other emergency vehicles. After we shut down, they explained that they knew we were probably fine but they decided to send the whole crew out just for the practice. My first solo flight and first solo cross-country flight were also both memorable, but fortunately less eventful.
+
+When you want to have a bit of downtime from X-Plane, what other hobbies or things do you like to do for enjoyment?  
+
+When I’m not flying for real or simulated airplanes, I enjoy reading, hiking, and playing the guitar or piano.
+
+Future
+
+How do you go about choosing your next new X-Plane project?
+
+I like to see if there’s an empty niche in the freeware space that I could potentially fill – usually for a specific aircraft type that I like but can’t find a download for. I also look at the airplane request forum every now and then to see if people want something that I might be interested in making.
+
+Do you think you’ll stick to developing for X-Plane, or perhaps look at different platforms in the future?  
+
+X-Plane 11 for now, X-Plane 12 in the near future, and X-Plane 13+ after that.
+
+In what ways do you see X-Plane development changing in the future?
+
+It would be really cool to see a 3D modelling program designed specifically for aircraft, especially if it could generate base components based on user-inputted parameters – kind of like a higher-fidelity version of Plane Maker that can spit out animated 3D models with a decent level of detail to use as a starting point for more work.
+
+our Thoughts
+
+What can X-Plane.Org do to support you and the hobby better?
+
+I think a lot of people getting started with aircraft development would benefit from a slightly more consolidated “knowledge base” of sorts – perhaps a single dedicated page linking to useful resources, materials, and general things to know or look out for. It would be really cool if some of the more experienced developers out there contributed their own tips and tricks and best advice to this resource as well.
+
+How do you feel about the future of flight simulation in general?
+
+I feel pretty good! Right now, there are simulator options that can fit just about any need someone may have, and the re-emergence of Microsoft as a competitor is pushing other companies to step up their game and more actively develop their products. 
+
+Lastly, what can the X-Plane community do to help developers more?
+
+Try and be nice! Not that people aren’t, but it always makes my day to see people who appreciate that most freeware developers are just doing what they do because they enjoy it.

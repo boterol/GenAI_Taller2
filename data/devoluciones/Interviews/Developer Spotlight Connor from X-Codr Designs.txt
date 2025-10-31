@@ -1,0 +1,111 @@
+Developer Spotlight: Connor from X-Codr Designs
+
+Conducted by Dominic Smith
+
+If you’ve spent any time flying around X-Plane, chances are you’ve come across the work of X-Codr Designs. From the huge layout of KDEN to the charm of KTEX, Connor’s sceneries are packed with detail and always feel grounded in the real world.
+
+In this interview, Connor shares how he got started, what goes into his workflow, and what he’s been working on lately. We also chat a bit about the differences between X-Plane and MSFS from a developer’s point of view, and what he’d like to see in future versions of the sim.
+
+Hi Connor, thanks so much for agreeing to this interview. I really appreciate it!
+
+Thank you for this opportunity!
+
+To start, could you tell us how your interest in flight simulation first began?
+
+My dad had his PPL, so I’ve been exposed to aviation all my life. When I got my first computer, I started casually flying around in FSX. I loved the freedom to fly anywhere, but didn’t use it often as I had to run it through Bootcamp (since I was a Mac user at the time). Eventually, I learned about X-Plane, which I could run natively in macOS. Being able to run it natively, combined with the simplicity of the platform, really took my interest in flight sims from the occasional casual use to something I used regularly.
+
+Following on from that, how did this interest evolve into scenery development, and how did X-Codr Designs come to be?
+
+This was back in the early X-Plane 10 days, before we had many default 3D airports, which was my biggest complaint about the sim. So naturally, I started looking into how I could add buildings to airports, which led me to WED. Thanks to the open nature of the X-Plane ecosystem, I was able to learn a lot by reverse engineering third-party sceneries. At that stage, it was just messing around with the development tools for fun, creating very basic airports, until I decided to actually try a full project.
+
+Rather than follow conventional wisdom and start with a small airport, I chose JFK as my first serious project (I wouldn’t even choose it now). It was very basic, with just buildings, jetways, markings, and a few static vehicles, but I went ahead and released it. I thought I might get a few hundred downloads at most. Well, my expectations were blown away when, within a few months, it had well over 10,000 downloads. While the airport was incredibly basic, the feedback and encouragement I received from the community were amazing. It motivated me to keep improving JFK and to create a handful of small custom airports over the next year.
+
+Then, in mid-2017, I decided to take things a step further with my first payware scenery: KSEZ Sedona. Making it payware helped justify spending more time on development, and honestly, it gave me the challenge of creating something good enough to sell. While it certainly wasn’t the best scenery out there, it ended up being quite popular, and it was a great learning experience when it came to development, publishing, and support. As always, the community was incredibly supportive, and that encouragement really pushed me to keep going and properly start my journey into commercial scenery.
+
+Now, about the name, X-Codr Designs. My username was X-Codr, inspired by X-Plane and "coding". All through the development of KSEZ, I kept telling myself I needed a name to release it under. Something unique. Something interesting. Well, release day arrived and... I had nothing. So, I just added "Designs" to my username, and here we are.
+
+Your airports, like KDEN and KTEX, are incredibly detailed. When starting a new project, how do you go about researching and gathering references?
+
+When starting an airport, my first step is usually just making sure there’s enough reference material. Are there photos online? YouTube videos? Most importantly, is there high-resolution orthoimagery available from USGS? I’ll usually save the addresses to some of the better sources so I can refer back to them later.
+
+Next, I try to look through a good portion of it to get a feel for how the airport should come across visually. Is it old and run down? Weathered but cosy? Busy and dirty? New and modern? Once I’ve got a sense of the airport, and have some good sources saved, I jump right in and continue researching as I go.
+
+Once you've done your research, what's your process for creating the 3D models? Are there particular tools or techniques you prefer?
+
+Creating 3D models, while time intensive, is a relatively straightforward process. I get the dimensions, create a footprint, then extrude vertically to form the basic shape. Next, based on photos if available, or educated guesses, I add various details such as doors, utility boxes, lights, and so on. Typically, these details come from a library of assets I’ve already modelled, so I can just drop them in. That lets me include some really detailed parts without spending an absurd amount of time. Once they’re in place, I add manual details like trim, flashing, gutters, and other parts that help make the model feel more cohesive. Lastly, I unwrap the whole model and export it for texturing in Substance Painter.
+
+I personally use Blender 3.6 LTS. It’s a fantastic tool, and 3.6 offers pretty wide compatibility. In addition, UVPackmaster Pro has been a massive time-saver for UV unwrapping and really helps me make the most of my texture space. I’ve also developed a few internal tools to automate certain actions.
+
+Your textures add so much realism to your sceneries. How do you approach texturing? Do you use photographic sources, hand-paint, or a mix of both?
+
+With the rare exception, I, like many developers, have adopted 3D texturing in Substance Painter. Rather than stitching together photos or hand-painting with solid colours, my workflow focuses more on recreating real surfaces using layers of materials. For example, instead of using a photo of a rusted corrugated metal wall, my process in Substance Painter usually starts with a base corrugated metal material. Then I add a dark, rough layer with a light dirt mask (ambient dirt or grunge), followed by a rust material with a rust mask. I refine that by hand to include things like rust leaks from lights or vents.
+
+While that might sound more complicated at first, the modular and layered nature of the workflow actually makes texturing a lot simpler. It offers far more flexibility and produces better results. Instead of needing a whole library of different materials and variations, I just need a few base materials and a good understanding of how to build them up to get the look I want.
+
+With the level of detail you include, how do you decide when to stop? Do you aim for a specific balance between detail, realism, and performance?
+
+That’s a great question. As a baseline, every model, even if it’s semi-generic, has to look good. It needs to have high-resolution textures, appropriate wear, and detailed doors, utilities, and so on. But of course, I have a fixed budget for VRAM, and more importantly, time. So, when it comes to going beyond that baseline, the question becomes: what is the user likely to care about?
+
+Will they care if the number of roll-up doors on a cargo building doesn’t match the real one? Or if some obscure utility building doesn’t have rust leaks from its vents? Probably not. But what about the look of the terminal walls? Or the FBO that serves as the main building at a small airport? What about the pavement grunge, and how it transitions between surface types? Probably yes. So really, it just comes down to what the user is likely to notice. That’s what guides where I can take a few liberties to save time or improve performance, and where I want to reinvest that saved time and performance into going a bit further.
+
+Speaking of performance, how much does optimisation factor into your workflow? Do you find yourself constantly tweaking to get that balance right, or have you developed a good sense for it over time?
+
+This is an interesting question, because the answer has actually changed a lot. Two main things have influenced this recently: my LOD creation process and X-Plane’s LOAD_CENTER expansion.
+
+Let me start with LODs. Traditionally, I’d just progressively remove details. But there’s only so far you can simplify without losing too much. For example, maybe a hangar gets down to 1,000 faces at its lowest level. More recently, I’ve started using baked LODs. These are incredibly basic models, sometimes just a cube, but their textures are baked from the high-poly version. The baking is the key. Even though there’s very little geometry, all the detail from the original model is preserved in the texture, so it still looks great at a distance. That same hangar, which had 1,000 faces before, might now only have 14.
+
+In practice, that means distant LODs look better, can be used sooner, and are more efficient. This method has been around for a long time, but it’s normally quite slow to set up. What changed is that I developed a Blender plugin that automates the whole process. It configures the settings, assigns materials, and merges everything at the end. With that in place, I can now finish each model’s LODs in less than five minutes.
+
+The other big improvement is that Laminar Research has added support for the LOAD_CENTER command in .obj files. That means objects can now have their texture resolution reduced based on how far they are from the aircraft, which can save a lot of VRAM. At KDEN, for example, it saves nearly 1 GB all the time, and even more as you move away from the airport.
+
+So right now, thanks to those changes, I don’t have to worry too much about performance when building models. Of course, I still need to be sensible about what I create. For example, giving a chair 20,000 faces probably isn’t a great idea. I also try to reuse textures where I can, to keep VRAM usage under control. But overall, I can spend a lot less time stressing about optimisation and a lot more time focusing on making things look good.
+
+You develop sceneries for both X-Plane and Microsoft Flight Simulator. From your perspective, how does creating scenery for each platform differ?
+
+Haha, where to even begin. In short, X-Plane is fantastic to develop for. Most things are intuitive, and they just work. The MSFS system, while technically more capable, feels very obscure. The SDK is unreliable, and the documentation leaves a lot to be desired.
+
+That said, there is one thing I do prefer in MSFS. You can use multiple textures on a single object. In X-Plane, you’re limited to one texture per object, which makes sense, because multiple textures mean multiple draw calls, and that hurts performance. But sometimes, you really do need more than one. Thankfully, it can still be done in X-Plane by splitting an object into several pieces and combining them in a .agp file. I just wish the process was a bit easier.
+
+X-Plane 12 has seen improvements in areas like clouds, lighting, and weather, but default textures and terrain mesh haven't changed much. As a scenery developer, what enhancements would you like to see in future updates?
+
+Like everyone else, I’d love to see new global scenery with better elevation, buildings based on the Microsoft global building database (not related to MSFS), and forests based on land class and orthoimagery. Beyond those basics, what I’d really love to see are procedural cliffs with displacement, proper ground texture displacement, and raster-based customisable grass.
+
+I’d also love to see whether LR could create high-quality procedural textures instead of relying on orthophotos. That would help avoid the usual artifacts you get with orthoimagery, and it would allow for much better ground detail, more consistency in overall quality, and stronger effects like seasonal colouring.
+
+If Laminar were to enhance default textures, mesh resolution, or add new scenery features, how might that impact your work? Would it open up new possibilities for your projects?
+
+When the new scenery system arrives, the biggest improvement for my work will be the new rasterised mesh system.
+
+As a developer who has shipped one too many 2.5 GB Ortho4XP tiles (close to 5,000 square miles of mesh for an airport that covers maybe 25 square miles), this is fantastic news for me. Being able to include custom elevation data for just the airport area will make my job much easier, reduce download sizes, and really improve the user experience.
+
+Another impact I expect is in how airports blend with their surroundings. You can already see some early preparation for this in my newest airports, A30 and KBLU. Both were designed to blend well with any base scenery, including future scenery updates. A30 uses no orthoimagery at all, and KBLU cuts the imagery in the forest and under the highway to minimise visible seams. I expect that when the next-generation scenery arrives, I’ll be using similar techniques, either removing orthoimagery completely or limiting its scope to help the scenery feel more cohesive with the terrain around it.
+
+I've always admired your Living Scenery Technology as it adds a dynamic feel to your sceneries. How did that idea come about, and what's involved in bringing scenery to life?
+
+The origin story of Living Scenery Technology is rather uninspiring, haha. I was toying with the idea of a more modular system for drawing objects. At the time, it was the only way to access the particle system in scenery, and I thought, hey, since GroundTraffic was end-of-life, I wonder if I could make my own version? One piece of code led to another, and here we are.
+
+The code for LST is also fairly dull. It involves a lot of file parsing and a lot of data management. Some of the features, though, are quite cool. While it can handle the basic task of moving a car along a route, it actually does a lot more. One of my favourite features is that routes can branch off from each other. In other words, one route can start on the waypoint of another, and when an object reaches that point, it can either continue on the original route or switch to the new one. In practice, this lets you chain together loads of routes to create an interconnected traffic network, where vehicles randomly choose where to go instead of always spawning in the same place.
+
+LST also supports dataref manipulation, so you can create custom datarefs and control them. For example, at KDEN I have a dataref that’s keyframed to the local sim time, and that controls the opacity of the terminal windows. Thanks to LST, you can see clearly into the terminals at night, as you would in real life, but much less so during the day.
+
+The most exciting feature, though, is its pilot-controlled lighting system, which I’ve used in my new A30 and KBLU airports. Developers can configure their scenery to listen for the user pressing the PTT command on a specific frequency. You can set how many times the user needs to press it, how quickly they have to do it, and how long the lights should stay on. By combining a simple object animation with these LST tools, you can create an airport lighting system that closely mirrors the real thing.
+
+What kind of feedback from the X-Plane community do you find most helpful? Has user input significantly influenced any of your projects?
+
+One kind: detailed. I’m very open to all feedback, including criticism, but what matters most is that it’s specific. I want to make the best products I can, and feedback is an important way for me to understand what users actually care about. When people are clear about what they like or don’t like, that helps me improve.
+
+In my experience, the X-Plane community has been fantastic when it comes to feedback. There’s rarely any “dev bashing,” most responses are positive, and even the criticism tends to be constructive. As a developer, I really appreciate how supportive the community has been.
+
+To answer your second question, I wouldn’t say that any one project was shaped significantly by feedback, but overall, the comments I’ve received have really helped me get a better understanding of what users value.
+
+Beyond your airport projects, are there other aspects of flight simulation or aviation that you're particularly passionate about?
+
+I really enjoy general aviation in X-Plane, especially in VR. I find that grabbing your favourite GA aircraft and flying a series of short legs along a longer route is incredibly relaxing.
+
+Finally, what's next for X-Codr Designs? Are there any upcoming projects or ideas you can give us a sneak peek of?
+
+Maybe. I’ve got a lot of mid-sized updates planned for my products, and there are a few airports I’ve got my eye on. What I’m most excited about right now, though, is the next update for the Airport Enhancement Package. Along with major improvements to the models, it will feature custom taxi signs generated in real time, and procedurally generated grunge at all airports. That should give default airports a lot more depth and realism.
+
+I’m already well into development, so you’ll definitely be hearing more about it in the coming months.
+
+Thanks again to Connor for taking the time to share his thoughts. It’s always great to hear from someone who’s clearly passionate about what they do.

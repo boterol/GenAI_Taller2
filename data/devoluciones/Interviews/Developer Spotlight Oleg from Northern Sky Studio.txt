@@ -1,0 +1,105 @@
+Developer Spotlight: Oleg from Northern Sky Studio
+
+Conducted by Dominic Smith
+
+In this edition of our Developer Spotlight, we sit down with Oleg, the driving force behind Northern Sky Studio. Known for creating incredibly detailed and accurate sceneries, Oleg’s work has brought many remote Alaskan airports to life in X-Plane. Despite facing the challenges of working during the ongoing conflict in Ukraine, Oleg’s passion for flight simulation has remained unwavering.
+
+Join us as we explore Oleg’s journey, his creative process, and the inspiring way he continues to contribute to the X-Plane community through his dedication and resilience.
+
+Introduction
+
+Oleg, what first got you interested in flight simulators, and what led you to focus specifically on X-Plane?
+
+When I was a student, I got my first normal computer. It wasn’t very powerful, but it was enough to run modern games. Before that, I had a 386 processor with 64 MB of memory, where I could play Fallout 2 and use Winamp. Once I got the new computer, I started installing all sorts of available games. Among them was the simulator, X-Plane 9. Initially, I didn’t understand the plane’s controls and ended up deleting it, but later, after getting a Logitech joystick, I remembered the simulator and decided to give it another go. This time, I found X-Plane 10. From that moment, I fell in love with virtual aviation and began using various sceneries from the X-Plane.org website.
+
+Eventually, I became interested in creating something myself. At that time, I also had FSX and was a big fan of Orbx and Misty Moorings sceneries. I loved flying over Alaska and Canada, and that’s where the idea came from to create my own airport. So, I started learning the necessary programs and began working on my first project.
+
+How have your projects evolved over time, and what do you find most rewarding about making your models as realistic as possible?
+
+As time went on, my skills improved, and my models became more detailed and refined. Looking back now, I find it funny to see how simple my early models were. I remember showing my first project to a friend, and he asked, "Did anyone really like this?" But that airport was downloaded 16,600 times!
+
+Nowadays, the main goal of our team is to create models that are as accurate as possible to their real-world counterparts. That’s what drives us to make them as realistic as we can, based on the materials we have and our skills in painting and modelling.
+
+Which of your X-Plane projects stands out as your best or most popular, and why do you think users responded so positively to them?
+
+Good question. I would say that our most popular airport is Ketchikan. It was a technically challenging project but also very beautiful in its design. I worked hard to ensure that the airport didn’t appear flat, but instead reflected the real-life curvature of the terrain with its various levels. Users appreciated the effort, and the project received high sales and excellent ratings.
+
+However, my most popular work from 2015 was a free scenery for Seward. It was downloaded over 1,600 times and received more than eighty reviews. In 2023, we rebuilt it from scratch with the highest accuracy as payware, but it didn’t achieve the same level of success as the original free version. I’m not sure why that happened, and it did upset me a little.
+
+Have there been any significant challenges in developing for X-Plane, and how did you overcome them?
+
+Oh, yes! The structure of the surface in X-Plane is quite complex. While most developers don’t seem to have major issues with it, my airports often depend heavily on the surface. For Ketchikan, we created a fully 3D model of the runway and apron, which allowed us to work around this problem. But in other cases, that technology wasn’t suitable, so I had to learn the logic behind the surface files to improve them.
+
+During this time, I met a talented developer named Josenildo Nascimento, who created an excellent tool called MeshRemexe for working with terrain files. I tested his application, and he refined it into a fully functioning tool. Using it, I was able to adjust the terrain and make my sceneries resemble the real-world landscapes. Nowadays, this approach isn’t as relevant, thanks to a more advanced program called Ortho4XP (special thanks to Oscar, its creator), which lets you recreate accurate terrain sections. However, the issue with meshes is still present, and developers often have to find creative ways to overcome it.
+
+Do you have a personal favourite among your projects, and can you share the story behind its creation?
+
+In general, I like all of my projects; otherwise, we wouldn’t create them. Each airport has some unique feature that sets it apart, whether it’s the landscape, a beautiful mountainous area, a striking terminal, or an interesting history. For example, Yakutat was originally an important strategic military base before becoming a regional airport.
+
+When I was creating the airport for the city of Juneau, I had to search through social networks and the Internet to find detailed information about the terminal. During that process, I connected with Alaska Seaplanes and two talented artists, Crystal Worl and Caffeinated Raven, on Instagram. They had worked on part of the airport's interior design. Crystal was kind enough to provide me with the original pieces of her work, which I incorporated into the project to showcase their talent. I’m very grateful to both of them!
+
+What software tools do you use to create your sceneries, and how do they help you achieve the level of detail you aim for?
+
+Mostly, I work in Autodesk 3DSMax. I’m very used to its functions and scripts, and I find it convenient. I started out with SketchUp, then moved on to the more advanced Blender, and eventually settled on Max. Now, I’m trying to return to Blender because my Max subscription is ending, and I can’t afford the new price. Still, I can’t fully abandon Max, as many of my projects were created in it. For painting, we primarily use Substance Painter and Photoshop for small corrections. Substance Painter is an incredibly powerful tool as it allows you to achieve a level of realism that’s hard to match. In addition to these, I use utilities like WED and sim SDK for other parts of the work.
+
+Have any developers or figures in the flight simulation community influenced or mentored you along the way?
+
+Yes, as I mentioned earlier, I was inspired by the work of Orbx and also Misty Moorings. I looked at their work and dreamed of being able to do what they do. And, in a way, I believe I’ve succeeded. A second highlight was partnering with them, which was a dream of mine from the very beginning. I knew they didn’t work with just any developer, so I always aimed to be the best. Now, I’m happy to say we’ve achieved that.
+
+What factors influence whether a project becomes freeware or payware for you?
+
+I used to create free airports to make people happy, and I’m still doing that. The only difference now is that I need money to support my family, and to enjoy a good beer :), since this is my full-time job. I do have some free projects planned, but they’re on hold for now. First, I need to finish the main commercial projects.
+
+Have you collaborated with other developers or teams, and how has that experience shaped your work?
+
+After graduating, I worked as a geologist in a small private company in my city. I really loved the work for its unique nature, but the salary was very low, so I had to leave. I wanted to join a bigger geological company, but instead, the work found me. As soon as I got home, I received a message from someone who had seen my work online. His name was Andrey, the founder and main developer at Just Sim. That was the start of my professional career as a developer for X-Plane in his company. I grew a lot in his team and gained valuable experience, and I’m very grateful to him for that.
+
+At the same time, I started working on my first airport project, then the second, and eventually realised that I wanted to build my own brand and focus entirely on my own projects. I told Andrey I wanted to leave, and he agreed to let me go. Sadly, just a few days later, the war began, and we’ve lost contact since then.
+
+At first, there were just two of us in the team, me and Yegor, an artist from St. Petersburg. He was working on Magadan Airport and asked me for advice. After finishing that project, he suggested we create something together. Since 2017, we’ve been working side by side. In 2021, I trained my childhood friend, Yura, in everything I knew, and brought him into the team. Now, there are three of us. Each of us works on our own project, but sometimes we collaborate on the same one.
+
+Personal Experience and Hobbies
+
+Do you have any personal flying experience, and how has it influenced your work in aviation development?
+
+Unfortunately, I’ve only had the chance to fly in a plane once. It was a light, two-seat Khaz-30 aircraft produced at our city's National Aerospace University. Only six models were ever made, and mine had the serial number 0002. We flew over the city, and the pilot even let me take the controls to make three turns over a point of interest, and then a final turn before landing. The pilot took over just before we touched down. Then came 2022... Now, that small airport, its aviation museum, and all the planes there lie in ruins. This experience didn’t directly affect my development work, but it definitely left a mark on me, and now I have the desire to fly every weekend.
+
+What do you enjoy doing in your free time when you're not working on flight sim development?
+
+I like to play the guitar. Back in university, I even had a rock band. But now my old Fender just hangs in my room back in my hometown, collecting dust. Someday, I’ll get back to it. I also really enjoy playing computer games, mostly RPGs and simulators. And if you consider this a hobby, I make jerky, dried beef and turkey. I dry the meat myself and then enjoy it with a fresh beer. Speaking of beer, I love the taste of freshly brewed Ukrainian beer, not the stuff you find in cans and bottles!
+
+Looking Ahead
+
+How do you and your team choose your next project for X-Plane?
+
+I always consult with my team when we’re choosing a new project. Together, we search for an airport that catches our interest. Sometimes, our users make suggestions, and we consider those as well. That’s usually how our projects come about.
+
+Which simulators are you currently developing for, and do you plan to expand to other platforms in the future?
+
+Initially, we produced our products for Microsoft’s simulator, and after it came to the market, a large number of users moved to it. However, I always make sure to adapt our projects for X-Plane after releasing a new product for another platform.
+
+What do you think the future holds for flight simulation as a whole, and how does X-Plane fit into that vision?
+
+We still have a lot of projects in our roadmap, and I’d love to complete all of them. Even with what we have on the list right now, it could take several years. But no matter what, we’ll keep working. I hope that we’ll still be here in the future, continuing to create.
+
+Support and Community
+
+What kind of support from the X-Plane community would be most helpful to developers like you?
+
+I think one of the most important ways the community can support us is by helping with photographs, videos, and other useful information that’s hard to find online. And, of course, by buying our products :). Unfortunately, I often see our work appear on pirate sites right after release, which is not very pleasant.
+
+If you don’t want flight simulation to die, please don’t pirate! 
+
+What are your thoughts on the current state of flight simulation as a hobby, and where do you see it heading in the future?
+
+I think flight simulation will always be popular, in one way or another. While the future of simulators seems to be leaning more towards an arcade style, there will always be people who want to build home cockpits and fly in professional simulators like X-Plane.
+
+Closing
+
+Is there anything else you'd like to add that might give our readers more insight into your work, especially considering the situation in Ukraine? Has it changed the way you approach your projects?
+
+The war has had a huge impact on our work. Yura and I live in a border city, which was the first to be hit by missile strikes. All work stopped. There was hardly any food in the shops, and people were queuing for hours just to get something. Survival became our priority. When artillery fire reached our homes, we decided to leave the city. After finding a new place to live, it was another month before we could work again. I had to take big risks, travelling to Kharkiv several times to retrieve my equipment and computers.
+
+Over time, we calmed down and slowly started working again, because we had no other choice. There are still big risks. At least one missile flies over my house every month. Once, fragments of a shot-down rocket landed just 10 metres from my wife while she ran for shelter. The missile itself crashed 100 metres away on the next street. Strike drones fly overhead almost every night. It’s hard to say that we’ve learned to live with it, but we have to. It’s terrifying. And of course, there’s always the very real possibility that we’ll be taken into the army. But for now, we continue working.
+
+We’d like to thank Oleg for sharing his story with us, and we all hope that he, his family, and his team remain safe during these difficult times.

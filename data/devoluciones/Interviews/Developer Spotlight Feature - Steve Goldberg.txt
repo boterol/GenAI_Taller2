@@ -1,0 +1,131 @@
+Developer Spotlight Feature - Steve Goldberg
+
+Conducted by Dominic Smith
+
+Introduction
+
+Introducing Steve Goldberg, known as "slgoldberg" in the X-Plane community, the innovative force behind "A-Better-Camera" (ABC). With a storied career that spans from Apple to Google, Steve's transition to full-time development on ABC in 2022 has been a boon for X-Plane enthusiasts. ABC stands as a testament to his dedication, offering a suite of camera enhancements that elevate the user's control and immersion.
+
+As a self-described non-pilot, Steve's approach brings a fresh perspective to the community, prioritizing intuitive design and comprehensive compatibility with synthetic traffic plugins. His commitment to continuous improvement and community engagement ensures that ABC remains at the forefront of flight simulation technology.
+
+Background and Inspiration
+
+Steve, diving right into your fascinating journey, what was the spark that led you to flight simulator development, and when did this adventure begin for you?
+
+I've always loved aviation and flight simulators (though for the record, I'm not a pilot and have never had flight training), and I'm a software engineer and computer scientist. So, flight simulator development is a perfect juxtaposition of two of my passions!
+
+In 2017, I started getting excited about X-Plane in particular, and in late 2017 (just as X-Plane 11 was launching), I discovered the developer API and I couldn't resist using it to solve what I saw as important user needs. I started working on A-Better-Camera in earnest in around May of 2018, when I took some Lua scripts I'd written to automatically manipulate camera views using the X-Plane Camera API, and moved it over to C++. I launched the very first public version of A-Better-Camera (v0.9) in July of 2018.
+
+Can you share a bit about your journey leading up to the creation of "A Better Camera"?
+
+I have a BSCS degree from Georgia Tech (1986), and an MSCS degree from Stanford University (1988). After graduate school (which is why I moved to California), I worked as a software engineer at Apple Computer until 1997, when I moved to help grow one of the first web portals during the dot-com boom -- a company called "Excite". When I left Excite in 2002, I was the Vice President of Technology, and went to a couple of other companies before eventually landing at Google in 2004.
+
+After more than 17 years, I resigned from my role as Engineering Director at Google in 2022, to pursue other interests -- partly so I would have more time to work on A-Better-Camera!
+
+Could you give us an overview of the "A Better Camera" plugin and what inspired its development for X-Plane?
+
+A-Better-Camera (ABC) is a light-weight utility add-on for X-Plane that provides a suite of simple "one-click" commands that help you use the camera much more efficiently in X-Plane, with no configuration needed!
+
+In addition, ABC extends X-Plane's camera with a canonical list of all synthetic traffic beyond the User aircraft -- not just the 19 possible AI or TCAS targets, and not just the 63 possible TCAS targets, but literally hundreds of other targets, through direct integration with traffic plugins (e.g., LiveTraffic, xPilot, Traffic Global, X-Drop, etc.).
+
+ABC seamlessly overlays with those traffic plugins' camera views and tracking features, too -- giving users a single, consistent way to discover, track, and view any aircraft (or other trackable objects) currently flying around in X-Plane -- as a natural extension of X-Plane's built-in camera views and controls. (This greatly simplifies what users have to think about when it comes to using the camera in X-Plane -- primarily, but not exclusively, when it comes to the exterior camera.)
+
+My inspiration for ABC came from wanting to show Laminar what was missing from the X-Plane camera while also adding those missing features for users --and to prove that this was a tractable problem that could be solved in a coherent way: by providing a single user interface for discovery, tracking, and viewing of aircraft flying around in X-Plane from a variety of sources, that ultimately extends the existing X-Plane camera and it support for synthetic traffic add-ons.
+
+I still hope to make this same functionality available for the VR camera (see below), but that requires more direct support -- and some innovation -- from the Laminar team, which I can hopefully garner at some point in the near future
+
+Steve, what are the standout features of ABC, and how do they enhance the simulation experience compared to the standard X-Plane camera controls?
+
+Looking at the two main areas ABC extends X-Plane's camera, I'd say:
+
+The camera "take-over" feature, which is foundational in ABC, where the camera can instantly be cloned from any existing camera view -- whether another ABC view or an X-Plane camera view, or even a view from the built-in cameras in LiveTraffic, Traffic Global, WorldTraffic, or X-Drop!  This is compelling because ABC also knows which target you were viewing in X-Plane or the plugin, and "syncs" that information bidirectionally between each affected camera, so things "just work" as you switch targets and camera views!  The simplest embodiment of this feature is the "tether" command in ABC, which re-acquires any view into ABC, re-calculates the offsets and camera angles, so it looks exactly the same -- except it's now an ABC camera view.
+The Status Bar (which is a widget that ABC can display showing the current camera view mode, target, and other options and settings, as well as the nearest airport to the camera). The ABC status bar expanded in version 1.6 to include the ability to actually choose a new camera view from a pull-down menu within the status bar, and/or to choose a different target directly from the status bar as well! This also lets users readily turn on/off various ABC modes (such as animation or auto-zoom), requiring users to do even less configuration in Settings, and avoid the need to bind keyboard shortcuts for common functionality (like resetting the view).
+Honorable mention goes to the "auto-zoom" and "auto-roll" features. I think these are real game-changers for the ABC spot views (such as Still Spot).  And I guess "screensaver mode" and "prime-time mode" (discussed below) are in that list somewhere too.
+
+Finally, I have to mention "Scout mode", which I've improved greatly for v1.7 -- it's now a very simple feature now (you just toggle it on or off). I'll make a video about that soon. (It will be added to the download page on the .org forum when it's ready.) In a nutshell, Scout mode lets you see X-Plane scenery at the highest quality using the regular camera -- by having the User plane temporarily track the camera (instead of the other way around!) so that X-Plane is forced to render each scene the camera views at the top quality. It's a hack, but it actually does work!
+
+ABC is compatible with a wide range of synthetic traffic plugins and multiplayer/TCAS providers. How did you achieve this broad compatibility, and what challenges did you encounter?
+
+This is a great example of something I would love to see Laminar bring into the actual X-Plane API (in several ways, actually), but until then, I just kind of built what I thought would be needed specifically for a camera plugin to work correctly.
+
+To do this, I had to start with a common data model for live aircraft traffic, that would contain everything I need at any moment to use for placing the camera and tracking the aircraft (not just the position, but things like the heading, pitch, roll -- stuff that exists today in X-Plane, but only for the User aircraft -- and more recently, in the TCAS "override" dataref arrays, which is a start, but not really quite enough data either, as it turns out!)
+
+In addition, I needed to come up with a unique ID for each target in the system -- whether the targets were using "p-index" (0-63, representing 0 as the User aircraft, and the rest either as up to 19 AI or 63 TCAS targets), or coming from a separate plugin integration (such as, for example, LiveTraffic's API).  So, the primary key into my common data structure is a two-part hierarchical ID, for example, "xplm:05" means an internal X-Plane p-index of 5 (aircraft #6), and "ltapi:a03f904d" would be a key from LiveTraffic's API.
+
+Then, thanks to the incredible efficiency of X-Plane's "dataref" memory-sharing model, ABC is able to keep this data structure updated every cycle, for fast access to everything it needs to provide the features described above, by copying just the most important data from each source into ABC's data structures, then fetching the rest only as-needed to improve performance.
+
+The end-to-end syncing of state between all those potential plugins, TCAS, and/or X-Plane AI (and User) aircraft -- including X-Plane's two big AI-driven boats and weapons such as missiles that may be fired from the User aircraft -- actually performs remarkably well.  Even so, I'm pretty sure my implementation could be greatly improved, so the performance can only get better as I spend more time optimizing the back-end.
+
+It was a monumental team effort to bring together all this data so ABC could deliver this seamless integration and support! LiveTraffic was already working on LTAPI when I started this project -- and I was able to help shape that API with some of my unique requirements for ABC. In addition, the authors of Traffic Global, WorldTraffic, X-Drop, and xPilot each spent quality time working with me on these integrations. Also, as it turned out after the bulk of this was done -- X-Plane 11.50 launched with the new TCAS override dataref arrays, which only took me a few days to integrate into my aircraft data model by that point.
+
+Technical Insights and Challenges
+
+What software packages and tools do you utilize for development, particularly for "A Better Camera"?
+
+I built the initial releases of ABC on a Windows machine, using Visual Studio C++. I had never really done any development on Windows at the time, so it was a bit of an adjustment. (But since there were example projects and sample code I could easily find on the X-Plane developer site, I went ahead and started there.)
+
+But for the last few years, I've been doing all my primary ABC development on xCode (macOS). To develop for Linux and Windows, I use a Docker-based Ubuntu image and cross-compile for Windows there.  (I actually use VSCode on Mac to run CMake within Docker for those targets. I'm able to just hit a couple of buttons, and I have a full release within a few minutes.)
+
+I plan to eventually make ABC open-source, but so far, I haven't had time to really spend quality time on that effort. I use GitHub as my code repository.
+
+As far as other code ABC depends on -- aside from the X-Plane SDK and the C++ standard libraries, I also use ImgWindow and ImGui, as well as libcurl (both the binary static library and the sources so I can build the whole thing myself for Linux to avoid the dependency problem I had before there). But there is just one file in my deployment per architecture: A-Better-Camera.xpl.  I use the X-Plane 11.10 universal plugin naming standard, so everything's in subfolders, "mac_x64", "win_x64", and "lin_x64".
+
+What were some of the most significant challenges you faced in developing ABC, and how have you addressed user feedback in your design process?
+
+By far, the biggest challenges have been -- on the one side, managing the complexity of integrating with so many third-party traffic providers while worrying about performance and evolving the design in a way that can scale over time -- and on the other side, usability (that is, giving expert users ways to tweak every last little feature, where sensible, while avoiding undue complexity and start-up learning curves for everyone else).
+
+I've started really trying to improve the usability, and now that some features are finally working as I really want, I'm focusing more on that now. For example, instead of having a user manual that needs to be kept up to date each time I make a change, I have chosen to expand the scope of the ABC "Settings" window to include detailed explanations of each setting, often giving context for why it may be needed, and what the options really mean.  The jury is out whether this actually works for ABC's user base, but I have more ideas I'm hoping to try out soon that may make this even more useful and usable than the current flat list of (albeit searchable) settings.
+
+Unique Modes and Future Developments
+
+Steve, can you explain the unique "prime-time mode" and "extended mode" of ABC? How do these modes transform the user's interaction with the simulation environment?
+
+The common thread for both of these is that they're not exactly "camera" features, but they do actually make sense as part of ABC (read on).
+
+"Prime-time mode" simply stops the X-Plane "time of day" clock, thereby freezing the sun in its current position in the sky -- which can be useful in lots of contexts!  It turns out, this clock isn't critical for most systems in X-Plane (except for some simple animations) -- however, since I know that Traffic Global happens to rely on this for its scheduling, ABC forces the minimum "period" for prime-time mode to be 1 hour when Traffic Global is installed. Otherwise, if you try it without Traffic Global installed, you'll see it really works quite nicely (with almost no side-effects). You can pause the clock any time you want, and (in the expert settings) you can actually force prime-time mode to persist, so that it'll always start X-Plane at the defined local time.
+
+"Extended mode" enables the ABC "nudge" commands, which allow you to move any target using left/right, forward/back, and up/down (though "nudge" commands are limited to only current target, which must be either the User aircraft, or one of the up-to 19 AI aircraft, as well as the "boats" in XP11).  You can also use "nudge" commands to rotate the User aircraft (but some plugins or custom aircraft may not actually obey). This is similar to using X-Plane's map interface to drag targets around, except it's WYSIWYG -- you can actually see them while you do it. And as an added benefit, if a target is on the ground, it tends to stay on the ground as you move it left/right/forward/back, which means "nudge" can be used safely (in most cases) as a manual push-back mechanism, if you so desire.  The extended-mode "nudge" features are demonstrated in this video:
+
+With the upcoming beta release of v1.7b4, what new features or improvements can users expect? How do beta releases contribute to the overall development of ABC?
+
+The current series of beta releases I've been putting out for v1.7 are almost exclusively focused on improving "consistency" with X-Plane's camera in X-Plane 12 -- especially since Laminar actually changed the way certain camera views (such as Chase) work in XP12. The release I'm just finishing now (v1.7b4) addresses these changes and others very well and eliminates most of the remaining inconsistencies I've been tackling.
+
+I do have an internal road map, but I haven't published it like I did last year for v1.6, because I ended up having to change it midstream as things are always changing in the X-Plane ecosystem! 🙂 So, I don't want to claim too much right now.
+
+But now that I've mostly nailed down X-Plane consistency with v1.7b4, I hope to spend the second part of the run-up to v1.7 final, working on improving the Settings interface -- including adding commands, making them searchable just like settings are, and allowing users to see a list of settings that apply to a given command, etc. This will make more sense when you see it. 🙂
+
+But in general, when I'm working on a new release (in this case, v1.7), I often go ahead and let users try what I've been working on in the interim with beta releases, as steps along the way -- mostly so I can garner feedback from users, but also to make sure any changes are well tested by the community, which I think is pretty common.
+
+ABC users should generally feel very comfortable going ahead and updating to install the latest beta -- it will always be fully tested before I deploy even a "beta" -- but have the expectation that some things may still change (and that now's the time to weigh in!) until I label it as a "final" release.  I hope to get to v1.7 "final" sometime in February of 2024, but it's hard to predict right now. I don't like to do more than 8 betas for a larger release, if that is useful.
+
+VR Support and Future Vision
+
+Considering the current limitations in VR mode, how do you see the future of camera plugins like ABC in virtual reality environments?
+
+I do see a future for ABC in VR mode, but I may be overly optimistic. 🙂  I actually made a pretty realistic (albeit basic) proposal almost 5 years ago to Ben over at Laminar, that I still think could be a workable solution for Laminar to extend the XPLMCamera API to support "head-tracking" (which is a big part of the issue). I think they still can't quite visualize what I could see clearly on this topic -- so I'm hoping they'll just give me a little time to do an experiment, i.e. open up the API to me privately so I can build them a demo, and just show them what I think can be done here. But ... it's a high bar, and I don't have extremely high hopes. 🙂 I do think it's solvable, and I believe there's value in having support for head-tracking in the XPLMCamera API. Of course, you don't need ABC to do things like "quick-pivot left/right" when in VR, but changing to view a third-party aircraft in Circle view while in VR mode would be compelling. It wouldn’t require much at all to make it so my plugin can emulate what X-Plane's camera already does today for the "first 20" aircraft when in VR mode.
+
+But as I said near the beginning, I'm also very open to having Laminar just take my ideas and reimplement ABC's core features as part of X-Plane, too, if that's how we can solve this!  My objective is really just to help drive forward usability of the camera in X-Plane, especially for exterior views, even if that obviates the need for ABC at some point down the road.
+
+Career and Personal Insights
+
+Have you ever contemplated turning flight simulator development into a full-time job? What excites you most about being involved in this field?
+
+Well, I've certainly thought about it, and I guess there's some part of me that would love that.
+
+But at this stage in my life, what really drives me is the ability to innovate and continue to keep my technical skills sharp, without it becoming drudgery. Also, it's been years since I was really a professional software engineer -- I do this project more as a labor of love, I guess you could say!
+
+I also really enjoy the X-Plane community -- there's such a rich ecosystem, and so many great people collaborating and sharing their ideas and contributing scenery, aircraft, utilities, and much more, in a free exchange. I kind of like being in that sweet spot, thank you very much!  And for the record, I don't think the X-Plane community would be nearly as amazing if it weren't for the incredible work that Nicolas has continued to do with X-Plane.org!
+
+Closing Thoughts
+
+Lastly Steve, is there anything in particular you'd like our readers to know about your journey, or your vision for the future in flight simulation development?
+
+I guess while I have you all here, I'd love to share with you my latest walk-through video, that kind of explains from first-principles what ABC is (especially today, since if you watch an earlier walk-through video, you'll see it has evolved quite a bit):
+
+Many thanks to the various collaborators out there who've helped with everything from testing ideas and specific configurations and releases, to helping me figure out tough math problems :-), to contributing invaluable ideas and direction to ABC over the last 5+ years!  I especially want to thank Birger (LTAPI), Jim (TGXP) and Greg (WT3.2) for the collaboration support with dataref/target-syncing integration with ABC.
+
+And special thanks to you, Dominic, for all you do to help advance the X-Plane community through your developer spotlights, other interviews, and reviews -- and extra special thanks to Nicolas and X-Plane.org for hosting the plugin download page and the facilities to engage with users and have meaningful opportunities for communication and collaboration!!
+
+Finally, I thrive on feedback and new ideas! So, if anyone reading this has ideas, feedback, criticism, or complaints -- whatever you think can help make A-Better-Camera even better -- please feel free to reach out to me by either posting publicly on our ABC discussion thread, or by PMing me directly on the X-Plane.org Forum.
+
+Steve, it's been an absolute pleasure to delve into your world and understand the passion and expertise behind ABC. Thank you for taking the time to share your insights with us – your contribution to the X-Plane community is truly invaluable.

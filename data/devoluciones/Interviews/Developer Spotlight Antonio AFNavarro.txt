@@ -1,0 +1,114 @@
+Developer Spotlight: Antonio "AFNavarro"
+
+Conducted by Dominic Smith
+
+Introduction
+
+Some people in the X-Plane community quietly get on with what they do. No fuss, no drama, and yet their work speaks for itself. Antonio, better known as AFNavarro, is one of those people.
+
+He’s been creating liveries for years, often inspired by Spanish aircraft or planes he’s had a personal connection with. His repaints are detailed, thoughtful, and clearly made by someone who understands aviation inside out.
+
+In this Developer Spotlight, we take a closer look at the person behind the liveries. From building model planes as a child to finding calm and creativity through repainting, Antonio's story is one of quiet passion and genuine love for flight.
+
+Introduction and Development
+
+Antonio, to start with, could you tell us a little bit about yourself and how you got into flight simulation?
+I was born in a small town in deep Spain, in 1966. From a very young age, I felt a strong passion for aeronautics. The first time I saw a real plane, a Mirage F-1 during a visit to LEAB Air Base, I felt like I had fallen in love, and from that moment I knew I wanted to turn my hobby into a profession.
+
+During my adolescence, I channelled that passion into building model airplanes from recycled materials (not commercial plastic kits). I even built a Ford Tri-Motor, and with my collection I won several awards at university. I studied Aeronautical Engineering at the Polytechnic University of Madrid, thanks to the sacrifices my parents made. Thank you, Dad and Mom, for making it possible, and I graduated with the second national prize for university studies.
+
+After university came mandatory military service. I spent a year in the Spanish Air Force with the 801 SAR Squadron, where I had the opportunity to fly training missions in the AS332 Super Puma and the CASA C-212 Aviocar.
+
+My first job was in France, working on the Ariane-4 rocket project for three years. On rainy Normandy afternoons, I built a handmade electric train from recycled materials, another childhood dream. I returned to Spain in 1996 and began working as a maintenance and test engineer at a large helicopter company, where I still work today. Over the years, I’ve had the chance to fly many different helicopter models.
+
+My introduction to flight simulation happened by chance…or maybe by fate. One day I was walking with my wife when a box of X-Plane 7 caught my eye in the window of a bookstore, offered at a ridiculously low price. I bought it, installed it at home, and discovered something called “Plane Maker”, along with some files that appeared to fly later on… and from that moment, my life changed.
+
+What made you want to start creating liveries? Was it something you always had an interest in, or did it come from wanting a specific livery in the sim?
+
+Well, a bit of both. I always enjoyed painting my small handmade models, adding wear, ageing effects, and giving them a touch of realism, a bit of life. I later transferred that same practice into virtual painting. It was relaxing and over time it became my main hobby. At the same time, I often downloaded or bought aircraft that were flown in Spain, or still fly today, but they rarely included Spanish liveries, so, I threw myself into painting them.
+
+Your work always looks highly professional and polished, so what software do you use when painting, and what does your general process look like from start to finish?
+
+Let’s say that 98% of my work is done with Paint.net (free and very easy to use). About 1% is Photoshop, just for using some very specific brushes, and the remaining 1% is GIMP, which I use to create normals. I also use free software to work with normal and alpha files (which control the brightness of textures), such as DXTBmp.
+
+The process begins by choosing the livery, then searching for material to guide the general paint and details. Reading about the real aircraft helps me to understand it and consider it "my friend". Then I study the model very carefully, open it in Plane Maker to view its objects, and try to understand how the author has built the textures around the 3D model. It is all about getting into the skin of the person who has created it.
+
+Next, let’s imagine that there is no paint kit. In this case, I need to figure out which parts of the model correspond to which areas on the texture. This means editing the UV maps and using a trial-and-error approach. I usually start by creating a blank livery, and then the painting process begins. Over time, I have developed several self-taught colouring techniques, depending on whether the blank livery uses flat colours or colours with shadows. I start by painting the basic colours and then add the details, such as lines, emblems, tail numbers, and so on. Each step is checked by opening the aircraft in Plane Maker or in the sim, which takes a lot of time. If the result is not right, I repeat that step from scratch.
+
+Once the aircraft is fully painted and clean, a difficult but fun phase begins, bringing it to life. That means making the model look like a real plane. I add layers of dirt, panel lines, rivets, chipping, oil and hydraulic fluid leaks, smoke stains, and everything else my experience, both real and virtual, tells me is needed so that a screenshot looks no different from a real photograph. Painting liveries is much more than colouring, it is like being an actor who fully becomes the character they are playing.
+
+Some readers might not realise just how much time goes into painting a good livery, so could you give us an idea of how long a typical livery takes you to finish?
+
+This depends a lot on the difficulty of the livery itself, the textures of the model, and whether it is the first livery for a model or the final one in a collection.
+
+A simple livery might take about 12 hours of work. I usually spend 3 to 4 hours a day painting, so that adds up to around 3 or 4 days. A standard livery usually takes about a week. A more complicated livery can take two weeks, or roughly 50 to 60 hours of work. When I paint a collection for a model, the first livery takes more time, but I usually create a lot of masks. These include rivets, panel lines, wheels, engines, instrument panels, and so on, so the later liveries in the collection go much faster.
+
+What’s the most challenging part of livery painting for you? Is there a particular step that takes the most effort or time?
+
+Just like in real industry, before painting, you have to prepare the surface. One of the most challenging steps happens just before the painting starts. It involves identifying all the parts in the graphic files, especially if the texture is very fragmented, there is no paint kit, and no UV map. Although I have recently discovered a tool that helps with this, called XPObjUVImage, I still sometimes spend entire sessions using the trial-and-error method, working with templates, just to figure out which colour corresponds to which part of the model.
+
+When there is no paint kit available, it can be difficult to create a blank livery to start with. During the painting itself, the most challenging part with models that have very fragmented textures is getting the lines, or the shades of camouflage, to line up correctly across the different parts of the texture.
+
+Do you have a favourite livery you’ve made, or maybe one that was especially meaningful or difficult?
+
+My favourite livery is always the last one I paint (ha ha ha...).
+
+No, I do not have a single favourite. Each and every one of them has its own story. The aircraft liveries for Alabeo and Carenado have always been very complicated and challenging, but the queen of all challenges has been the EC-IXZ for the Beechcraft Bonanza G36 (tip tanks) in XP12 by PAE. It has millions of micro-textures and is a true nightmare.
+
+As you mentioned, liveries often involve lots of detail work, so how do you go about getting reference material, like airline logos or placement guides?
+
+When I started, back in the early 2000s, it was much harder to find material. The internet was not as widespread back then, so I relied on images from my considerable collection of aviation books.
+
+Now it is much easier, because almost everything is available online. You can find a lot of material, although some details are still difficult to track down. But sooner or later, after looking through many photos and videos, they eventually appear.
+
+Have you had any memorable feedback or moments from the community here at the Org that has stood out?
+
+Yes, of course. I usually receive a lot of positive community feedback and recognition for the work I do, which is very comforting. Sometimes, after a complex and time-consuming livery, I might only get a brief "thank you", but that is not really important.
+
+Is there a particular aircraft you love painting, or one you always look forward to working on?
+
+All the planes and helicopters I paint are chosen because they inspire me. Sometimes it is for historical reasons, sometimes personal connections, or a request from someone in the community. I usually paint Spanish liveries as a tribute to my country’s aviation, but I also create others from around the world if something about them speaks to me.
+
+I especially enjoy painting aircraft that I have, or have had, a personal bond with, because I have flown or worked on them. I remember that during the COVID-19 pandemic, I painted lots of liveries for the freeware T-6 Texan by Khamsin. That was my therapy.
+
+X-Plane & Beyond
+
+When you're not painting, how do you use X-Plane? Do you fly much yourself, and if so, what kind of flying do you enjoy the most?
+
+Yes, I love flying. We could say that I do three types of flights, almost always with general aviation aircraft:
+
+Visual flights, usually lasting 30 to 40 minutes. Sometimes in good weather, which is relaxing, and sometimes in complicated conditions, which is a bit less relaxing.
+IFR flights, which I enjoy very much, both during the day and at night.
+And finally, flights to check the results of my liveries, test any changes made in Plane Maker, or take screenshots for my livery uploads.
+Do you have any favourite aircraft or scenery in X-Plane that you often return to?
+
+Uff, hard question. I do not want to hurt the feelings of my developer friends. Anyway, I really enjoy flying the XPFR Socata Rallye and the Robin DR400 and DR401 (from different developers). Maybe I can offer an explanation as to why. When I did my glider courses, these aircraft were the tugs, and sometimes the tug pilot would let me take the controls for a bit. But I also enjoy more complex aircraft such as the C90 or B200, and of course the historical ones. Sometimes, when I am stressed, I take the Blanik glider out of the hangar.
+
+I have to say, I do not like flying glass cockpit aircraft as I prefer classic instruments. When you fly with a glass cockpit, it is not immersive, you forget which aircraft you are flying. As for scenery, I really enjoyed Spain UHD on XP10 and XP11. Unfortunately, it does not work well on XP12, especially along the coastlines. In XP12, I usually fly in the Balearic Islands, where I have photo-real terrain thanks to the work of orl_cz. I have not installed AutoOrtho yet, but it is coming.
+
+Do you have any real-world flying experience, and if so, could you share it with us?
+
+Yes, I do. At university, I took two glider courses and learned to fly in the mythical Blanik, and when I trained for stalling, it sounded like a beaten can. I did not continue flying gliders after that, mostly due to life circumstances. Later, before becoming a father, I took ULM courses and learned to fly solo, but again, I did not continue with it. Finally, thanks to my job, I have done countless helicopter flights. Not as a pilot, but as a test engineer, although, from time to time, the pilot lets me take the stick.
+
+I also had a very gratifying experience collaborating on the tuning of the professional Bell 412 simulator we have at my company. During testing, the monitors were sometimes out of sync, which caused dizziness by the end of the session. I often had to wait before driving home.
+
+Outside of X-Plane, what other hobbies or interests do you enjoy?
+
+Simple things, mostly. I enjoy mountain biking, and the weather in Spain allows you to do it for most of the year.
+
+I also enjoy hiking, especially long walks with my wife.
+
+I like watching National Geographic documentaries and good films.
+
+I really enjoy travelling and discovering new places, although I do not travel much at the moment because of my many obligations.
+And above all, I try to spend as much time as possible with my children.
+
+Finally, Antonio, is there anything you’d like to say to the community, be it painters, developers, or just simmers, who enjoy and appreciate your work?
+
+Above everything, I think the community here at the Org is special. The communication between members when it comes to solving problems is both friendly and warm. Beyond liveries, the possibilities offered by Plane Maker and Airfoil Maker are endless. Combined with the wonderful 3D models on offer, it truly is a paradise for aviation enthusiasts.
+
+Finally, I would like to thank the many X-Planers for their teachings. They know who they are, and especially Leen de Jager, who taught me many things, particularly in relation to normals, which are the soul of liveries.
+
+I hope to continue offering my skills to the community here at the Org, and that everyone enjoys my liveries as much as I enjoy creating them. 
+
+Antonio, it’s been an absolute pleasure talking to you. Your work means a lot to many in the community, and it’s great to finally put a face to the name behind the liveries.

@@ -1,0 +1,108 @@
+Developer Spotlight Feature - MisterX6
+
+Conducted by Dominic Smith
+
+Introduction
+
+Welcome back to our Developer Spotlight series, where we journey through the fascinating world of X-Plane development. In our latest interview, we're delighted to shine the spotlight on Justin, better known in the X-Plane community as MisterX6.
+
+Known for his commitment to quality and innovation, MisterX6 has consistently elevated the standard for both freeware and payware sceneries, turning ordinary flight paths into extraordinary experiences. From his jaw-dropping San Francisco Definitive to the globally expansive SFD Global, MisterX6 has proven that quality, both freeware and payware, knows no bounds.
+
+So, without further ado, read on to discover more about Justin's remarkable journey in the world of X-Plane and what keeps him at the forefront of flight simulation development. 
+
+Hi Justin, could you begin by telling us what initially drew you into the world of flight simulation development, particularly with X-Plane?
+
+My older brother introduced me to flight simulators with FS 95 on his PC, and I was instantly captivated. Over the years, I've explored various versions of Microsoft's flight sim, right up to FSX. When the series was temporarily cancelled, I gave X-Plane 10 a try and got hooked straight away. However, I was a bit let down when I tried to fly under the Golden Gate Bridge and found it missing. Instead, there was a basic bridge just a few metres above the water. That's when I decided to start developing addons myself—to make the world more interesting to fly in.
+
+As a developer, what makes X-Plane such an attractive platform for you?
+
+The X-Plane SDK is straightforward and incredibly flexible. There are various file formats, each with its own specific use. For instance, façade files are great for modelling repetitive objects like fences, and line files are ideal for airport markings.
+
+What challenges do you typically encounter when developing a project?
+The toughest part for me is always completing a project. I find myself constantly wanting to add more features or make improvements, and sometimes unexpected issues arise.
+
+Could you give our readers a sense of how long your X-Plane projects usually take to complete?
+
+Well, to give you an example, my biggest project to date, San Francisco Definitive, took about a year and a half to finish. Generally, the time required to complete a project varies depending on the airport's size and the level of detail I aim for.
+
+Justin, could you share with us which projects have been particularly close to your heart, and why?
+
+SFD Global is my favourite project so far. Researching various regions of the world and trying to recreate their unique architectural styles was incredibly rewarding.
+
+Justin, when working on expansive projects like SFD Global, what kind of research do you usually undertake? Do you have a specific approach for it?
+
+I start with a rough outline, identifying the regions I want to focus on and what objects are needed for each. Then, I gather reference images from the internet and use Google Street View to understand the architecture and common building elements in those areas. It can be challenging to condense all this information into a single set of objects since each region has its own unique variations.
+
+What software and tools do you rely on for your development work?
+
+I'm currently using Blender for 3D modelling, which offers a plethora of tools for creating complex models efficiently. I used to do all my texturing in Photoshop, but I've since transitioned to Substance Painter, which provides more advanced texturing techniques, especially for PBR materials. For scenery creation, I use Laminar's WED.
+
+Do you primarily focus on developing Payware, Freeware, or a mix of both? Could you share why?
+
+These days, I mainly develop payware due to the significant time commitment involved in creating detailed airports. However, I do still release some freeware projects occasionally. I find it's a good way to introduce people to my work and give back to the X-Plane community, which has been very supportive. Freeware also gives me the freedom to experiment and choose projects without worrying about sales.
+
+Justin, have you had the opportunity to collaborate with other developers or teams, and if so, what has that experience been like?
+
+While I generally work solo, I sometimes receive help from others who beta test my sceneries or provide reference images. I've collaborated with Matthias from Maps2XPlane to create custom meshes for airports like EDDM and KLAX, which require specific features like taxiway bridges. I've also worked with Stairport on a few projects, such as SAM GroundService, where I contributed 3D vehicle models.
+
+Both your parents are private pilots, so was that the spark for your interest in aviation?
+
+Absolutely, both my parents are private pilots and often took me flying as a kid. As such, that early exposure ignited my fascination with aviation.
+
+Besides aviation, do you have any other hobbies or interests that you're passionate about?
+
+I'm a big fan of travelling and hiking, particularly in the Bavarian Alps.
+
+It seems you've turned your passion into your profession. Can you tell us about your journey towards making X-Plane development your full-time career?
+
+Indeed, I recently completed my master's degree in software engineering and decided to make scenery development my full-time career.
+
+Justin, when it comes to selecting your next project, what influences your decision-making?
+
+My decisions are usually a mix of what the community is asking for and my own personal interests.
+
+You've focused on X-Plane thus far. Do you plan on extending your expertise to other simulators in the future or have we got you for keeps?
+
+Dom, you’ll be glad to know that I'm committed to sticking with X-Plane, primarily because I have a lot of experience with its SDK. Additionally, the MSFS scenery market seems somewhat oversaturated to me.
+
+How do you see the future of flight simulator development evolving?
+
+I think the growing availability of open data is a huge boon for scenery development. Entities like Microsoft and certain governmental bodies are increasingly offering resources like AI-generated building footprints and permissive aerial imagery, making it easier to create more immersive sceneries.
+
+You mentioned that you're updating your existing airports to X-Plane 12 standards. What are some specific improvements you're working on?
+
+Currently, I'm focused on upgrading my existing airports to comply with X-Plane 12's new standards. This includes adding rain effects to ground textures and incorporating 3D vegetation, among other enhancements.
+
+You're also embarking on a new project that aims for regional accuracy. Can you share more details about this ambitious endeavour?
+
+Yes, I'm working on a new project designed to bring regionally accurate scenery to X-Plane. Unlike SFD Global, this one will utilise building footprints and other data from sources like OpenStreetMap to offer a more precise and varied landscape. This will include specialized buildings like schools, hospitals, and supermarkets. Currently, I'm developing my own software solution to convert OpenStreetMap and other geodata into X-Plane compatible scenery, as existing software doesn't meet my expectations in terms of features and execution speed.
+
+Regarding your new project, how do AI-generated building footprints contribute, especially in regions where OpenStreetMap data may be lacking?
+
+I plan to use a range of datasets, including Microsoft’s AI-generated building footprints. The choice of data will depend on what's available for each specific region. For instance, some governments, like Japan's, offer official building footprint data that surpasses the quality and coverage of AI-generated footprints.
+
+X-Plane 12 has been evolving since its release. What are your impressions on its future?
+
+X-Plane 12 had a somewhat challenging launch, but I'm optimistic about its trajectory. Laminar Research has introduced some impressive updates, notably the atmospheric rendering in version 12.06, which is stunningly realistic. I'm eager to see what comes next.
+
+Justin, if you could ask Laminar Research for one 'dream feature' to add to X-Plane 12, what would it be and why?
+
+My ultimate wish would be localized mesh editing, although that's unlikely to happen during the X-Plane 12 cycle, given the significant changes it would entail for the scenery engine. A more feasible wish would be enhancements to the ground-handling vehicles. I'd love to see more types, like passenger buses and ULD loaders, and more user control over these assets, similar to what third-party plugins offer.
+
+Have you had a chance to use AutoOrtho, and if so, what are your thoughts on its potential?
+
+I've not yet used AutoOrtho myself, but I've been reading up on it. It seems like a fantastic tool that will synergise well with the next version of SFD Global. The X-Plane community never ceases to amaze with their innovations.
+
+In your view, what steps can platforms or communities take to enhance support for developers like yourself?
+
+One feature I'd love to see implemented is a unified app for downloading and updating both freeware and payware addons. The current system requires manual browsing through forums to find the latest versions, which can be quite cumbersome.
+
+Do you have any pearls of wisdom for those considering diving into X-Plane scenery creation?
+
+If you're just starting out, I highly recommend watching Jan Vogel's WED tutorial series on YouTube. This will give you a solid foundation. From there, you can either work with existing libraries or delve into creating your own 3D models. For learning Blender basics, Blender Guru's beginner tutorial series is a great resource. And remember, practice is key!
+
+Before we wrap up, is there anything specific you'd like our readers to know about you, your projects, or your journey?
+
+I'd like to extend my gratitude to everyone who has been a part of my journey so far, whether by purchasing my payware, providing constructive feedback, or simply offering words of encouragement. Your support means the world to me.
+
+Thank you, Justin, for giving us an insightful look into your journey and your creative process. It's been a pleasure learning about your experiences and your vision for the future of flight simulation.

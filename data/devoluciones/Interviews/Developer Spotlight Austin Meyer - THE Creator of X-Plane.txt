@@ -1,0 +1,385 @@
+Developer Spotlight Austin Meyer - THE Creator of X-Plane
+
+In our latest Developer Spotlight feature, I had the wonderful opportunity to talk to Austin Meyer, founder of Laminar Research and the team behind X-Plane.  In this forty-minute interview, Austin talks about X-Plane 12, the direction in which the sim will take, the technology and maths behind the realistic weather engine, and much more.  Having used X-Plane for the last twenty-plus years, I thoroughly enjoyed meeting the man behind the simulator which I and many others, enjoy so much.  
+
+On a slight sidenote, I must apologise for the aspect ratio of my webcam during this interview as I forgot to adjust it.  I’ve always had a big head, but even my ego is not this big 🙂
+
+I hope you enjoy this little sit-down with Austin.
+
+00:00:00.000 No text
+00:00:02.399 hey austin hey how's it going how you doing nice to meet you finally oh thank you nice meeting you too yeah
+00:00:08.639 do you know i think it must be about uh must be 20 years something like that i think since we first corresponded i
+00:00:15.360 think it was way better x-plane five oh wow i know yeah i know yeah
+00:00:23.439 and now we're on twelve um yeah yeah hey do what thanks for um thanks for talking
+00:00:29.279 to explain.org i really appreciate it i know that you're busy oh no problem yeah yeah busy that's for sure yeah we can
+00:00:35.360 talk about some of the things i'm busy with because it's all fun stuff but uh yeah busy but of course yeah i want to want
+00:00:41.920 to follow up with explain.org certainly to kind of let people know what i'm thinking about you know why i build a
+00:00:47.840 sim the way i do yeah yeah so why explain you know what makes it so
+00:00:53.000 No text
+00:00:53.360 special right so um so what makes x-plane special to me let
+00:01:00.000 me move the zoom thing so i'm looking at my camera here yeah so what what makes x-men special to me is the app actually
+00:01:07.200 feels like it feels like to operate a real airplane when i operate a real airplane there's a tremendous amount
+00:01:12.960 that's going on and it starts with the question of what's the weather i'm going to be facing what's the time of day that
+00:01:18.720 matters so tremendously what's the lighting going to be uh the light matters tremendously because this is
+00:01:24.400 what's the term where the sun is in your eyes you land with the sun on your eyes it you know at six o'clock in the
+00:01:30.320 evening straight into a sunset into a short runway with the sun coming actually literally that is a major
+00:01:35.920 factor landing an airplane what about landing at night that's a huge factor um in a single engine airplane especially
+00:01:42.159 night operations are a completely different ball game because if the engine quits i mean you know what they say right if you're in a single engine
+00:01:47.680 airplane and the engine quits at night the solution is to use the landing light turn it on and see if you like what's in
+00:01:53.600 front of you and if you don't turn the light off that's it those are your options and so on things like uh the
+00:02:00.320 time of day the weather oh clouds oh my gosh so back when i flew with columbia 400
+00:02:06.159 that airplane would really start to run out of breath above about 18 or 20 000 feet it just couldn't climb any farther
+00:02:11.920 will you fly in the southeast in the summer there may be clouds at 8 000 feet that go up to 30 000 feet it's beyond
+00:02:18.319 the ability of the airplane to get over these clouds and if you're only doing say 195 knots
+00:02:23.920 is that airplane used to to do then clouds that cover 50 or 100 miles you're you know talking 30 45 minutes out of
+00:02:30.640 your way to try and get around him and so when you're in a small plane the clouds are so gigantic that trying to
+00:02:37.360 get up over them or under them around them is a major obstacle to getting where you're trying to go and so
+00:02:44.080 when you are flying an airplane especially a light airplane the concept of what's the time of day what's the
+00:02:50.480 weather and then if you're deciding the tackle weather that is convective with clouds and thunderstorms all over the
+00:02:56.239 place what's my strategy to get around it and then once you're in this this
+00:03:01.440 natural weather system of clouds and weather and time and darkness and lighting and sun in your eyes and
+00:03:07.840 being so dark you can't see anything at all once you're in this environment now you're starting to ask the question okay well what can i pull off here with the
+00:03:14.480 airplane i've got now you're going down the questions okay what's my fuel on board how far can i go with the fuel on board is there anything else in the
+00:03:20.640 airplane that's starting to go sideways in my cirrus i'd have to ask a question am i going to run out of de-icing fluid
+00:03:25.840 in my columbia i'd have to ask the question am i going to run out of oxygen for my oxygen cameo if i'm above 12 000
+00:03:31.360 or so and so you've got all these things in the airplane that can be expended and so you're playing this game where time
+00:03:38.480 is marching on whether you like it or not the weather is changing whether you like it or not the clouds are big enough
+00:03:44.080 you're not going to get around them whether you like it or not and you're in an airplane that's gradually expending itself expending it so little resources
+00:03:51.040 to complete the flight and you need to make sure that no matter what happens you wind up touching down on a runway
+00:03:57.519 before your resources on board are expended that's the non-negotiable outcome and um
+00:04:03.760 my goal with x-plane these days is to build a sim that lets
+00:04:09.120 people experience this as they try and get from one point to another and so the
+00:04:14.400 the aircraft the way the airplane flies because remember the overarching thing about all of this
+00:04:20.079 well i'm talking about the weather the the conditions the time of day the expenditure of fuel and energy in the airplane and also of course you're also
+00:04:27.360 doing this while you're interacting with air traffic control right which also comes into this
+00:04:32.400 sometimes you have to talk to air traffic control sometimes you don't and if you are talking air traffic control whatever you do you don't want them to
+00:04:37.680 be surprised about what you just did that's when people start getting really annoyed and twitchy and so you've also got an air traffic control that you're
+00:04:44.320 you're trying to interact with while you're managing this whole chess piece it's sort of like playing chess while you're asking permission from someone to
+00:04:50.560 move to pieces you know it's just yet another level you have to watch out for and um
+00:04:56.400 and then overarching on top of all of this is the fact it's just assumed you know how to fly the damn airplane right
+00:05:02.560 flying the airplane that's just that's just the layer that sits that's like the frosting on top of the cape that's or
+00:05:08.320 maybe it's the plate it's the plate that the cake sits on and so what a lot of people do when they look at the simulator they're like oh you know i i
+00:05:15.360 know how to fly an airplane while i'm flying this airplane i'm looking at houses down below well okay okay that's
+00:05:21.120 fine there's nothing wrong with saying look i know how to fly an airplane and look at houses that's fine but when you
+00:05:26.800 actually get to the point you want to operate an airplane to get from one point to another the thing about how do
+00:05:32.639 i fly an airplane why look at houses that has nothing to do with the flight what is
+00:05:38.400 the flight really about what the flight is really about is knowing the conditions you're going to be flying in
+00:05:44.080 knowing the weather you're going to be flying in knowing the precipitation and cloudscape you're going to be flying in
+00:05:49.120 being able to handle the airplane you're going to be flying in and then continuously operating through all these
+00:05:55.680 systems while also integrating with the air traffic control system as the aircraft's resources are being consumed
+00:06:02.080 and having everything work out by the time you've touched down that none of these these countless rules were
+00:06:07.280 violated when i say rules i don't mean faa rules i mean we're like rules of nature you cannot land and you know you
+00:06:13.840 need to end the flight before you're out of gas you get enough flight before you're on a de-icing fluid you need to end the flight before you're out of
+00:06:18.960 oxygen you need to work through your flight without offending air traffic control offending meaning you know doing
+00:06:25.199 some sort of forbidden you know thing and uh you certainly need to identify without going through uh airspace you're
+00:06:31.440 not allowed to go through and i don't have that part simulated in next play now but it's only a matter of time until i do um
+00:06:37.600 and you need to be able to do this without question uh knowing how to operate your airplane and
+00:06:43.680 if you really want to say that you're that you're good you need to be able to do with random failures uh in play which
+00:06:50.000 explains simulates very very well um to get this thing down in one piece even if a number of failures have happened so
+00:06:56.960 when you ask what i want to do with x-plane these days that's what i want to do when i first started x-plane i was
+00:07:03.599 doing something completely different when i first started x-plane when i very first started it was just so i could
+00:07:08.720 pass an instrument currency check you know can i do instrument find where i scan all six instruments you know you got your standard six instruments and i
+00:07:15.440 want to make sure i could pass an instrument check while i scanned those six instruments well i built the sim to
+00:07:20.479 do that because that's where i was in my aviation career at that point i was just getting started the idea of passing an instrument currency check would be like
+00:07:26.720 the epitome of aviation back when you're just starting you're just getting your instrument rating well that's what it is to you and then i quickly said well wait
+00:07:33.120 a minute now that i got this working for the piper archer 2 and i'm using blade element theory i can
+00:07:38.720 apply this to all airplanes and so then the mission became okay let's use x-plane to predict how airplanes will
+00:07:44.160 fly so x-plane's gone through a number of evolutions when i started it was can i pass an instrument currency check with
+00:07:50.479 an instrument skin and just fly an instrument approach according to the rules then it became oh wait a minute this is blade element theory this could
+00:07:56.800 apply to any airplane can i predict how airplanes of the future will fly can i predict how an airplane will fly that
+00:08:03.759 you've envisioned in your mind and you think it'll fly well but you don't know it plenty of people imagine
+00:08:10.560 their airplane airplanes going to fly well and people have died putting their stupid ideas into carbon fiber and
+00:08:17.440 killing themselves running into the ground because they didn't understand how the airplane would actually fly there's there's fatalities and history
+00:08:23.120 from that type of nonsense um and i call it nonsense because it's so easy to write a simulator you know or not to
+00:08:29.520 write a simulator but to use it's so easy to use a simulator um where you put your design in a plane maker and you see
+00:08:36.000 how this airplane's gonna actually fly but on today i think the idea of just flying an
+00:08:41.760 instant approach that's assumed to be good in the sim the idea of putting an aircraft into plane maker and then
+00:08:47.839 flying at an x-plane that's assumed to be a thing we can do those those are so well locked down uh as features that i
+00:08:54.399 support that um that's almost just this was just assumed at this point we're not gonna break that
+00:09:01.200 the level i want to go to now is perhaps not coincidentally associated with the
+00:09:06.480 level i operate real airplanes which is can you manage the entire flight safely
+00:09:12.160 efficiently and effectively in an ever-changing game space the game space being the
+00:09:17.680 weather the air traffic control the time the airports you gotta go to um can you operate your airplane in an
+00:09:23.440 ever-changing game space to get safely and efficiently from one point to another and do so with an airplane that
+00:09:28.800 is consuming itself and having things fail enroute that's that's the challenge
+00:09:34.160 that that i undergo every time i fly a real airplane and um that's what i want to bring into the simulator as well
+00:09:40.959 right you know um having used x-plane 12 what you know one of the biggest things one of the
+00:09:46.959 most notable changes was the environment you know it just felt more alive the weather um the volumetric clouds um i
+00:09:54.640 was talking to somebody and you know we both kind of like agreed that x-plane 12 managed to do a sense of
+00:10:00.880 scale and believability which x-plane 11 and all its previous uh you know the
+00:10:05.920 previous versions couldn't it didn't do so well you know but x plane 12 you actually feel as though the
+00:10:11.680 world is is is more alive you know yup
+00:10:16.720 and that's that's something we're going to continue with um i've we've we've succeeded i think very well in showing
+00:10:17.000 No text
+00:10:23.760 the how the world lives with the sun and the clouds and the rain and the ice and the wind and the turbulence i think
+00:10:30.240 we've succeeded well oh we succeeded well with how the water feels seaplane pilots do make up a fraction of the
+00:10:36.240 aviation community and boy if we bend over backwards to get the water and the seaplane dynamics right oh my god i
+00:10:41.680 worked a company called bridger aerospace which flies like seaplanes so they go skim along water to pick up
+00:10:47.519 water and then they go dump it on forest fires they fly uh canadair what 215s and 415s i think they're called and so i
+00:10:54.480 mean i have sent them no less than 50 50 private x-plane executables to get
+00:11:01.760 the seaplane model up to the point that they were finally just like i don't see how it gets any better than this you've got it in the sim we're
+00:11:07.920 ready to train our pilots so that was a nice little fun add-on and of course we're pretty serious about the
+00:11:14.160 airport environment as well so what's kind of interesting is what what is the environment that we want to simulate and
+00:11:20.800 obviously people say oh i want more scenery and ortho photos okay okay we're also working on that yes that is true
+00:11:26.320 we're always working on upgrading the scenery but when i fly an airplane it's not to look down at somebody's house it's to do that thing i just said safely
+00:11:32.959 get from one point to another in a dynamic environment and so you point out the dynamic environment you see in explain 12. well that's no coincidence
+00:11:39.440 we've got the dynamic environment of the clouds the weather the rain the wind but
+00:11:44.640 there's a little more environment than that the ground environment can matter but where it matters is at the airport
+00:11:49.839 and on the water because that's where you're starting and stopping your flights on the water for sea plants on the airport obviously for land planes
+00:11:55.680 and that's why our airports are quite a bit more than passable and our water is just absolutely just incredible and if
+00:12:01.600 you haven't done any seaplane operations and explain 12 yet you should definitely try it it's awesome and if you come away saying oh that was hard oh yeah it is
+00:12:08.800 just right it is just right so how far you know when you talk about the water how far is that modeled is it
+00:12:14.880 just on the layer is it is it below the water you know kind of like how deep does that simulation go for the water so
+00:12:20.000 No text
+00:12:21.839 it's fascinating what we finally did and i wish we could have done this 20 years ago i've been asking it for it for my
+00:12:27.600 artist for probably at least a decade but what we finally have is when the artist
+00:12:33.920 they designed these wave patterns for the water based on math that is is used
+00:12:39.200 to generate real waves okay then there's math that can describe what the wave shapes of water is in various different
+00:12:44.480 ways they took that math and they designed the water into this three-dimensional matrix well yeah it is
+00:12:50.320 a three-dimensional think of as a sheet a bed sheet that's put over a lumpy mattress okay or a bed sheet is put over
+00:12:56.320 a lumpy mattress that's what our water is it's a three-dimensional shape but it's only three dimensions and then it's
+00:13:02.720 a sheet sitting you know that describes a certain shape all right now once they have that rendered
+00:13:09.760 they also pass it to my flight model so when my flight model says i've got a little bit
+00:13:15.600 of a float right here float of an airplane you know airplane float or a hall it will interact it with the water
+00:13:22.079 elevation as it exists at that moment in space and time and then x-plane breaks the floats or
+00:13:30.000 the bodies or the fuselages the hulls or whatever you want to call into the airplane down in many little pieces just
+00:13:35.360 like it does with wings it's just like with blade element theory and it applies those little bits of geometry
+00:13:42.480 to see how much they are pushing down into the water or the sheet you know at that point
+00:13:48.480 and what's kind of cool is with with floats planes
+00:13:53.519 it is not just how much the float goes under this sheet
+00:13:58.560 you know where the buoyancy pushes you back oh no that ain't nothing once you're moving that force
+00:14:05.120 that you think of boats you know using which is oh well it sinks down under the water and the water is heavy so you know
+00:14:10.720 the buoyancy pushes it back that force is negligible once you get 50 knots on
+00:14:15.839 all right you get 50 knots on flotation doesn't even matter anymore at 50 knots it's all about inertia it becomes a
+00:14:22.880 complete inertia game where the inertia is the inertia of the water you cannot kick that water out of the way fast
+00:14:28.639 enough and so what seaplanes do is once they start building up speed the inertia of the water hitting the float causes
+00:14:35.040 the float to pop up on top of the water and ride it like a water ski and this is called running on the step
+00:14:40.959 and so on the dynamics we've got yes we probe each little point or element of
+00:14:46.720 the aircraft see how far it's going down below this sheet of water for buoyancy but that buoyancy is only it only even
+00:14:52.800 matters and we we use it all the time we apply this light model all the time but you only notice it below 10 20 30 knots
+00:14:59.040 or something like that um because the next thing we consider is not just where the water is but how fast
+00:15:06.560 the point of the airplane is moving right how fast a little bit of the float is moving because that's controlling oh
+00:15:13.040 and how fast the wave is moving up and down but much more importantly than that how fast this point is moving up a wave
+00:15:19.920 right because if a wave is shaped like this and your probe point or your bit of your float is right here you might say
+00:15:26.480 oh okay there's a little bit of force because you're just displaced a little underwater uh-uh uh-uh no way because if
+00:15:32.480 you're going 50 knots this way yep you are running into a mountain of water and
+00:15:38.320 so the dynamic the dynamic part of the fact that you're running into a climbing hill you see that you're that you're
+00:15:45.040 getting more water per millisecond that's by far a greater force than flotation and so to answer your question
+00:15:52.320 how do we model the water it's a three-dimensional sheet we take the float you know for each little bit of
+00:15:58.480 the airplane we put it under that sheet to get the flotation effect but much much much more important than that is we
+00:16:04.720 look at how fast our probe points are moving and moving compared to the water and
+00:16:10.800 especially the the ever-changing shape of the water with those waves and the dynamic effect is much stronger
+00:16:18.000 than the flotation effect and the reasons water is heavy it can't get out of your way quickly it's too heavy to get out of your way quickly so you start
+00:16:24.720 building up speed your only option is to ride on top of it so how much of you know kind of you know um there's always a lot of talk about
+00:16:31.519 you know how much uh cpu uh gpu resources you know x plane uses with all these calculations for
+00:16:38.000 water for the weather you know what is the ratio kind of right nowadays of you know kind of how much of the gpu does x
+00:16:44.000 plane use for actual calculations aside away from the graphics side right and the answer is the gpu is much
+00:16:51.680 busier than the cpu in x-plane 12 and x-plane 11 was reversed x-plane 11 was
+00:16:56.720 mostly cpu and people's graphics cards would just sit around wasting time for xbox 12 we've upped the graphics
+00:17:03.040 tremendously we put a lot of the clouds and the water and the lighting boom we've loaded over to the gpu and so now
+00:17:09.919 that gpu is up at redline and the cpu is sitting there twiddling his fingers wondering what it wants to do next and
+00:17:16.959 so in a perfect world every time we ran x-plane your computer would melt down after one flight right because every
+00:17:22.880 single thing would be running wide open throttle yeah um but we're never nobody's ever going to have it balanced
+00:17:28.079 that perfectly because some stuff is programmed to run in the cpu and sunless is running run on the gpu some people have fast gpus and slow cpu some people
+00:17:34.880 have fast cpus and slow gpus everything at 100 all at once even though that's obviously what we want
+00:17:41.200 hell we also want the government to spend money efficiently right i mean you don't always get what you want the question is how close can you get
+00:17:48.240 and um we are loading a lot more stuff onto the gpu
+00:17:53.760 and uh i'm quite certain that's a good thing because it means those graphics cards are getting used and that's why uh
+00:18:00.559 so many people not everyone but so many people i think most people are seeing great frame rates in explain 12 and in
+00:18:05.760 many cases better than they saw with 11 because they've got good gpus and that's just grabbing all these calculations um
+00:18:13.360 for clouds and water and lighting the flight model is still in the cpu but what's interesting is going from x-men
+00:18:19.280 11 to x-men 12 the graphics might take i don't know five times as much work to do maybe but
+00:18:25.679 because they're all loaded on the gpu we're not running at one fifth of frame rate are we running it very similar in some case better frame rates because if
+00:18:32.480 we are doing five times more work or i i say five it might not be exactly fine we're doing more work okay i'm sure
+00:18:38.400 someone will sit there and compare oh no it's actually 4.3 times more work okay whatever but we're doing a lot more work
+00:18:44.640 but because we're loading it on to the gpu more work is getting done in the same amount of time and that's why the
+00:18:50.400 frame rate isn't tanking uh and i can tell you the flight model though where all the graphics are way more powerful x
+00:18:56.240 2012 and x plane 11. the flight model i might use 20 more 25 more because my
+00:19:02.000 flight model work has been almost entirely just making the math better and smarter and
+00:19:08.720 dialing in all of these different effects but you don't actually have to require a lot more cpu calculations to
+00:19:15.120 get that done you just have i i'm able to make the flight model smarter not bigger and so when we go to explain 12
+00:19:20.880 yeah there is more flight model because we've got wing downwash wake
+00:19:25.919 prop wash and all these things interact with each other and it's always slow in a computer to have things interact with
+00:19:31.760 each other because each thing has to check all the other things and so when it's one like those polynomial type
+00:19:37.679 problems well if there's twice as many things to check it's eight times as much work right because each thing has to check against every other thing it's
+00:19:43.600 that problem and so yeah we i do that better in explain 12. we've got because now we've got the wings casting weight
+00:19:49.600 which we didn't have before and the down wash and the prop wash any thing affects each other apart and so yeah that has
+00:19:55.200 run up the flight model a bit but the overall flight model might only be 25 or 50 more uh cpu intensive so the flight
+00:20:02.559 model is only going up a little bit in requirements because it's already pretty damn good for explain the lab and i've just made it smarter not bigger
+00:20:09.200 for version 12. but the graphics the graphics load has gone up through the roof thanks to all these clouds lighting
+00:20:15.120 and water but we loaded it on the gpu to not get sucker punched in the frame rate okay you know you'd um a little while
+00:20:22.960 ago you mentioned kind of you know um uh authors um ortho scenery kind of like
+00:20:28.480 photographic scenery and what like you know um what is there to you know for you know
+00:20:33.919 vfr flyers you know um who who have come from x plane 11 to x plane 12 you know uh what changes can
+00:20:41.039 they can they see perhaps in the future with with x plane 12 unknown okay so i don't first of all let
+00:20:45.000 No text
+00:20:47.360 me say i don't know now to back up and address the scenery issue it looks like the world right now is kind of in two camps on x plane 12. brother i have not
+00:20:54.159 spent much time at all reading reviews i'm simply putting my time into work but i've heard through the grapevine it's like
+00:20:59.520 some fraction i'll call it half might not be half half the people are like oh yes all the lighting and weather and
+00:21:04.799 clouds and you know flight model this is great and half like wait a minute the scenery is not nearly as good as microsoft what good is x-plane well i
+00:21:11.200 mean to me this takes us right back to where we open the interview what do we do when we operate an airplane when i operate an airplane it's
+00:21:17.600 not to say oh look at joe's house i can see joe's house i mean that's just not what i used an airplane for yeah if it's
+00:21:24.159 not what i use an airplane for why would i use a sim for it and so yeah the scenery is simply if you want scenery
+00:21:29.840 let me tell you what scenery matters the scenery at the airport the scenery underwater the scenery where you're interacting with the ground remember
+00:21:36.159 x-men is a flying simulator and a driving simulator and there are certain times you drive an airplane that's when
+00:21:41.280 you're on a runway that's when you're on the water that's what it's a driving simulator when you're on the water of the airport environment and so that's
+00:21:47.679 why our water is is i i'm quite certain the best in the world for any flight sim ever done
+00:21:53.200 ever and our airports are not too shabby so um i'm concentrating
+00:21:59.039 on the scenery where it matters and where does it matters well it matters when you're driving the airplane not when you're flying the airplane now that
+00:22:06.000 said yeah we still want to have better scenery and we're going to have it and i've actually already got ben looking at
+00:22:12.000 what some next generation technologies would be but no i'm not going to talk about specific version numbers for
+00:22:18.240 specific scenery paradigms and why not because we just haven't decided yet we don't know right now what i'm doing is
+00:22:24.559 building the sim that simulates the airplane in the way we actually we
+00:22:30.080 meaning pilots actually operate airplanes yeah sorry we're succeeding in that area well
+00:22:35.679 one thing i did notice you know which you know maybe it was kind of my imagination but the um the topography
+00:22:42.240 you know kind of like you know i live up in scotland so the first thing i do is you know i want to fly around my area
+00:22:48.799 and i noticed you know that you know the mountains and whatnot were a lot were um
+00:22:54.720 uh sharper a lot clearer than than x-plane 11 you know so i don't know if there are any changes there but you know
+00:23:01.360 the way there are i mean we remember we can always bump up the the uh the terrain detail the mesh density of our
+00:23:02.000 No text
+00:23:08.720 terrain topography and yeah i mean we do have some new global scenery for x-plane
+00:23:14.559 12. i mean we're smarter about our mesh density i forced my guys to be smarter
+00:23:20.000 about the way they draw the roads um we've got new autogen art assets so yeah we have improved those things and it
+00:23:26.400 doesn't surprise me that you see better terrain mesh density and therefore sharper and more precisely defined
+00:23:32.080 mountains and especially the trees i i know we did go overboard with the trees holy cow are these trees awesome this
+00:23:37.360 could be a freaking tree simulator for the trees we've done uh not strictly necessary for a flight sin but it does
+00:23:43.760 look pretty dang good and you come down to the little grass strips in the middle of the mountains and stuff like that i
+00:23:49.440 admit having nice detailed trees around the grass strips that does actually count as the airport or its environment
+00:23:54.960 so um the the trees are pretty awesome and maybe that's helped make the scenery a little better too the fact that you've
+00:24:00.240 really got 3d trees on the mountains not just blurry you know satellite photos
+00:24:05.280 so um there has been some some uh improvement in the scenery it doesn't surprise me it looks sharper and more
+00:24:11.120 precise if you go to higher mesh density and the 3d trees really make the mountains start to look like honest-to-goodness mountains so yeah
+00:24:17.120 we've got some improvements there and of course we're going to keep on we're going to keep on improving it as we always have the future's not going to
+00:24:22.400 change right we're going to keep you know keep going in this direction sure how did you go about doing the um one of
+00:24:28.080 the most enjoyable features are the ambi the new ambient sounds oh yeah so that was daniela rodriguez
+00:24:30.000 No text
+00:24:34.320 down in argentina and she's our new sound engineer and when on
+00:24:40.080 we every every week laminar research reports to me you know what they're doing we'll report to each other what we're doing and i noticed daniella
+00:24:47.440 saying that she was doing ambient sounds like what the hell are ambient sounds i don't care about ambient sounds when you're in an airplane this is what you
+00:24:53.520 hear all right that's what you hear in an airplane uh what the hell do we need ambient sounds for but then sure enough
+00:25:00.640 when you go to those external views or when you shut down an airplane by a river by a train track by a big city on
+00:25:07.679 a runway holy cow actually it starts to feel like you're there it doesn't quite feel like
+00:25:13.520 you're there and here's why here's why whenever you make a simulation of
+00:25:18.799 anything the entire simulation is only as good as
+00:25:24.480 its weakest link at any given moment in other words right now in x so so at
+00:25:31.919 first let's say let's say x plane 11. no no let's go back to x plane 10. in x plane 10 you would say oh there's
+00:25:38.880 everything's texture matched remember when texture math was like you was like oh my god texture maps right it's a
+00:25:45.200 maybe backing this probably back a little bit before x-plane 10. maybe as early as version 8 you say oh it's
+00:25:50.559 texture mapped it feels real but god were those textures flat it was so obviously an ortho photo which i just
+00:25:56.240 think looks like garbage just an image painted or it's like painting the scenery on a piece of cardboard it's
+00:26:02.159 like there's no scenery no i don't think so not for me but um
+00:26:07.200 so you have texture maps that was your first level of realism but you still didn't really feel like you were there because you were looking at a painting
+00:26:13.200 that somebody had taken off your wall and put on the ground and told you it was real then you start to get into
+00:26:18.559 saying oh now we have 3d buildings okay you have 3d buildings but you see they didn't interact with the ground properly
+00:26:24.080 they didn't have the right shadows they didn't have the right you know edges you you see like a physical building on
+00:26:30.000 top of a painting of a building but the painting of the building on the on the ortho photo would leak out you know to
+00:26:35.039 either side of the building you'd see the roof like and it's like what the hell is this and then we'd say okay now we're going
+00:26:40.720 to get incredible lighting and bump mapping as we're starting to get an x12 we're still not good enough by the way with the runway lighting in my opinion
+00:26:47.360 but um then you start to get good lighting you're like oh yeah okay that's real but you don't quite have the bump maps to me
+00:26:53.760 to make the runway feel three-dimensional the runway doesn't feel quite as 3d as the real runway does yet it's still too flat and perfect um
+00:27:00.640 and then you hear the sounds and the sounds they are basically perfect the sounds are like the ambient sounds are
+00:27:08.000 exactly like being outside and while i hear these ambient sounds half of my brain wants to say this is
+00:27:14.559 reality but the other half my brain is saying wait this runway is way too flat this
+00:27:19.919 isn't a real world this is a simulation and these clouds they look kind of low-res i can see they're kind of
+00:27:25.679 pixelated this isn't the real world this is a simulation and so we're only as strong as our
+00:27:32.000 weakest link and we've just brought the sounds up to the highest possible level we brought our lighting up as far as i'm
+00:27:38.159 concerned the lighting is basically the highest possible level i can't tell any lighting and similar reality but our
+00:27:43.520 clouds are still looking a little pixelated our scenery is still kind of left over from x-plane 11. our runways
+00:27:49.919 are still kind of flat and we're going to solve that runway problem i guarantee you but the runways are still looking kind of flat and fake
+00:27:56.720 and so the the ambient sounds that you point out are absolutely awesome and
+00:28:02.480 they're incredible but it it doesn't quite draw me into the sim because we've got other weak points we've got to address first sure you know you
+00:28:09.200 mentioned uh the wrong ways and um you know uh what not in in
+00:28:14.880 in previous renditions in previous versions of x-plane uh there was always the um
+00:28:20.080 runways follow the contours you know on off you know uh with x-plane tower 12 we haven't got that so how is x-plane 12 um
+00:28:28.559 you know how is it working out the you know what how a runway should be you
+00:28:33.600 know with the topography of the land you know right so here's we took that runway option you know follow terrain contours
+00:28:36.000 No text
+00:28:40.240 or not away because it kept causing bugs anytime you can have the scenery render
+00:28:46.720 in two different ways you're like quadrupling the number of bugs you can have not doubling it
+00:28:52.720 quadrupling because each thing could interact with something else you see for example people like they would have
+00:28:57.760 runways follow terrain on their master machine but not on their external visual
+00:29:02.799 and then they'd be like well why is it out of sync or people would have ortho photos and then how the ortho photos
+00:29:08.720 behave would be different depending on the checkbox and then the bug reports are coming to us but nobody would ever
+00:29:14.080 mention what their rendering option was set as and they say something is broken and so i finally was like look i am not
+00:29:20.080 going to have this problem space doubled which causes the bug reports to go up by a factor of four or eight we are going
+00:29:25.600 to decide on the terrain and that is what we are going to go with and that's why that checkbox went away so what do
+00:29:31.840 the runways do this is always follow runway terrain contours on there is no
+00:29:37.520 button it always does the answer as yes runways do follow terrain contours and
+00:29:43.520 the reason is in reality runways follow terrain contours so i
+00:29:49.200 took the option away so to minimize the number of bug reports and things that can go wrong so the
+00:29:56.000 runways always follow the contours now what happens next people kind of be saying wait a minute runways are always
+00:30:02.080 following the terrain contours your sim has a dip in the middle of the runway we don't have in reality well the bug there
+00:30:07.919 is not that i need to have flat runways no the bug is we need better terrain data
+00:30:13.360 and so uh and we'll get it we'll get it because there's algorithms that can smooth out terrain data based on where
+00:30:19.200 runways are and i've written these types of algorithms before there's better terrain topography maps so we can get
+00:30:25.279 and so the next step is to solve the real issue
+00:30:30.320 which is the terrain elevation needs to be perfect and higher resolution and you're starting to see this higher
+00:30:35.360 resolution terrain you're seeing it right now in the mountains of scotland so you're seeing you're seeing this
+00:30:41.039 higher mesh uh you know density and on the next is to make sure we also get
+00:30:46.960 that mesh right for all the airports because runways are falling terrain in reality so they're doing it in the sim
+00:30:52.640 let's get that terrain dialed in that's the underlying problem and that's something we're always going to be improving over time okay
+00:30:59.279 you know um i said i could talk to you all day but i just wanted to thank you for for
+00:31:04.480 taking your time to talk to us and uh i really appreciate it that's all you want to go over because that was very very
+00:31:09.840 short is 30 minutes all you want because i allocated an hour oh did you really oh okay no i'm allocated an hour and
+00:31:16.159 there's so much more to explain as you know so i can give you another 30 minutes yeah okay um well you know um
+00:31:22.240 let's talk about um the tools for x-plane then let's um you know uh you know we've got a plane maker um so
+00:31:29.520 um what enhancements do we see in uh playmaker oh yeah oh it's so funny yeah so i wrote plane maker like 30 years ago
+00:31:34.000 No text
+00:31:37.120 right 30 years ago back when monitors all ran at 800 by 600 right the monitor
+00:31:42.799 was 800 by 600 so the ui was 800 by 600 and all the font sizes were perfect for
+00:31:48.399 800 by 600 then i go to some people's office and these i'm not going to name names but these are the types of people
+00:31:55.600 that have bitcoin mining operations in their office they have monitors the size
+00:32:01.679 of the freaking you know large screen tvs they use those like show replays at the super bowl or
+00:32:08.559 something like and this monitors 4k you know so it's like 4 000 pixels by 2 000
+00:32:15.200 pixels even though that's like way more than their they ever need way more than the human eye could ever show it's it's
+00:32:21.279 basically pointless but um and then they open up plane maker and what is it it's like some tiny little postage stamp and
+00:32:28.159 like the upper left or their monitor and you're up like this trying to read you know the the um
+00:32:35.200 you know these tiny little fonts and so um what i've done is uh made the ui a good
+00:32:43.440 bit bigger so i i popped it up to like oh i don't know 1280 by 1024 or whatever it is and much larger fonts and so plane
+00:32:49.679 maker is just it's just larger now to so that it's legible on these big high-res
+00:32:55.200 monitors and i also made it quite a bit nicer in that you can kind of drag windows around anywhere you want and so
+00:33:00.880 you can do something with these nice big monitors you have the airplane visible you know anywhere you want on the screen
+00:33:06.720 and then drag the window off to the side you see and you can sit there and go tweaking all the little stats for the
+00:33:13.519 airplane on the window while you see the airplane changing in real time in the background and that's something that's
+00:33:19.760 enabled by these big monitors in other words if people use these big high-res monitors let's let's play it to our
+00:33:25.440 advantage and give a ui that supports that and so the uh the the bigger fonts
+00:33:30.720 the movable windows the fact you can see the airplay in the background while you do the adjustment on your window these
+00:33:36.159 all just take the fact that some of us have big monitors and lets us frickin use them sure okay um one of the questions which
+00:33:43.279 uh uh which came to me was about uh military uh weapons and and what any
+00:33:49.360 changes on that front no no no so i'm not exactly a pacifist
+00:33:50.000 No text
+00:33:55.360 i'm really not but the weapon systems you know i admit i have certain priorities and as
+00:34:02.399 you've seen my priority is the flying environment not the ground environment i'm building a flying simulator not a
+00:34:07.919 driving simulator exactly um and my priority right now is enhancing
+00:34:14.800 safety for pilots enhancing safety and enhancing this feeling we open this interview with which is how to safely
+00:34:21.040 operate an airplane that's just been my focus rather than trying to shoot
+00:34:26.079 somebody else down i mean there are pretty good combat sims everybody's what's that combat sim everybody loves
+00:34:31.359 so much where on it's got super realistic physics and you're mostly doing world war ii airplanes yeah it's
+00:34:38.000 like metal something or other like that it's that love battle of stalingrad was it that one no no
+00:34:45.040 there's this there's this other one all right well some somebody put it in the comments but it's this really awesome
+00:34:50.560 like world war ii sam where you go around you they have new propeller you know visuals that look super good but um
+00:34:57.920 i mean from the visuals i've seen i haven't actually flown the sim from the visuals i mean you got these guys chasing each other around i mean it looks awesome i
+00:35:04.560 mean there there are already combat sims out there that are pretty good and you
+00:35:10.880 know when there's already good combat sims out there i i'm not going to distract my team from
+00:35:17.119 the thing that that really matters and the type of aviation i want to present to go
+00:35:22.320 uh upgrade the weapons i mean the other day literally just the other day day before yesterday
+00:35:28.160 i was out at an air force base here in this country meeting with their their fleet commanders for aerial refuellers
+00:35:35.520 to get x-plane to simulate aerial refuelers well it's a military application but it doesn't involve
+00:35:40.720 weapons and this this sim here if they use x-plane to train their refueler
+00:35:46.079 pilots it will improve the safety of the military refueling fleet it will reduce
+00:35:52.480 the cost of training when they can do training in a very affordable sim rather than a much more expensive sim
+00:35:58.880 and if they can build up proficiency in the simulator so that they have to take less flights
+00:36:04.640 in the actual airplane it will save hundreds of thousands of
+00:36:10.160 gallons of gas annually without question um and so when i look at deployment of the
+00:36:17.680 sim military deployment of the sim is fine but i'm going to do it where i know
+00:36:23.040 i'm saving taxpayer dollars saving gas improving safety that for me is an
+00:36:28.079 absolute home run i'm not going to pull my focus away from that to get into weapon systems when there's already good
+00:36:34.240 weapon systems out there and i'm perfectly happy with my contribution being to improve aviation safety okay
+00:36:40.800 sure okay well austin do you know what i'm uh my my zoom is limited to 40 minutes you
+00:36:47.440 know because i'm sorry i'm such a cheapo uh oh yeah yours is going to go in three minutes then all right so um i just you
+00:36:54.720 know i just wanted to say you know kind of like you know uh thanks i really appreciate it it was uh you know
+00:37:00.480 for me personally kind of like having explained um you know my wife uh got it
+00:37:05.680 as a prayer you know for me as a present 20 years ago um it's it's a great sim
+00:37:11.280 yeah love it and uh all the best with x-plane 12. all right sounds good yep we're going to
+00:37:17.040 keep on going in the direction we're going if you want to know what the future is look at the past extrapolate
+00:37:22.160 cheers thanks ever so much austin thanks cheers thank you

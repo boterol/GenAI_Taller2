@@ -1,0 +1,96 @@
+A Deep Dive into X-Plane's ATC System with Jim Keir 
+
+Conducted by Dominic Smith
+
+oday, we're delighted to bring you an exclusive interview with a name that will be familiar to some, but perhaps not to all: Jim Keir. 
+
+For those who don't know, Jim is a key figure behind the Air Traffic Control (ATC) system in X-Plane. He's been the brains and brawn driving innovations, improvements, and fixes in a realm that is crucial for a realistic flight simming experience. 
+
+Just as in real life, ATC in X-Plane is more than just flying from point A to B, it's a complex dance of safety, efficiency, and realism. So, join us as Jim Keir gives us an insider's view of how it all comes together.
+
+Jim, could I begin by asking you how has the ATC system in X-Plane evolved over the years and what were the main challenges in achieving its current state?
+
+Excellent choice for the first question. 
+
+I must admit, I'm uncertain about the long-term evolution as I’ve only been working on this for a couple of years. Before that I’d tried the ATC system briefly but didn’t end up using it. This was when I was doing my PPL and wanted a way of practicing, but at the time the ATC system was very linear and almost entirely focused on airliners from what I could see, so it just wasn’t of any use to me. I’ve never had much personal interest in the heavy metal side of things.
+
+Technically, the biggest challenge was expanding the existing system to accommodate a variety of scenarios. This included different control types, flight types, and ad-hoc interactive requests. Additionally, the system had to be flexible enough to deal with cases where the pilot might not do exactly what was expected. It might seem that ATC is extremely prescriptive but there’s a huge amount of variability and unpredictability in there; it’s highly sensitive to the current situation, and the inputs include tens of thousands of user-designed airports of varying quality, weather, timing, precise location and speed of the aircraft… all things that are near-infinitely variable.
+
+I think the other challenge, especially now that it’s expanded to be much more of an interactive system rather than a predetermined flow, is of perception. As we move closer to the ability to conduct various types of normal flights with all the expected interactions, the elements that are either not quite right or completely missing become increasingly noticeable. I’m calling that ‘perception’ because the emphasis has changed from seeing it as a basic set of menu prompts to actual interactive, responsive controllers that people have much higher expectations of. Quite rightly, of course, but it’s going to take some time to get there.
+
+What sets X-Plane's ATC system apart from real-world ATC and from other flight simulation platforms?
+
+I’ll come back to this one once another flight simulation platform has finished updating, so I can give it a try. Talk amongst yourselves.
+…
+Right. In a word, flexibility in both cases.
+
+Real ATC is inevitably always going to be more flexible than an artificial system. Humans can react to unexpected situations much better, can absorb and use knowledge better, plus plan better. Even in something so heavily proceduralised as ATC there’s still a lot of room for variation and humans are incomparably better at this than machines. Machines can be programmed or trained to have the same degree of flexibility but all the considerations into any given decision need to be known in advance.
+
+What about other commonly available home-PC flight simulator(s), I hear you ask? Well, naturally I’m biased, and I really don’t want to stoke the borderline religious war that some people seem keen to perpetuate, so let’s turn the question around. One of the things I’m particularly happy with in X-Plane 12’s ATC is the flexibility. There’s a lot of stuff you can ask controllers, and that goes for unplanned VFR flights too. It doesn’t just cover the bare-bones basics of filing and following a flightplan anymore, I’ve really concentrated on adding general queries, alteration requests, shouts for altimeter changes or traffic proximity, appropriate response and recovery when people do things wrong. It handles different units of measurement, different messages, different control types. This flexibility cuts two ways though; more flexibility in how it can be used demands much more detail on the back end to handle all the resulting situations.
+
+I’ll leave the compare-and-contrast stage as an exercise for the reader.
+
+Could you talk about the AI logic behind the ATC? How does it adapt to various flight scenarios?
+
+The system tracks general states roughly corresponding to stages of a flight. When you’re in a particular state there are certain things expected and others not expected, so the options available to you are able to be limited to only those that are useful. It tracks your progress as you move between these states and only allows each option at the right time, under the right conditions.
+
+This is where it gets tricky. There are a lot of potential states to track, and the number of ways you can get from one state to another get very complicated.
+
+To pick an example, think of an aircraft at a hold-short – this is something I was working on recently so it’s fresh in my mind. This seems very simple, right? You get to the hold-short, you stop and wait, you’re cleared, you go, and that transitions you from the ‘waiting’ state to the ‘lining up’ or ‘cleared to depart’ state. Now let’s add in some detail behind that simple process.
+
+Maybe there are aircraft queuing ahead of you. That affects whether you are due for departure clearance or not. Maybe you’re at the front of the queue but there’s something incoming on the same runway, or another runway that you need to cross to get to your planned departure runway. Maybe there’s no visible hold-short line – you’re on a grass field, or the hold-short is on a runway itself – or the airport designer has put it so close to the runway that you’re picked up as blocking incoming aircraft, or even as a runway incursion. Conversely, the hold-short line may be a long way from the runway which affects the time you will need to line up and depart.
+
+That’s just for physical conditions. What if you’re next to go and haven’t called ‘Ready for departure’. How long does ATC wait? What if you just meander onto the runway without clearance? What if you cut the line and go round the plane in front of you, or depart on the wrong runway, or enter the runway and taxi straight off the other side? What if you enter the runway with clearance and then just sit there? Do you need a backtrack? If so, how far? Will you taxi back off the runway into an isolated turning area which might allow another aircraft to land and then get you off quickly after that? You might, at any point until you’re in the air, just request a return to parking or even cancel your flightplan with an intention to re-file to somewhere else.
+
+Adding to this we have the complication that the paint line for a hold-short very often doesn’t match the actual location where the ‘hot zone’ starts, either by shoddy airport design or much more frequently because the airport simply doesn’t have any defined taxiways. This means that the system needs to expect people to either stop way short, or to roll straight through, where it thinks they should be and not penalise them – but also to be able to penalise if they misbehave.
+
+Depending on all of these things, you might transition from ‘report ready’ state to ‘am ready’, or ‘line up and wait’, or ‘runway incursion’, or ‘busted a hold-short’, or ‘return to parking’, or ‘taxying and off-course’, or ‘unknown intentions’.
+
+In the real world many of these options are vanishingly unlikely because both pilots and controllers are highly-trained individuals who are expected to, and want to, work with each other. In a fully automated system where you’re not going to lose your license for repeatedly ignoring a controller’s instructions, where the system is limited in its capability and the pilots might not be trained, the chances of people doing something completely unexpected is much, much higher. All of these possibilities need to be considered in advance, planned for, and have a decision process planned and written to get the pilot back into a ‘normal’ state.
+
+Many users have different skill levels and familiarity with ATC terminology. How does X-Plane's ATC cater to both novices and experts?
+
+When I was doing my PPL, I found handling the radio by far the most stressful part of the whole experience, and that was just for the basic stuff. The language is precise, the challenge-response is precise, you need to answer questions you might not have heard all that clearly, that arrived while you were concentrating on something else, in the middle of a stream of chatter with other aircraft. You need to answer quickly and accurately and knowing that dozens or hundreds of other people are going to hear you and all of them are better at it so stop stammering and umming because they’re all waiting for their turn. This is not an easy thing to do, and I completely understand that it might easily feel overwhelming.
+
+This is one of the real benefits of using ATC in a simulator. You can turn off all the other aircraft; you can turn the volume way up; you can use “Say Again” as many times as you want without the controller getting shirty; you can choose to see a transcript of what’s been said; nobody else is going hear your indecision; you don’t have to remember the right language or vocalise it; you can pause, dammit, try doing that IRL.
+
+Another big help is that you’ll only be offered options that make sense in the current situation. This means you have a huge amount of guidance if you’re a beginner. On top of this, the most likely option for your exact situation, if there is one, is at the top of the list so if you’re in any doubt, that’s probably the right choice. The menu options you’re given are also not in aviation-speak. They’re short, sure, but I’ve tried to strike a line between descriptive and not confusing for experienced pilots.
+
+For the pros, I think the best thing to do is to make the system as accurate as possible given the various limitations. That’s very much a work-in-progress; there’s just such an enormous amount of detail required for even simple situations.
+
+Jim, what kind of feedback have you received from professional pilots or air traffic controllers who have used X-Plane’s ATC?
+
+I get vital feedback from a small number of very experienced pros on which I rely heavily, and I should probably be more vocal about how much it’s appreciated. You know who you are, so thank you! 
+
+Are there any upcoming features or improvements planned for the ATC in future X-Plane updates?
+
+Absolutely. Support for SIDs and STARs has been in the works for quite some time and is currently undergoing extensive testing and validation. As I write this, version 12.07 has just been released, and there's a substantial list of changes lined up for 12.08 that are currently being tested. Beyond that, the scheduling for 12.09 is still in the hands of Ben and the scheduling gods. While I won't go into specifics, there are several basic features, especially relevant for VFR flights, that are currently missing. Of course, ongoing refinements and polishing will always be needed.
+
+What role does community feedback play in the development and fine-tuning of the ATC system?
+
+It's both incredibly important and something of a double-edged sword, to be brutally honest. There are just so many variables affecting the ATC system that often the best—and sometimes only—way to really get things stress-tested is by getting a wide audience to use it. I try hard not to treat the forums as an official support channel—let's be clear, they're not—but at the same time, keeping an eye on general chatter is invaluable for identifying those rough edges that don't surface during formal or pre-release testing. It's also an unfortunate reality that many users won't file a proper bug report, leading to scenarios where someone posts about an issue and another user replies with "Yeah, it's always done that. Here's a workaround," prompting me to think, "Why didn't anyone just tell me?!?" and then I'll proceed to fix the problem in a matter of seconds.
+
+The 'hold-short' example from earlier should illustrate the intricate level of detail needed to diagnose what's happening in a given situation. So, you can imagine how much more challenging it is to deduce what's going on from a vague statement like, "Hey, I got yelled at for crossing a hold-short line when I wasn't even there yet!" A thorough bug report, complete with the correct logs, provides a valuable resource that I can delve into when I eventually get the time to investigate.
+
+On the flip side, maintaining a positive attitude becomes challenging after repeatedly responding to the same complaints or criticisms, especially when past responses are still visible in the same thread. Sometimes, it feels like I'm showing up for a daily bout of criticism for old, already-addressed issues—yet, enduring this is worthwhile when engaging with users genuinely interested in constructive feedback rather than just venting.
+
+Lastly Jim, do you have any tips or tricks for users to get the most out of X-Plane’s ATC features?
+
+Well, first off, read the manual.
+
+I'm joking, of course.
+
+Firstly, remember the forums have a search function! If you have a question, chances are it’s already been answered many times over.
+Take advantage of the push-to-talk feature if you have a controller with a hatswitch and a trigger; you won’t need to use the mouse at all for radio communications, making the experience much more immersive.
+When in doubt, always look at the first item in the list of available commands. It's likely the one you need.
+Dispel the outdated notion that X-Plane ATC doesn’t cater to VFR or is solely for airliners. Unplanned GA ATC services are not only supported but are also in active development.
+For managing your descent, don't use 'Request Altitude Change'; this is primarily for cruise altitude adjustments. Instead, wait for ATC to initiate your descent or use 'Request Descent'.
+If ‘Uncertain of position’ is the only option available, it means your radio is tuned to the wrong frequency. Make sure to check your frequency settings and use auto-tune if necessary.
+Note that loading a flightplan into your FMS and filing it with ATC are two separate actions. It's crucial to inform ATC about your planned route for effective coordination.
+Consider vocalising the pilot speech to add another layer of complexity. You can also adjust the ATC transcript settings for an even more challenging experience.
+Filing a flight plan while on the runway? That's not possible, as you're already cleared for departure. If you must, cancel the clearance, file, and then get re-cleared.
+The 'Cancel IFR' option is only necessary if you change your mind about your destination while en route.
+Don't always expect a straight-in approach. ATC may guide you into a pattern, and deviating from the plan will likely result in, well, let’s say 'constructive feedback'.
+Veering off course by deliberately ignoring ATC’s directives will only complicate things, as the system will do its best to correct your trajectory.
+Lastly, the best way to learn is to just get in there and try it!
+Jim, many thanks for taking the time to share your in-depth insights with X-Plane.org! 

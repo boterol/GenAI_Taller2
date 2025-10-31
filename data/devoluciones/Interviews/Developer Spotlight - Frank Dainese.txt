@@ -1,0 +1,81 @@
+Developer Spotlight - Frank Dainese
+
+Frank and "his Dolomites"
+
+ 
+
+In our latest Developer Spotlight feature, we meet up with scenery developer, Frank Dainese. 
+
+With a talent for creating X-Plane sceneries rich in both beauty and atmosphere, Frank's work has become synonymous with quality. But how did it all begin? Read on to learn more about Frank's journey into the world of X-Plane development.   
+
+Hi Frank, thank you for agreeing to talk to X-Plane.Org. 
+
+It's a well-known fact (among the X-Plane community), that the sceneries you create are some of the most beautiful ever made for X-Plane, so could I ask how your journey as a scenery developer began? 
+
+Nice to meet you Dom and it’s a pleasure to talk to you. 
+
+How did my X-Plane journey begin?  Well, funnily enough, I originally started creating sceneries purely for my own fun and enjoyment as X-Plane’s default scenery at that time (2007) was not particularly detailed, to say the least. 
+
+My mentor, Raimondo Taburet, encouraged me to continue and one thing led to another.  I’m a huge fan of mountains, there’s just something special about them, plus I am a keen VFR flyer, so the two go well together. I was using X-Plane 9 and FSX at the time and mountains in both simulators were hugely inaccurate, especially when it came to textures and the general shape of the mountains, an example being the Dolomites.  
+
+How long did it take for you to come up with a method of creating mountains in X-Plane and could you explain some of the processes involved? 
+
+In total, it took me three years to come up with a proven method, and this was after I had studied various techniques. By using the most defined DEMs (digital elevation models) I could find, I could then create a 3D object model (obj) from it. This 3D model could then be improved upon by using image editors and modelling programs to add textures. These textures were mostly made up of photographs I had taken of the Dolomites (I’m lucky enough to live near them). The process sounds relatively simple, but in fact, it has taken many years of trial and error. Since those early days, I have improved things considerably, to the point where my sceneries employ 4K textures.
+
+Frank, how do your custom 3D objects fit in with X-Plane’s default mesh?
+
+My completed 3D models make up sixty-four groups in the Dolomites, and when placed on X-Plane’s mesh, fit exactly, just as in the real world. However, positioning them correctly…that’s the most complicated part of the procedure. 
+
+Often, when using meshes that are highly inaccurate, the 3D model which is designed to sit on top of them (in my case the Dolomites), will, unfortunately, overlap. This means that the basic mesh must be reshaped, which is never an easy task, due to the complexity of the operation. I won’t get into too many details, but basically, once a good correlation between the 3D model and mesh is found, it’s necessary to recompile everything with the MeshTool’s compiler (run by forced scripts), which doesn’t always result in optimal results due to the type of triangular complications that are forced. About a dozen recompilations are needed to get a satisfactory result for a single Dolomite group. 
+
+What about the smaller details found in your sceneries, such as forests, buildings, and lakes etc, how were they all created?
+
+My mountain sceneries contain forests, meadows, lakes, rivers, towns, and cities, so I had to recompile everything from scratch. Since I could not use orthophotos, due to copyright, I built my entire texture set using textures made up from aerial photographs taken by friends based at Belluno Airport (LIDB). As well as these, I also took photographs and constructed a library containing 3D objects, such as houses, churches, sports stadiums and many other buildings, all in 3D. 
+
+Have you had the pleasure of working with any other developers?
+
+Yes, from 2009 (ending in 2017), I began a collaboration with FSC of Padua, makers of some wonderful flight simulators. During that time, I met some really interesting people (Mauro Visentin and Leonardo Girardi) and created Dolomiti 3D Scenery for X-Plane 10, mostly for demonstration purposes. 
+
+I’ve also had the pleasure and honour of collaborating with Orbx, with sceneries such as Monument Valley, Devils Tower, and Yosemite Valley. More recently, I’ve gone back to my roots and redone my entire Dolomite scenery with many new improvements and additions, and with some great support from Nicolas, have started a wonderful collaboration here at X-Plane.Org. 
+
+I must also mention my friend Fabio Bellini, who is not only a flight simulator enthusiast like myself but also an expert in mesh management and modelling. We still work together on projects and thanks to his expertise and support, I have been able to create sceneries with even greater accuracy. 
+
+Do you have a scenery you are particularly proud of? 
+
+I have to say that my favourite sceneries are the Dolomites. With over 8000 sq. km of territory, sixty-four mountain groups in 3D, eighty-five villages, three cities, ten airfields, along with forty-six heliports, it’s a massive scenery with something for everyone. There is also my Matterhorn Park scenery, which again is modelled entirely in 3D and includes all villages, four airports, fifteen airfields and forty-six heliports. 
+
+Going further afield, there is my Everest Park scenery, which includes the dangerous Lukla Airport and villages, my K2- Karakorum UHD package, Banff National Park UHD and Machu Picchu in Peru (to name a few). Each and every scenery I create is modelled with enthusiasm and passion, so I hope this shines through when you’re exploring them. 
+
+Frank, when you’re not creating amazing sceneries for us to enjoy, what do you like to do in your free time?
+
+Well, Dom, in real life (not our virtual one), I am 71 years old, retired, live near Venice, married with three children, and have seven grandchildren, so I do have quite a bit of free time. I used to be a cardiologist and practised for 40 years in a hospital, but nowadays, I enjoy painting, portrait drawings, and listening to classical music…oh, and of course, creating X-Plane sceneries!
+
+Do you have any experience with real aviation? 
+
+I’ve flown about six times to the USA and other European capitals, plus when I was a cardiologist, I spent a few times in a helicopter, mostly transporting heart patients for operations. 
+
+How did your interest in flight simulation begin?
+
+My passion for flight simulation goes back almost forty years, starting with the very first Microsoft/Sublogic Flight Simulator. Since those early years, I’ve owned pretty much every PC flight simulator available.
+
+How do you decide on your next X-Plane scenery project?
+
+I’m currently busy improving and making my Dolomites and Alps scenery packages compatible with X-Plane 12, so any new projects will have to wait. It may seem like a simple task, but there are many areas which need to be redefined, such as seasonal compatibility. This has forced me to make changes to the way my 3D objects work. I’ve also had to make modifications to the meshes so that my lakes are visible during the correct seasons/weather. 
+
+What can the creators of X-Plane do to help developers who use mesh for their sceneries? 
+
+They need to understand that mesh management is critical for developers such as myself. Most scenery developers or software houses focus on building an airport, where (in most cases) everything is perfectly flat. In my case, and with other developers who use mesh, “flat” doesn’t really exist. We must precisely position 3D objects on highly irregular surfaces and are always forced to modify the meshes to improve their appearance. Due to Laminar Research introducing bathymetric data (water depth etc), creating custom lakes and water bodies is incredibly difficult. However, thanks to Fabio’s expertise, we can work around this problem, but it’s something which Laminar Research should address. 
+
+Do you have any tips for readers eager to start creating their own mountain sceneries?
+
+I think most importantly, you must have a passion for what you do, as well as a great deal of patience. Never be in a hurry, because if you are, then you’re probably going to fail. Study the area you want to reproduce thoroughly, and this means looking at photographs, maps, or even going to the actual location (if possible). Locate and retrieve DEMs that are as detailed as possible and have a degree of understanding and knowledge when using software such as Global Mapper. There are certain procedures which need to be followed, so it takes a lot of time, knowledge, and patience, but if you persevere, the end results can be incredible!  
+
+Lastly Frank, what would you like the X-Plane community to know most about you?  
+
+Hopefully, this sounds more like a realist than a pessimist, but…I am no longer a young man, so for me personally, mental focus and engagement are both crucial if I am to stay both mentally and physically active. Creating sceneries (along with my other activities) in a way helps me to maintain this. When trying to do anything in life, mistakes are inevitable (I am well aware of this) but from mistakes, one gains experience and always improves. In a way, I try and employ this logic when I create my sceneries, and whilst it’s important to model scenery to the best of your ability, you’re never going to match Mother Nature when it comes to realism. 
+
+To end with…
+
+My passion for flight simulation must be quite obvious, even to the very young, as when my granddaughter sees a plane in the sky, she always shouts… 
+
+” Grandpa Frank!”

@@ -1,0 +1,113 @@
+Developer Spotlight Feature - FTLX
+
+Conducted by Dominic Smith
+
+In our latest Developer Spotlight, we're pleased to feature FTLX, a dedicated contributor to the X-Plane community. Working solo, FTLX has built a notable repertoire of aircraft models, demonstrating his commitment to the platform. In this interview, we explore FTLX's journey into X-Plane development, his interest in aviation, and his ongoing efforts to enrich the X-Plane experience for enthusiasts everywhere
+
+Development Journey
+
+Hi FTLX, thanks for taking the time to speak to X-Plane.Org. Could I start by asking how your journey in flight simulator development began, and what aspects first captured your interest?
+
+I embarked on this journey slightly less than three years ago. My initial motive was to make minor adjustments to aircraft I found intriguing, focusing on enhancing avionics functionality or cockpit textures. This soon expanded to nearly every other aspect as my interest in increasing realism grew.
+
+Could you describe the type of designs you create and your involvement in these projects?
+
+I initially focused on enhancing flight models to more accurately match the specifications of the aircraft that piqued my interest. This focus soon expanded to include various models from the Golden Age of Flight. The ability to take existing models from FSX and FS9 and rebuild them in X-Plane (my simulator of choice) for superior flight dynamics drew me in. My true passion, I discovered, lies in modelling flight. Therefore, much of my work involves researching the different aircraft I aim to fly, paying meticulous attention to minute details in Plane Maker.
+
+What would you consider your most accomplished or popular work to date?
+
+The Maule 7 series for XP-11 stands out as my best work to date and is also my most downloaded one. I am especially proud of the work I did on the Dart Kitten II project. Despite the considerable research required and being my first experience with FMOD development, it was an incredibly rewarding project.
+
+What challenges do you typically face when working on an X-Plane project?
+
+The most common issue I encounter is the scarcity of authentic data for the earlier models. If I can access at least an AFM or service manual, I feel confident about my build as it ensures I'm creating something that is close to the real thing, and I have a baseline for testing. I have had to discontinue several projects due to a lack of data as I prefer not to rely on made-up numbers. Aside from data scarcity, most challenges stem from either technique or lack of technical knowledge. Still, these are generally manageable as I can learn from numerous available freeware and payware examples.
+
+Which projects do you hold in high regard and why?
+
+The Corben Baby Ace project is my favourite. It's a phenomenal aircraft to fly, and I thoroughly enjoyed learning about its origins. I'm looking forward to updating it for X-Plane 12 to leverage the improved flight dynamics.
+
+What software packages and tools are crucial to your development process?
+
+Plane Maker and AC3D are my go-to tools. I think I spend more time in Plane Maker than in any other app at the moment. Over the course of my development, I've had to create my own scripts/tools to streamline my workflow. As a result, I've been learning Powershell and Windows batch scripting.
+
+In your journey through X-Plane and flight simulation development, have you come across any individuals who've served as mentors or sources of inspiration for you?
+
+Absolutely. I am indebted to danhopgood1, Tieman68, 79-Airtime, and troopie for their honest feedback and support. I must also acknowledge danklaue and his past work for Carenado. His work has been both inspirational and educational as much of what I've learnt is not explicitly documented and has involved a lot of trial and error. And last but not least, Craig Richardson, whose FSX and FS9 models inspired most of my earlier work.
+
+Do you focus on just developing X-Plane freeware models?
+
+Yes, I work exclusively on freeware, primarily because of the complexities and time demands associated with building 3D models from scratch. As I am still learning Blender and facing its steep learning curve, I find it easier to start with existing models. Furthermore, I believe that venturing into payware might detract from some of the joy I derive from the process. However, I wouldn't mind contributing to a payware project, although I don't foresee it becoming a full-time engagement.
+
+Team 
+
+Do you work as part of a team or solely by yourself? 
+
+FTLX Designs is a one-man show; I handle everything from aerodynamics and animation to sound.
+
+Have you ever collaborated with other developers or teams?
+
+I'm currently assisting with a couple of projects, mostly contributing to aerodynamics as that's my area of passion.
+
+Aviation Experience
+
+Could you tell us about any real-world flight experiences that you've had?
+
+I am currently a student pilot and anticipate obtaining my private certificate later this year. It, however, has significantly eaten into my development time!
+
+What triggered your interest in aviation?
+
+Aviation has always fascinated me since my early years, but it wasn't until I encountered X-Plane in college in the nineties that I became truly captivated. A few years down the line, life happened, and I had to choose between a career in IT or investing more years and finances to become a pilot. Quite predictably, IT became the clear choice then, leading to a long hiatus. Around 2019, an awe-inspiring YouTube video series reignited my interest in aviation and flight simulation, prompting me to finally pursue my certificate. The rest, as they say, is history.
+
+Are there any memorable flight experiences from your real-world aviation journey that you would like to share with us?
+
+Definitely! Last month, I had my student solo, an experience I'll always remember. It made me truly appreciate how similar flying in the simulator is to real flying, and for this, I am grateful to X-Plane.
+
+Beyond Flight Simulation
+
+Would you mind sharing some insights into your life outside of X-Plane development?
+
+Well, there's not much to it! I have several projects in progress and a propensity for starting new ones. So, any spare time I have is usually spent advancing on these projects. When not developing or test flying, I'm either spending time with my family or catching up on various sci-fi series on TV.
+
+Beyond the realm of X-Plane development and aviation, what are some other passions or hobbies that captivate your interest?
+
+I enjoy listening to music and playing first-person video games. When I'm not flying X-Plane, I relish playing Elite Dangerous, as it parallels the open-endedness of both simulators. While I don't frequently watch sports, I do enjoy a good basketball, football, or soccer game, especially during the playoffs.
+
+Have you ever thought about making flight simulator development your full-time occupation?
+
+The thought has crossed my mind occasionally, but as I mentioned earlier, it might take the fun out of it, especially when deadlines come into play. In my current IT development job, I'm all too familiar with the challenges of meeting project deadlines and sacrificing features for delivery dates. Maybe I'll reconsider in the future, likely after I've moved on from the world of IT.
+
+The Future
+
+How do you determine your next design or project?
+
+My decisions usually hinge on my interest in a specific aircraft and whether I intend to release it as freeware. If I'm designing for public use, I often look at what's been recently developed and use that as a guide, preferring unique aircraft or those that haven't seen new versions in years. My personal projects are typically experimental, aiming to test novel development techniques that I can apply to older or upcoming projects.
+
+Will you continue to focus on X-Plane, or do you have any plans to develop for other platforms in the future?
+
+At the moment, my development is focused on X-Plane. This might change in the future if I ever learn the MSFS SDK, but that's not in my immediate plans.
+
+What are your predictions for the future of flight simulator development?
+
+I'm excited about the workflow enhancements and time-saving potential that AI can bring. I think we're on the brink of witnessing interesting features, not to mention higher fidelity in aircraft modelling, texturing, and systems simulation. Particularly, I look forward to leveraging AI to automatically generate code for plugins, which could significantly reduce development time.
+
+Personal Insights
+
+What can websites like X-Plane.Org do to better support developers and the hobby?
+
+I believe that more partnerships or sponsorships with software and hardware vendors could introduce new products to the community and provide incentives for people to explore tools that can enhance the simulation experience. Forum discussions often enlighten me about new tools or devices, and a more proactive approach could be beneficial.
+
+What are your thoughts on the future of flight simulation in general?
+
+I'm very optimistic about the future of flight simulation, especially considering recent advancements in AI. I'm particularly interested in how AI can enhance the ATC experience and scenery generation. I'd love to see AI helping to bridge the gap between X-Plane and other open-world simulations, enhancing immersion significantly. I'm eager to contribute to this progress.
+
+What can the X-Plane community do to best support developers?
+
+I believe the site is doing a commendable job so far, and initiatives like these developer spotlights are excellent for gaining exposure. However, I would like to see more efforts to expand the developer community, as I think many members would love to contribute but often lack a starting point. A dedicated site focusing on developing for X-Plane, similar to FSDeveloper, would be an excellent beginning.
+
+Lastly, what would you like people to know most about your X-Plane work?
+
+I'm grateful to everyone who has tried out my downloads and contributed to my work with their comments and suggestions, all aimed at enhancing realism. My main motivation is the revival of numerous older projects from other sims that are impressive and deserve to live on in the X-Plane world, instead of being abandoned. 3D modelling is challenging, so I find joy in rejuvenating these older projects and sharing them with everyone. I aim to keep the terms in my downloads fairly open, hoping to inspire (and unencumber) someone else to contribute to future versions in 5 or 10 years from now.
+
+I want to express my thanks to the x-plane.org community for all their support, tips, and feedback!
+
+Thanks again FTLX, it was a real pleasure to meet you!

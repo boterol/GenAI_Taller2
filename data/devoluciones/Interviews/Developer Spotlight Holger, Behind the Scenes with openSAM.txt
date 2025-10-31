@@ -1,0 +1,59 @@
+Developer Spotlight: Holger, Behind the Scenes with openSAM
+
+Conducted by Dominic Smith
+
+Welcome back to our Developer Spotlight series. Today, we're introducing Holger, a dedicated freeware contributor to the X-Plane community. Holger is perhaps best known for his work on the openSAM plugin, an effective alternative to the SAM plugin. With a background in IT and a passion for aviation and programming, Holger brings a unique perspective to X-Plane. In this feature, Holger shares his journey from his early days with computers to becoming a key developer of freeware plugins that many of us rely on today.
+
+Holger, could I begin by asking you to share a bit about your background and how you started developing plugins for X-Plane?
+
+I first encountered computers during the 'bronze age' of IT while studying math and working with FORTRAN on punched cards. You'd submit your work and find out the next day that you missed a comma!
+
+Later, while working at a research institute on a mathematical model, I really got into programming. I eventually built a career in IT, working in healthcare industries, and ended up managing a data centre. Now that I'm retired, I have the time to indulge in what I call 'recreational programming.' That’s how I started developing plugins for X-Plane, mixing my long-time skills with my interests.
+
+What led you to create the openSAM plugin, and what issues with existing plugins did you aim to address?
+
+I've always liked how X-Plane makes it easy to interface with, whether it's through a Lua script or a plugin. My drive to develop openSAM came from wanting to improve my own flying experience. For instance, I often fly Airbus airliners and noticed how crucial the centreline and touchdown zone are during landings. This led me to modify an existing xgs plugin to report these critical values, which became my first plugin. When X-Plane version 12.x was released, many plugins I relied on stopped working. I started making small tweaks to Marginal’s essential AutoGate and GroundTraffic plugins to keep them functional and through this, I learned a lot about object animation and instancing.
+
+Additionally, I was using a SAM payware add-on that placed Marshallers or a VDGS on the parking spot, but it stopped working with the new version; the developer had apparently abandoned it. Seeing that I had all the necessary components, I created AutoDGS, which is a mix of AutoGate and GroundTraffic with some of my own modifications.
+
+However, the original SAM still worked but became unstable with version 12.x, and it wasn’t usable for Mac Mx users at all. I initially tried to solve this with a converter that switched SAM jetways to XP12 native jetways, but the results were inconsistent. Realizing once more that I had all the needed components, I developed openSAM as an enhanced combination of AutoGate and AutoDGS.
+
+Can you detail some of the key features of openSAM and how they enhance the X-Plane experience? What aspects of your plugin are you most proud of?
+
+SAM has always been a critical infrastructure component for both payware and many freeware sceneries. When such foundational software is abandoned, it significantly affects the user community. I believe strongly in keeping infrastructure components open-source. In addition, I found the original SAM too complex and underused, based on what I and many users actually needed.
+
+That's why I designed openSAM as a lighter alternative that focuses on delivering just the essential functions, primarily jetway animation and guidance with a Marshaller or a Visual Docking Guidance System (VDGS). This streamlined approach not only makes it more user-friendly but also improves the overall performance and reliability within X-Plane.
+
+Holger, what were some of the most challenging aspects of developing the openSAM plugin, and can you share a particularly difficult problem you encountered and how you solved it?
+
+Debugging animations proved to be one of the most challenging parts of creating openSAM. With animations, you often end up with either no useful log information or an overwhelming amount, which can be just as unhelpful. The complexity increases with the involvement of numerous angles and reference frames, and I found myself frequently puzzled over which angle was correct in a given frame. Additionally, a significant amount of reverse engineering was necessary to understand and manipulate existing systems. 
+
+How has the community contributed to the development of openSAM, and why do you think their involvement is important?
+
+The community means everything to this project. I’ve always built on the foundation laid by others rather than starting from zero. This kind of teamwork is especially important in a specialized field like X-Plane, where input from the community can dramatically improve a product. Real-world pilots and beta testers have been particularly crucial. Their feedback is not just valuable, it’s essential. They help ensure that openSAM not only works well but also meets the real-world needs of its users, making the flying experience as authentic as possible.
+
+What future enhancements or features can users look forward to in upcoming updates? Are there other projects or plugins you are currently working on or planning to start?
+
+The sam.xml configuration and geometry data in the scenery are highly redundant. I can envision a setup that runs without a sam.xml, where a generator extracts data directly from the scenery and creates a sam.xml with reasonably accurate default values. This could help encourage scenery designers to adopt new content using openSAM more easily. For instance, the DGS docking information in the sam.xml is currently ignored, and data is directly extracted from the apt.dat file instead.
+
+How do you engage with your users for feedback and suggestions, and how has this shaped the development of openSAM?
+
+I use the forums to constantly engage with feedback from the X-Plane community. In my opinion, forums are an ideal channel for this purpose (I guess I might be too old to really enjoy using Discord). 
+
+Aside from your work on X-Plane plugins, what are some of your hobbies or interests outside of software development? How do you like to spend your time when you're not coding or involved in flight simulation?
+
+Besides playing around with my technical toys, I have a keen interest in the foundations of physics and enjoy playing golf at a recreational level. I consider myself more of a theorizer than a good player.
+
+Do you have any real-world experience in aviation, or is there a particular aspect of aviation that fascinates you? How has this influenced your approach to developing X-Plane plugins?
+
+In my youth, I flew gliders and held licenses for both gliders and motorized gliders. The experience of looking down from above was my initial motivation for starting real-world flying and continues to be a significant aspect of flight simulation for me. So, while accurate simulation of physics and high fidelity of systems are crucial, visual realism is just as important to me. In a moment of nostalgia, I even recreated the airfield where I learned to fly in X-Plane (XEDD9) and later contributed to several gateway airports.
+
+As a freeware developer who has contributed greatly to the X-Plane community, what are your thoughts on the future of X-Plane? What aspects or potential developments in the platform are you excited about or hopeful for in the coming years?
+
+I see a bright future for X-Plane. Version 12.x has been a huge step forward in terms of physics, weather, and visuals, and while the ground textures could be improved, we have tools like simHeaven and AutoOrtho that help enhance them. The platform is genuinely open and fosters enhancements, which is a big plus.
+
+I’ve been involved in flight simulation since FS II and have made significant investments in other platforms like P3D, which are now behind me. I also own the 'other' simulator, but I rarely use it as it looks too colourful and dramatic for my taste, and the physics don't feel quite right.
+
+Therefore, X-Plane, especially with high fidelity aircraft, remains my platform of choice.
+
+Holger, thank you for taking the time to speak with us. Your contributions to the X-Plane community are hugely appreciated, and we eagerly anticipate your future projects.

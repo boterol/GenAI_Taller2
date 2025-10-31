@@ -1,0 +1,110 @@
+Developer Spotlight: Flying-Low with Dave Britzius
+
+Conducted by Dominic Smith
+
+In this edition of our Developer Spotlight, we sit down with Dave Britzius, a respected figure in the X-Plane community.
+
+Dave is well-known for his comprehensive e-books that guide both newcomers and seasoned enthusiasts through the intricacies of X-Plane. Beyond these publications, he actively contributes to the community through "X-Plane 12 Tips," helping users enhance their simulation experiences. Join us as we explore how Dave turned his passion for flight simulation into invaluable resources for fellow X-Plane enthusiasts.
+
+Introduction
+
+Dave, how did you first get involved with flight simulator development, and what led you to focus specifically on X-Plane?
+
+It's a long story. It started when I was a child. My dad would take me to the airport to watch the aircraft take off. We would drive right up to the end of the runway, and nothing separated us from the runway except the chicken wire fence. I wanted to be a pilot and drive one of those big, beautiful birds. Unfortunately, my parents told me this was impossible because I wore spectacles. So, as any child believes their father implicitly, I reluctantly shrugged off that dream. It was only later that I discovered this was not the case, and it would indeed be possible for me to become an airline pilot wearing spectacles. The only proviso was that I always had to carry two pairs. Once I learned this [in my early 30s], I immediately enrolled in the local flight school. However, I had to undergo a second medical examination just before soloing. There, they discovered that I suffered from glaucoma. You guessed it; I was outright banned from any further thoughts of acquiring a valid PPL. As you can imagine, this was a huge disappointment, but one learns to fight the battles you can win and accept what you can do nothing about. 
+ 
+This was in 1984, and I had been hearing about this wonderful program called Microsoft Flight Simulator. It was an entire simulation which fitted onto a 360K floppy disk. I was enthralled. However, I could have been better at it. I showed my boss the program one day, and he jumped into the seat and actually managed to land the Learjet on his first try [which I had never managed to do]. This annoyed me somewhat since he knew nothing about computers, and I was supposedly the computer DOS Wizkid of the company. But try as I may, I never did manage to land that Learjet without crashing. Shortly after that, I started a business teaching computer-aided drafting - a discipline in its infancy in the early 1990s. I soon found a lucrative niche to supplement the teaching by supplying computer hardware to students who had no idea what equipment they should be purchasing. So, I got quite heavily involved in high-end computer hardware supply. A decade later, I moved into full-time computer hardware supply while playing nicely on the latest PC using the latest version of Microsoft Flight Simulator.
+Then one day, a customer came to me and asked if I would be willing to set up a PC with a yoke, pedals and various Saitek devices and put it all together as a functioning flight simulator. I ended up replacing most of his [new] hardware with top-of-the-range equipment, which was necessary to run FSX halfway decently. Then, this customer decided he would like me to create a full-blown 1-1 life-size enclosed cockpit to put all the equipment in. That necessitated a multi-computer, multi-monitor system and a lot of woodwork. Once that project was done, the customer started recommending me to his [wealthy] friends, and in the early part of the last decade, I found myself building more and more complete flight simulator setups. Despite working with wealthy customers and providing them with top-of-the-range hardware, Microsoft FSX remained horribly unstable in a multi-computer setup.
+
+That's when I discovered X-Plane 10, and to my delight, it worked beautifully with a multi-computer multi-monitor system and was far more stable than FSX. I have been building cockpits for customers using X-Plane ever since. In 2016, my wife died of cancer, and I buried myself in work. During that time, I produced my first e-book, providing instructions on how to build a life-size Cessna 172 shell. This was a massive 18-month undertaking, providing detailed cutting plans for every piece of wood that made up the shell. You can still buy this book in the org store.
+
+Can you describe the nature of your projects and what aspect of your work in flight simulation you find most rewarding?
+
+I write e-books aimed at beginner and intermediate users of X-Plane. My approach is to make it simple enough that the reader is able to actually complete a flight. This often means sacrificing a lot of detailed procedures to enable the armchair pilot to get the bird up into the air and back down again. A CFI would no doubt cringe at some of the simplifications I make to avoid discouraging an enthusiastic simulator pilot. My approach is that once a successful flight has been made, there is a skeleton to hand more detailed knowledge onto. 
+
+Which of your X-Plane projects do you consider your best work or are most popular among users and why?
+
+The most popular e-book is the “Flying Low – X-Plane 12 handbook – setup” because it concentrates on setting up the hardware and X-Plane itself.  The best work is always the latest e-book because the more I write the more I actually learn. It’s amazing how much there is to learn about X-plane – every time I complete a book, I am happy that it covers what it was supposed to cover. But when I go back to it a few months later I feverishly start making notes for the next update because it suddenly does not seem to be so good anymore. 
+
+As X-Plane evolves, how do you anticipate the needs of your users to ensure your guides remain relevant and useful?
+
+That's easy to answer but more challenging to put into practice. I believe that X-Plane will gradually become more and more of a professional tool and less of a game. This means that in the future, people using X-Plane will need detailed, sophisticated information rather than superficial, easy learning stuff. With all due respect to the wizards at Laminar, they produce a superb product which is badly documented. That keeps me alive because X-Plane users need more than the official online manual, which is superb in parts, needs to be improved in other areas, and is very difficult to navigate or bookmark. As X-Plane 12 matures, my emphasis must change from simplistic (sometimes dangerously so) to more detailed and closer to real-life procedures. That means my work will gradually need to be more thorough and comprehensive. I have ideas for a huge number of e-books in the future, but the problem, of course, is that the more technical and complex the books become, the more difficult they are to write because when all is said and done, someone consults one of my books to get information or understand something. That means even complex subjects must be broken down into understandable sections which is very time-consuming.
+
+Could you share some of the biggest challenges you've faced in developing for X-Plane?
+
+Keeping up with the improvements that Laminar makes often means that the e-book update needs to be partially or even completely re-written. I have a policy that updates are free, but the work entailed can be many hundreds of hours and the only remuneration I get is a happy customer who buys the next book.
+
+With X-Plane frequently updating, how do you stay ahead, and what’s your process for deciding when a book needs a revision?
+
+Ah, that is exactly where it hurts. To keep up, I have to constantly investigate the new updates and changes; very often, it's a matter of trying to understand what they actually did in the first place - my old brain is not as agile as it used to be :-). Once I have gone through the changes at least superficially, it gives me an idea - a gut feeling, if you like - of when a new book or an addition to an existing one is necessary. It's first a learning process for me before I can create something for others to learn from. If it doesn't make sense to me, I have to bang my head enough times until I grasp the change, and only then can I decide what to do with the new stuff.
+
+Updates depend on the type of book.
+
+For example, my first X-Plane 12 e-book on setting up X-Plane is fairly obvious when it should be updated because it needs to cover the newest hardware and any major changes that have appeared in the core X-Plane functionality. In the case of other more specific books, like the idea of a more advanced version of the Zibo 737 book, writing a "Book 2" is simply a decision. Very little needs to be updated in such a book except for errors and additional explanations.
+
+When it comes to my scenery book - featuring sceneries which have been produced by third parties but cannot be included in the gateway scenery submission process, I have received a certain amount of pushback from some authors who feel that my books are payware and I make money from them [which of course is true - I have to eat] while their products are free. So, some authors object to having their sceneries included in my scenery book. This is a little discouraging, and I am still deciding on the way forward with that book.
+
+Which of your projects is your personal favourite, and can you tell us the story behind its creation? 
+
+The creation of a book detailing how to build a life-sized cockpit shell. I love creating woodwork projects that have been designed using CAD software, so I know all the pieces fit together perfectly.  The story is in the section above.
+
+What software tools and development methodologies do you rely on?
+
+I used to use Adobe Photoshop and Adobe InDesign, but I recently switched to Affinity Publisher and Affinity Photo for my e-book creation. For modelling, I use Blender. When I create a book, I first scour the web for every relevant piece of information and clip the web page to Evernote. Then, I consult some of the books, flying manuals, and pilot course notes that I have. I investigate how Laminar have handled a topic in one of their manuals, and I either refer to it or elaborate on what they have said.
+
+The next step in my book creation process is to map out the book scope in a spreadsheet and work out suitable practical flights. Then, I take a personal approach by actually flying those routes a few times, making notes and capturing screenshots along the way. This personal touch ensures that the content is not only informative but also engaging. It isn't very pleasant for a reader not to be able to reproduce a flight I have described, so I am super-careful to triple-check my flight. If the flight still doesn't work out, the reader knows something is probably wrong with their installation. 
+
+Next, I put everything together in a word processor document and polish the text. Then, the text is added to the publishing program and laid out with all the images. Images are cropped extensively, and arrows are added to pages indicating exactly what part of the image the text refers to. The text is then formatted and bookmarked, and a table of contents is produced. 
+
+All in all, most books are between 200 and 500 pages, and they grow with each update. The time taken to produce one book from scratch varies tremendously—I budget for between 150 and 300 hours. 
+
+Are there any developers or figures in the flight simulation community who have inspired or mentored you?
+
+Too many to mention. I am constantly amazed at the incredible breadth of knowledge that some members have. Having said that, I feel I have to mention Alex Barthel who produces the amazing Little Navmap. How he does this for free is incomprehensible to me. We all have to put bread on the table, but I cannot see how he can write and maintain this program other than full-time. The complexity of Little Navmap is a wonder to behold and EVERY X-Plane user should be using this flight planner/moving map/navigation tool. He is not averse to a donation, so buy him a coffee if you use Little Navmap.
+
+You've produced both freeware and payware; what drives your decision for a project's commercial direction?
+
+Simple – If something is free it is seldom appreciated or used properly. My e-books are cheap but I still have to eat, so I can’t give them away for nothing even if I wanted to, because my family would instigate a riot if the bills didn’t get paid!
+
+Have you considered engaging with other developers to enhance the documentation?
+
+No one has ever approached me. I often think it would be nice to create the documentation for a study-level simulation project – there are so many awesome aircraft that are brought-down by skimpy or incomprehensible manuals.
+
+Do you have any real-life aviation experience that influences your development work?
+
+I nearly qualified for my PPL, but glaucoma put a stop to that.
+
+What initially sparked your interest in aviation, especially any early experiences that stood out to you?
+
+Listening to the roar of turbo-prop airliners and the thunder of an old 727 before noise was a problem. Those sounds thrilled me as a child, and still do at airshows.
+
+Aside from flight sim development, what other hobbies or interests do you pursue in your free time?
+
+Free time? You must be joking!
+
+Where do you see the future of flight simulation development heading, especially in relation to X-Plane?
+
+While MSFS2020 and the upcoming MS2024 have already attracted the gaming and sightseeing crowd, I think X-Plane will mature into a seriously useful tool for every single pilot who is studying for their license, for pilots who need to keep their skills polished, and for people like me who are not allowed to fly and therefore seek the most realistic alternative.
+
+Given the distinct paths of development among current flight sims, how do you see X-Plane evolving to meet the specific needs of professional pilots and trainees, especially in light of competition from platforms like DCS and MSFS?
+
+This brings us directly to the subject of "simulator wars". For those who like aviation combat, programs like DCS are amazing and very much specialized in that area.
+
+For those who relish the idea of flying any type of aircraft without delving too deep and enjoy using the simulator as a modified version of Google Earth, MSFS is the perfect package for a fun and entertaining experience.
+
+I think X-Plane has its niche, which will become more defined as the different genres of simulators diverge. In the case of X-Plane, it will appeal more and more to serious aviators and "wannabe" aviators. As computer hardware improves, so will the realism of X-Plane, which will improve even further.
+
+I am particularly interested in VR and X-Plane since this provides a completely elevated level of extraordinarily effective realism. I will never forget the vertigo I got [and still get] when wearing a VR headset and looking out the window for the first time. This headset was with the original Oculus Rift. Modern headsets are much better now. I hope that Laminar will push forward in this area much more than they have so far because this is what flying training is really all about, not only for training but also for realism in aviation. Maybe a 6-axis-of-motion flying chair will be available with force feedback to enhance realism even further one day.
+
+In conclusion, I envision the future of X-Plane as a robust learning tool that is not only effective but also enjoyable to use. The potential for further enhancements and advancements is truly exciting. I hope that my brand, Flying-Low, can help facilitate this development.
+
+How could platforms like X-Plane.Org better support developers like yourself?
+
+The ORG does a great job of supporting payware professionals and providing a place for freeware craftsmen to strut their stuff. 
+
+I would, however, like to see some more effective moderation of some forum members' dismissive and unfriendly responses. If I were an insecure newbie, I would be terrified to ask a "dumb" question. A forum is not a conversation – it is only a written word platform with the assistance of emoticons. It's easy to be misunderstood if body language is missing, especially if you are not a native English speaker (I would love to insert a George Bernard Shaw quotation here, but it might be misunderstood 🙂 ). Aviation-speak is very precise – sarcasm or even irony doesn't work well on a forum like the ORG. 
+
+Is there anything specific you wish the community knew about your work or the challenges developers face?
+
+Nicolas invited me to manage a Tips forum which I have been doing for a few months now. It would be nice if more people would bookmark it. I am sometimes at a loss to dream up a new tip which is not absurdly simple or so esoteric that only one person in a hundred understands it. However, I have recently begun to mine some of the old forgotten but still relevant forum posts and elaborate/illustrate them, so please make sure to regularly read the posts in the “X-Plane 12 Tips Club” : https://forums.x-plane.org/index.php?/clubs/76-x-plane12-tips/
+
+I’d like to thank Dave for sharing his insights with us, and I wish him every success with his upcoming projects.

@@ -1,0 +1,120 @@
+Developer Spotlight: Antoni Rybka, AKD Studio
+
+Conducted by Dominic Smith
+
+In this edition of our Developer Spotlight, I had the pleasure of speaking with Antoni Rybka, the 20-year-old founder of AKD Studio. Based in Poland, Antoni has quickly made a name for himself in the X-Plane community, known for his dedication to developing aircraft that simmers truly enjoy.
+
+From discovering aviation during a family holiday to turning his passion into a full-time job, Antoni’s journey is a testament to his hard work and love of aviation. Join me as we explore his story, his inspirations, and the process behind bringing his creations to life.
+
+Personal Background
+Can you tell us a bit about yourself? How did you first get interested in flight simulation and development?
+
+Hello everyone! Let me start by introducing myself to readers who are unfamiliar with me. I’m Antoni Rybka. I'm 20 years old now and I'm the owner of AKD Studio. I live in Poland and am interested in a lot of things, for example: trains, video creation (mostly video editing and the technical aspects of video production for films and television programs), new technology, and, of course, aviation. My biggest dream is to become an airline pilot one day.
+
+My journey with aviation and X-Plane started in the summer of 2018 during a family vacation. While on the flight, I became curious about what landing looked like from the cockpit. After we landed, I watched a video from the cockpit of an Airbus A320 by a Polish pilot (Turbulencja), where I learned so much about aviation. That’s where it all started. Soon after, I discovered I could fly a well-rendered plane on my computer, and that’s when I started flying in the X-Plane simulator.
+
+What’s your situation outside of X-Plane? 
+
+I finished high school this May, and for now, AKD Studio is my full-time job.
+
+Do you have any hobbies outside of X-Plane?
+
+Yes! Here are a few:
+
+Rail transport – I love traveling by train. In 2023, my friends and I travelled over 2,000 km by train in just three days. That was an amazing time :)
+
+Video creation – Mostly video editing and the technical side of creating films and television programs. Sometimes, when I watch movies, I wonder how certain shots were created.
+
+Traveling – I love visiting new places!
+
+At such a young age you’ve achieved a lot with AKD Studio. What was the journey like, and what inspired you to dive into X-Plane development?
+
+This is an interesting story. It was 2020, and as we know, a difficult time due to the pandemic. I was 15 years old then, in my first year of high school. We switched to online learning in March 2020. The first month was quite good as I was happy to have more time for flying X-Plane 11 back then 😂. But after a while, I started to get bored, and I began thinking about doing something fun and educational.
+
+I started by making custom liveries for X-Plane, but I still wanted to try something more ambitious. Then I thought about making an aircraft for X-Plane. I found a YouTube tutorial series by ghansen and slowly became obsessed with building airplanes for X-Plane. It was hard at first, learning so many things, especially when the results weren’t always satisfying. :) Finally, after two years of hard work, on October 28, 2022, I released my first plane.
+
+Do you have any real-world aviation experience, or is it mostly through simulation?
+
+For now, I don’t have any real-world aviation experience, but I hope to change that in 2025 and start my flying career to become an airline pilot.
+
+Development
+
+What was your first experience with X-Plane like, and what drew you to develop specifically for this platform?
+
+I started flying in X-Plane because aviation became my hobby. I was amazed at how well-made these planes are and how they practically simulate everything found in a real aircraft.
+But why did I decide to create planes specifically for X-Plane? Back then, when I started in June 2020, it was the only platform where the creation of add-ons was fully described and explained. There was a large resource of helpful materials for creating planes in X-Plane. Now I have a lot of resources and knowledge about how to create add-ons for X-Plane, and I don’t have any plans to leave this platform 🙂
+
+Do you have any experience with other flight simulators?
+
+Yes, I also have MSFS, but I mostly fly in X-Plane.
+
+Did you have any mentors or people in the simulation community who influenced your work?
+
+I received great support from Q8Pilot. I was afraid to send him my plane for over a year as I thought I would only embarrass myself. Then one day, I saw that he had bought my plane himself and was going to review it! I was really nervous about his opinion, but it turned out he liked my plane. He also pointed out things I could fix or improve over time, and of course, I took his feedback into account.
+
+I should also mention Marek from the YouTube channel Jetfighter (https://www.youtube.com/@JetfighterPL/videos), who decided to do a live show with me and introduce my aircraft to the Polish community. Thanks, Marek!
+
+What have been some of the biggest challenges you’ve faced as a developer? How did you overcome them?
+
+Looking back, I’d say the biggest challenge has been programming the custom MCDU and VNAV. I’m still working on improvements and adding new features to these systems. It’s something you can keep working on all the time :)
+
+AKD Design Process
+
+The GLF650 has been hugely popular. Can you walk us through the process of developing it?
+
+Yes! It all starts with searching for documentation and photos, then slowly modelling the plane. I also look for real pilots who have access to the plane. I spend time reading manuals and writing down what I want to reproduce in my model. Sometimes, if certain things aren’t clear to me, I ask the pilots for more details, and they describe everything so I can reproduce it accurately.
+
+After modelling, it’s time for textures and UV maps, which is quite a long process. But after this, the plane appears in X-Plane for the first time, and I can start checking everything. Then I begin animating the plane and writing system scripts.
+
+Writing systems is a challenging process because there are days when you can get a lot done, and other days when there’s no progress, and the work stands still. Then comes the process of testing and bug reporting by pilots and testers, which can take from 2 to 6 months depending on what bugs are found
+
+How do you choose the projects you work on? Is there something specific that inspires each new design?
+
+Not really, it was a bit of a coincidence that I ended up making these planes. In the beginning, it was mainly important to choose a plane that hadn’t been made for X-Plane yet.
+Do you work solo, or is there a team behind AKD Studio?
+
+AKD Studio is solo work done by me. Sometimes, it’s hard to work alone on something this big. That’s why I have about 14 beta testers who help me test on different platforms, systems, and locations. I also have real-life pilots testing my plane and suggesting improvements to make it even more advanced.
+
+Inspirations and Experience
+
+Are there developers or companies in the industry that inspire you?
+
+Yes! This is an interesting story. I discovered that Felis also works solo on his projects, and when I saw his 747-200 for the first time, I realized it’s possible to make such an amazing plane on your own. It was a huge inspiration for me. Thank you, Felis!
+
+What part of the development process do you find most rewarding?
+
+I think the most satisfying part is creating new aircraft systems or improving existing ones. But more than that, I love watching these systems work correctly in the aircraft. :) However, sometimes testing reveals problems or bugs that need fixing, and finding the cause isn’t always easy.
+
+Looking to the Future
+
+Do you see yourself working in flight simulation long-term? Are there areas of aviation or simulation you’d like to explore next?
+
+Hmmm, that’s a hard question at this point. I don't know what the future will look like. For now, I’m here, and I still want to work on new projects and keep updating existing ones. In the meantime, I also plan to slowly obtain further pilot licenses so that one day I’ll be able to sit in the cockpit of a real passenger plane as a pilot. And then what? We'll see…
+
+What do you think the future holds for X-Plane and the flight simulation community?
+
+I think that, despite the difficult times and the growing popularity of MSFS, X-Plane will still survive. There are still many people here who love flying in X-Plane.
+
+How do you see the flight sim market evolving, especially with MSFS as a competitor?
+
+I notice a lot of interest in this market. More and more people with no prior experience in aviation are becoming interested, and some even get into it just for the views.
+
+Do you have any interest in developing for MSFS?
+
+For now, no, because making planes for MSFS is completely different from making them for X-Plane. I’d have to start all over again, whereas with X-Plane, I already have some basics and experience that I don’t have in MSFS.
+
+The X-Plane Community
+
+How do you feel the community and platforms like X-Plane.org can better support young developers like yourself?
+
+In my opinion, we have a large and very supportive community here that backs creators, and honestly, I don’t think there’s anything to improve.
+
+Is there anything specific you wish users understood about the development process?
+
+I think people should be a bit less critical of our products. It’s really hard to release a product without any bugs, especially in the beginning, and even more so when it involves thousands of lines of code. Plus, everyone has a different computer, flies to different airports, etc.
+
+The most important thing is to send me suggestions for changes or additions. Some things might not be possible, but it’s worth writing in, and I’m always happy to reply about whether something can be added or not.
+
+Thank you so much, Dominic, for giving me the opportunity to be interviewed here at X-Plane.Org!
+
+A big thank you to Antoni for sharing his journey with us. We’re excited to see how AKD Studio continues to grow and what exciting projects he brings to the X-Plane community next!

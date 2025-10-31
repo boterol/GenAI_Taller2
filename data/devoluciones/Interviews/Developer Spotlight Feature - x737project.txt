@@ -1,0 +1,77 @@
+Developer Spotlight Feature - x737project
+
+Welcome to our latest Developer Spotlight, this time featuring Benedikt Stratmann, founder of the incredibly popular x737project.
+
+Hi Benedikt, thank you for taking the time to talk to X-Plane.org.
+
+Could I start by asking you about how your interest in flight simulation began? 
+
+Hi Dom, thank you for inviting me to your Developer Spotlight feature. 
+
+So, how did I get into flight simulation?  Well, my first step into flight simulation was with Microsoft Flight Simulator, way back in 1991 on my Atari 1040ST (1MB of power). Back then it was simple polygon graphics, but it was great fun…especially as you could fly under the Golden Gate Bridge!  After the Atari, I moved over to the Apple Mac and was extremely happy when the simulator “Fly!” was released. At the time, it was a ground-breaking sim and still doesn’t look that bad even today. Then of course came X-Plane, and it’s been my “simulation buddy” ever since.
+
+How did the x737project come about? 
+
+The x737project was started way back in 2005, which I think was X-Plane 5. At that time, there wasn’t a Boeing 737 available for the simulator, so I began working on a 737NG variant. It’s always been a favourite of mine, as not only is the 737 a “pilot-focused aircraft”, but it’s also one I’ve had the pleasure of flying on many times over the years. A little while later, Pierre joined the team and thanks to the people here at the Org, a little community was grown. 
+
+As a team, realism and perfection go hand in hand, so we try to model the 737’s systems in a way that matches their real-life counterparts as much as we can. Therefore, from day one, we have always added plugin-controlled systems that worked exactly like the real aircraft. Today, our quest for realism not only includes plugins but also 3D modelling, which enables the aircraft to be even more authentic. 
+
+What do you find to be the most challenging aspect of the x737project? 
+
+As a small team of enthusiasts (myself, Perre, Lukas, and Javier with x737FMC), the most challenging aspect of the project is when X-Plane gets updated and things simply break…or in the case of X-Plane 12, are simply no longer compatible. To give you an example, in the past twelve months, we have changed thousands of lines of code because X-Plane 12 skips OpenAL support, and we had a giant interface with over 1500 sound sources (yes you heard that number correctly). Moving to FMOD was only made possible by using a “robot” to convert the existing code to one which was FMOD compatible. If that wasn’t bad enough, it seems the flight model has been dramatically changed (thanks Laminar), so we are facing yet more delays with our next release. It’s not all doom and gloom though, as we are still expecting to release the next version of the x737project in early 2023. 
+
+From a developer’s perspective, what makes the X-Plane platform so attractive?
+
+Good question! Firstly, X-Plane is available on multiple platforms, including Mac/Win/Lin. Secondly, the sim is incredibly open when it comes to adding third-party add-ons. The reason for this is XPLM, which was created by Ben Supnik and Sandy Barbour way back in the early days of X-Plane.
+
+What software packages and tools do you use for development?
+
+Well, for our 3D modelling, we use AC3D, along with Acorn for image processing. Lukas helps a lot with the 3D modelling and creates many of the liveries you see for the 737. Away from the modelling and painting, the x737plugin, which is responsible for all the 737NG systems, is far more complex to create. During the development phase, we work with the Mac version of Xcode, as it enables us to have short turnaround cycles – ideal for both development and testing. When we build the Windows and Linux variants, we then use cross-compilers on macOS. With this technique and setup, we can build the complete plugin set in just two minutes, which is exceptionally helpful!
+
+Do you find the constantly changing X-Plane platform to be a positive or negative factor when it comes to the project’s development?
+
+I agree that software (if it is to remain attractive to users) must change with the times, especially where hardware is concerned, and X-Plane is no exception to that rule. However, what I do find unnecessary, are the changes which make the flight model unusable, in particular, the engines. Breaking properties that are designed in Plane Maker are quite simply a “no-go” in my book. Plane Maker, by its very design, should be able to convert a model so that it runs perfectly in X-Plane 12. However, on the flip side to this, the APIs must of course change when new technologies are adopted.  
+
+What were your reasons for making the x737project freeware?
+
+Why? Because we love the freedom such a project allows. Every X-Plane simmer out there (yes, even you reading this), is free to use the x737project, and not only that…they are also free to donate or contribute to the project. In fact, one of the reasons why the project is so realistic is due to the help we have received from real-world 737 pilots over the years. Payware?  No, I (like many people), enjoy taking “creative breaks”. 
+
+Do you see the other 737 models (payware) as competition or inspiration?
+
+Hmm…I would say they are more of an alternative Dom. For example, because of the complexity of our model, I would say it’s not as user-friendly as some commercial offerings, which are easier to use, due in part to the simplicity of their operation.
+
+Could you tell us a bit more about the roles played by the other team members? 
+
+Sure. As mentioned, there is Pierre, Lucas and myself. Pierre is responsible for all the mechanical aspects of the aircraft, such as the gears, engines, and flight model, including the control surfaces and airfoils. Lukas is responsible for creating the liveries, which at last count, is over a hundred (he is such an incredible artist). The 3D model is my domain, as well as the plugin which makes the x737project so unique. We also work closely with several real-world pilots, who help to make the project as authentic as possible, as well as several teams, an example being, Javier Cortes, the creator of x737FMC (our chosen FMC). 
+
+Benedikt, do you have any memorable flights you’d like to share with us?
+
+Even though I’ve been on more than a hundred flights, I’m afraid to say, there hasn’t been a particular one which stands out (perhaps that is a good thing!). What I can say though, is that each flight is special, particularly during takeoff and landing. Many of my flights have been to Greece, one of my favourite destinations, especially the small islands, which look spectacular at sunset. Of course, I always remember being allowed to visit the cockpit of a 737 many years back when you were allowed to do so…but of course, all that has changed now.
+
+Have you ever considered doing X-Plane development full-time?
+
+Not to any great extent, as I really enjoy doing what I do in real life, which is in education. Yes, in the past when several professional teams asked me, I briefly considered it, but I’m glad I didn’t pursue it any further. Keeping flight simulation development in my private life, allows me to set my own priorities, which is a major plus. 
+
+You mentioned the X-Plane 12 version of the x737project a few questions back, so I was wondering if you could share any exciting info on that, plus any other possible future endeavours? 
+
+Version 7 will include 1500 sound sources, all new cockpit materials, rain effects, plus many other details…but you’ll have to wait for the full list. After the initial release, we might look at the -600 and -900, and maybe…if I’m looking to do something entirely new, the 737MAX.
+
+How do you see flight simulation development changing in the future?
+
+I think what we will eventually see, is an increase in the complexity of the tools used for creating models, which will, in turn (and not limited to), allow for faster results. In terms of X-Plane, yes, it’s made progress in its ability to customize systems, but applications like Plane Maker will always be no more than templates for systems. Don’t get me wrong, this is fine for mainstream simulation, but for sophisticated system simulation, there is no getting away from code, which is vital for realistic flight simulation.
+
+Benedikt, what can X-Plane.Org do to help support the x737project?
+
+I think it’s fair to say that from the very beginning, the support offered by the Org has been paramount to the success of the x737project. As a team, we are extremely thankful to all of you, and if it wasn’t for your support, the project wouldn’t be where it is now. So, to answer your question…no, don’t change a thing! 
+
+What are your thoughts on X-Plane 12 so far and what would you like to see from it in future updates?
+
+In its current state, my opinion is slightly mixed at this time. Yes, graphics and performance have been improved, but we are concerned about the lack of compatibility. It will be interesting to see how the add-on market will react, as I had expected to see a more streamlined update. However, on a positive note, it’s great to see Laminar adopt modern API’s such as Metal/Vulkan, rather than remaining with the now archaic OpenGL. 
+
+How do you feel about the future of flight simulation in general?
+
+I’m not sure, as the release of MSFS was a real game-changer. Laminar were right to react and I really hope they stand the competition, as X-Plane 12 is certainly promising. For me personally, the big risk for them is the lack of compatibility between X-Plane 12 and 11. Changing the flight model should not involve many hours of tweaking this and that, it should be instant, and as such, it might cause developers to skip the platform, especially if it’s a commercial venture. 
+
+Lastly Benedikt, what would you like people to know most about you and the team? 
+
+Just that we love what we do, and will continue working on the x737project until we think it’s perfect

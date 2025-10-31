@@ -1,0 +1,93 @@
+Developer Spotlight - Scottish Wings
+
+In our first Developer Spotlight feature for 2023, we meet up with Stuart, otherwise known as Scottish Wings, author of the famous Handy Object Library.  In this interview, Stuart talks about how he got into flight simulation and the reasons behind his renowned library. 
+
+Hi Stuart, great to meet up after the Christmas break! 
+
+As you’re now in the Developer Spotlight hot seat, could I begin the interview by asking about how you first got into flight simulation and how your journey as an X-Plane developer started? 
+
+I started almost ten years ago and in fact, the end of 2023 is my ten-year anniversary of being involved with X-Plane, version 10 as it was then. I have had an interest in flight for as long as I can remember, and prior to my X-Plane days had dabbled a little with other sims, however, nothing like my involvement with X-Plane. I was lucky to get X-Plane 10 as a Christmas present one year and from then on, was totally hooked. I think I still have the metal case with all the disks floating about somewhere. My development for X-Plane came about because the sceneries I wanted to create required certain objects. The available libraries back then, although very good, just lacked many of the ‘handy objects’ that I wanted to use. That was the start of what eventually became known as The Handy Object Library. 
+
+Yes, your Handy Object Library is a must-have download in my opinion and is something (like many others) I now can’t do without. Could you tell us a bit more about your other X-Plane projects?  
+
+I like to keep my work varied and move between scenery, liveries, and objects. My scenery work tends to be small GA type airfields as I love to fill these with as many details as I can, so as to create a sense of being at a living airfield. As far as the larger airports are concerned, I am happy to leave those to others. When it comes to liveries, I have created several of my own designs as well as some of the usual suspects for existing airlines and aircraft. In terms of objects, these cover pretty much anything you can think of; big, small, common and uncommon, anything really. If something comes to mind that I think will be beneficial to an X-Plane scenery, I can usually build it.
+
+Stuart, out of all the many objects, liveries, and sceneries you have created, what do you consider your best or most popular work?
+
+Great question and a difficult one to answer if I’m honest. However, some of my WWII-themed sceneries have gone down well in the community as well as a few of the remote Scottish real-life airfields. If I was just to look at the number of downloads, The Handy Objects Library is clearly the front runner with almost 400,000 downloads to date, which I still can’t believe to be honest! I get a great deal of satisfaction from the work I do, even though individual items may only have a handful of downloads. Yes, it is always nice to see your work being appreciated by others, however, that is not the primary reason I do this. Foremost I do it because I enjoy creating things. I was never any good at drawing or painting at school, and always admired those that could, so creating work in X-Plane’s virtual world allows me the opportunity to release my creative side which I really enjoy.
+
+Creating all these wonderful add-ons for us to enjoy must be quite time-consuming at times, so what do you find to be the most challenging aspect of development?
+
+Quite often, the trickiest thing is knowing when to stop adding objects to a particular scenery, as not only is it fun, but it’s also rather therapeutic, however, it can become addictive. For liveries, man, some of the templates I have used are very challenging when it comes to drawing lines on the fuselage. I never totally understand why some developers are able to create nice one-piece templates that are easy to use and paint on, and others have multiple sections at different angles that make it so hard to get everything lined up. In the case of objects, the hardest part, and the part I am still learning, is texturing, as getting objects to look right when in the sim is quite a challenge at times.
+
+Has there been a particular project you are most proud of?
+
+Another good question and again, rather difficult to answer as it’s like choosing your favourite child! To be honest, it is hard to single out individual bits of work as there are so many, however, some of the quirkier sceneries such as Jura-Sick-Park were great fun to work on, as these really appealed to my imagination and sense of humour. There was also a phase where I made lighthouses that could accommodate helicopters, which was very enjoyable. This involved identifying the numerous locations, researching the objects in question, doing the modelling, and then working on how best to illuminate the lights. I do enjoy a challenge, and one thing I have learned along the way is that there is always a way to do things, just be patient and don’t give up. Being able to land a helicopter on top of something I had created was quite special. 
+
+When it comes to liveries, creating the Scottish Wings identity was very enjoyable, and something I am quite proud of. Don’t get me wrong, there is nothing wrong with all the real-world stuff out there, however, creating a whole back story for my own airline just adds another dimension to my sim time. It is probably very difficult to explain, but there is nothing quite like the feeling of sitting in your own aircraft, watching similar AI aircraft taxiing about the place. It even amazes me that you can add Scottish voices to some of the third-party add-ons, again just making it all seem so real.  This is maybe all too much for some folks, however, for me, it all adds to the immersion and the fun of sims like X-Plane. In other words, the sky really is the limit! 
+
+Stuart, could you tell us about some of the software you use for development?
+
+For object creation, I still use SketchUp, for textures, GIMP and for scenery, I use Laminar’s World Editor (WED). One of these days I really want to learn how to use Blender, however, that new learning curve just keeps putting me off. One of these days….
+
+Many developers I have spoken to over the years have mentioned your work as a source of inspiration. So, who would you say has been your guiding light in terms of your X-Plane development? 
+
+When I first started, Paul Mort was my greatest inspiration. Paul kindly created a few GA sceneries for me at first, and I still remember the first time I tried out one of his creations, I just couldn’t believe you could do this in X-Plane. His work really helped inspire me to believe I could do this too (so thanks again Paul). There have been loads of other developers along the way that also keep making me think, ‘well if they can do it so can I’, and to be honest this is one of the main reasons that I have had so much pleasure out of X-Plane. There are so many talented people out there, you just can’t help but be impressed at times and that drives me to improve and get better.
+
+As a freeware developer, have you ever been tempted to try the payware route? 
+
+As I mentioned earlier, I primarily create for my own pleasure, and if others can also enjoy my work, that is a bonus. The idea of making some money out of all of this has crossed my mind a few times, however for now I am happy to keep all my work for the general benefit of the community and therefore free to all. I do also think that when money is involved, people’s perceptions and expectations also change, and I’m not sure my work is quite up there yet for me to be comfortable charging. One day perhaps…
+
+During your time as a developer, have you ever worked or collaborated with any other X-Plane developers?
+
+I can’t really say I have worked with other developers in any official capacity; however, I do use the forum regularly, and that is a great place to ask developers questions and seek help in all manner of things. I am always very appreciative of other people’s time, and on a few occasions when developers have given me permission to use some of their work in my own creations, this is very much appreciated. A great example of this is when Mr 3D kindly allowed me to use many of his existing WWII objects in my period sceneries (I can’t thank him enough for this). This is one of the things I like about the X-Plane environment, the general willingness of folks to help and share, a bit like asking your neighbour to borrow a cup of sugar!! We can all certainly benefit from some of that goodwill spirit these days…
+
+Stuart, do you have any experience in real aviation?
+
+None whatsoever, other than I have been able to travel quite a bit for work and pleasure in various forms of aviation. This includes numerous types of aeroplanes, helicopters, and even hot air balloons…
+
+As we get older this question gets harder (sorry), but can you remember how your interest in aviation began?
+
+Thanks Dom! Not sure really, but I have been a fan for as long as I can remember. I have a vague recollection of being dragged along to an airshow when I was small by my father, so I think something must have stuck from back then. The smell, the sound, the aircraft on display…
+
+Do you have any memorable flights in real life that you’d like to share?
+
+Yes, I do, with one being in the back of a Eurocopter AS365 Dauphin on a dark, wet, and very windy night in the North Sea. This was quite an experience and something I’ll always remember! Thankfully the pilot knew what he was doing and made the short hop safely. I have never seen so many seasoned professionals looking so worried.
+
+Stuart, would you like to share what you do in real life?
+
+My day job (which I love by the way), involves chemistry. For me, there’s nothing quite like getting down and dirty with a few organic molecules, a test tube, and a lovely fashionable lab coat from time to time!!
+
+When you’re not creating the next new addition for The Handy Object Library, could you tell us what other things you like to do for enjoyment?
+
+X-Plane takes up a large amount of free time these days, however when I get the chance, I do enjoy a game of golf, watching some footie on the TV, and music is my other passion. I play a few instruments including the bagpipes (yes very Scottish) and currently am learning to play the drums. I reckoned if I could land a Sikorsky S92 on an oil rig, I can certainly play the drums!!  All that eye, hand and feet coordination, and more moving parts than a Swiss watch…yeah, I’ll give it a go! 
+
+Even though you enjoy your current day job, have you ever considered doing flight simulator development full-time?
+
+Not right now, but when I eventually hang up my lab coat, I think this could be the thing to keep me active.
+
+Stuart, how do you go about choosing your next new X-Plane project?
+
+I have no master plan; it is all a bit random at times and based on how I am feeling. Sometimes I will get a request and that sets me off down a path for a while, other times I see something that sets off a thought in my head. I can’t count the number of times I have been sitting at an airport and spotted something out the window and thought to myself… hmmm… ‘I need to make one of those…’. This is one of the things I love about X-Plane and the fact there are several areas that an individual can work in. So, in other words, I never get bored.
+
+As an X-Plane developer, are you tempted by other simulator platforms, or do you intend to stick with X-Plane? 
+
+At this moment, it’s X-Plane pretty much all the way. I did create a livery for a MSFS helicopter some time ago, however, I have no big plans to work over there right now.
+
+Stuart, in what ways do you see X-Plane development changing in the future?
+
+Based on my ten years, I can only see things improving in terms of quality, complexity, and reality. I would like to think that there will always be a place for willing amateurs like myself, and enough room for everyone, big and small (commercial and non-commercial). The way home computers and software have developed over the years, throw VR in the mix along with the huge variety of other hardware and peripherals, and wow, we really are in a good place to enjoy this amazing hobby.
+
+What can the Org do to better support developers and the hobby in general?
+
+Keep promoting and sharing the work and experiences of the diverse community big and small.
+
+What can the X-Plane community do to help support developers old and new?  
+
+Be open, listen to what the community has to say, consider that not everyone has the same level of expertise and understanding and be patient when questions are asked. Also, share experiences and help others wherever possible. A happy and healthy community is generally one that is growing, and I would like to see our community add another million subscribers!
+
+Lastly Stuart, what would you like people to know about your X-Plane work?
+
+I just wish to say thank you! Creating scenery, liveries and objects for X-Plane is something that I truly enjoy, and I am extremely grateful for all the help, support, and advice I have received from numerous community members over the years, it’s very much appreciated!!
+
+Many thanks Stuart...and Happy New Year!

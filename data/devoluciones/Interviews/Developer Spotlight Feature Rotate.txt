@@ -1,0 +1,67 @@
+Developer Spotlight Feature: Rotate
+
+Conducted by Dominic Smith
+
+In this edition of our Developer Spotlight, I had the pleasure of speaking with Ivan, a co-founder of Rotate, who leads a talented team behind X-Plane’s popular MD-80 and MD-11. With Juan, Alfredo, and Ivan all bringing their skills to the table, Rotate has carved out a special place in the X-Plane community, known for their dedication to crafting aircraft that are both detailed and challenging to fly. Their commitment to realism and ongoing improvements have earned them a loyal following among sim enthusiasts.
+Join me as we explore Ivan’s journey, the team’s inspirations, and what keeps them motivated to keep raising the bar in flight simulation.
+
+Background in Development
+How did your team first get involved in X-Plane development, and what inspired you to focus specifically on creating high-fidelity aircraft like the MD-80 and MD-11?
+
+We’re a small team of three: Juan Alcón, Alfredo Torrado, and myself, Iván Arroyo. Both Alfredo and Juan have been passionate about flight simulation from a young age. It’s a pretty typical story; we played MSFS when it first came out back in 1982 and picked it up again years later with MSFS 2002. Around 2009, Alfredo discovered X-Plane and started experimenting with Plane-Maker. He began by creating a freeware Fokker F27 for X-Plane 10, and he enlisted Juan’s help with 3D modelling and texturing. After releasing the F27, we decided to take on our first payware project, an ATR-72.
+
+The ATR-72 was a simple model with no plugins involved, but we did our best with it. For the next project, we knew we’d need a coder, so they brought me on board, and we started working on the MD-80. It took over three years to develop, and we continued to work on it even after the release. In fact, we still have plans to improve it further. The MD-80 became Rotate’s first official product.
+
+Right after releasing the MD-80, we started on the MD-11F project. Developing the MD-11 was a much bigger task, taking over five years, as it’s a more complex and modern aircraft than the MD-80. We significantly raised the level of simulation with this model. Just as with the MD-80, we have continued to add features and improvements post-release, not just fixing the inevitable bugs but also expanding the aircraft’s features. We’re still working on enhancements and adding more functionality to the MD-11, including both the freighter and passenger versions.
+
+
+Your MD-80 has been a long-standing favourite in the X-Plane community, and the release of the MD-11 further solidified Rotate’s reputation for high-quality, detailed aircraft. How did the development process for the MD-11 differ from that of the MD-80, and what unique challenges did you face with each aircraft?
+
+The MD-11 is a more complex aircraft than the MD-80, as it’s a more modern and automated design. When we started developing the MD-11, we wanted to raise the bar on simulation and aim for what’s known in the flight simulation community as a “study level” model. We achieved what we set out to do, although there is always room for improvement, and we continue working on that.
+
+The MD-11 is a unique aircraft. Many people see it as a mix between a Boeing and an Airbus, which we believe is quite accurate. However, it also has its own distinct frame, aside from being a tri-jet, which gives it very specific flight characteristics and handling. This is especially noticeable during landing as it’s a challenging plane to land, especially if you’re used to flying other airliners, and we believe our model captures that distinct handling quality.
+
+What aspect of aircraft development for X-Plane do you find the most rewarding? Is it the flight dynamics, modelling, or something else?
+
+The flight dynamics in X-Plane is certainly one of its greatest strengths. Laminar makes a real effort to stay connected with third-party developers and provide the tools that allow for integrating products with varying levels of simulation into their platform. This flexibility is very appealing to us as developers. To reach the level of simulation we aim for at Rotate, we need a lot of intervention and customization within the simulator itself, which would not be possible if X-Plane weren’t designed with this adaptability in mind.
+
+Inspirations & Influences
+Are there any specific aircraft, pilots, or developers who have influenced the way you approach designing aircraft for X-Plane?
+
+We’ve been fortunate to have the help of some real MD-80 and MD-11 pilots during the development and testing of both models. In terms of developers, PMDG has always been a source of inspiration for us. We’ve also spent many hours flying in the Leonardo MD-80.
+
+What drives you to create payware aircraft like the MD-80 and MD-11, and how far do you aim to take these models toward being "study-level" simulations?
+
+As a small team, it’s not always possible to reach the highest levels of accuracy and completeness in the first release. We approach our work as an ongoing process, aiming to deliver an experience that satisfies our audience from the start, while continuing to add what’s needed to make these models as solid and complete as possible. Keeping this approach sustainable is challenging and requires some compromise at times, but our goal remains clear: we are always committed to visual excellence, detailed systems simulation, and a realistic flight experience.
+
+Team Collaboration
+Can you share some insight into your team’s collaboration process? How do you work together to ensure each aircraft meets Rotate’s high standards?
+
+We’re all perfectionists, so meeting deadlines can be more of a challenge than maintaining high standards. Collaboration tends to come naturally to us. Sometimes we need to discuss certain details, and of course, there’s a lot of coordination involved, but overall, each of us focuses on our own part, and then we bring it all together.
+
+Have you ever collaborated with other developers or teams in the X-Plane community, and how did those experiences shape your projects?
+
+We stay in touch with other developers and occasionally coordinate with teams that create extensions for our products or work to make their products compatible with ours. However, we haven’t yet taken on any projects that require extensive collaboration.
+
+Personal Experience & Hobbies
+Do any members of the Rotate team have real-life experience with the MD-80 or MD-11, or aviation in general? How has this experience influenced your approach to developing these aircraft for X-Plane?
+
+None of us have real aviation experience. Juan and Alfredo keep their feet on the ground as much as possible, and I do the same. In fact, some of us even have a fear of flying
+
+Looking Ahead
+With the success of the MD-80 and MD-11, are there any new aircraft or features in development? Or are you focused on updates and improvements to your existing models?
+
+Right now, we are focused on maintaining and improving both the MD-80 and MD-11. We are listening to our audience, considering their requests and suggestions, and there is still more we want to do with these projects. We have also discussed future projects, but nothing is clear enough to announce just yet.
+
+Where do you see the future of flight simulation development heading, especially in relation to complex aircraft modelling for X-Plane? Have the frequent updates to X-Plane 12 helped or posed challenges to the development of your aircraft?
+
+Models are becoming more realistic all the time, both in terms of systems and visuals. Not long ago, it seemed like you couldn’t surpass what we call the “PMDG level,” but recently, new avenues have opened up to expand the experience even further. The most recent example is MSFS 2024, which will introduce features like a walking mode, career mode, and, of course, VR. When we first developed the MD-80, we didn’t consider including an Electronic Flight Bag (EFB) because it wasn’t common at the time, but now it’s almost essential. So, we added that feature to both the MD-11 and MD-80 as well. We plan to keep adapting and responding to changes in the industry and the demands of our audience.
+
+Support & Community
+What would you like the X-Plane community to know about how they can support Rotate and how much their support means to you?
+
+Buy our products, enjoy them, and give us feedback. Everything we do is for the community, for the people who buy and use our products.
+
+So far, we’ve received a lot of support and feedback from our customers about the features they want added, along with their expectations and priorities. We appreciate that tremendously, and we usually feel the same about adding features whenever possible. Their financial support has also enabled us to keep improving and building on our work, and we’re very grateful for that. We truly enjoy what we do and want to keep doing it. As long as this synergy continues, we’ll keep working hard to improve our products and hopefully add more to the lineup.
+
+A big thank you to Ivan and the team for sharing their journey with us. We look forward to seeing what they have in store next for the X-Plane community!

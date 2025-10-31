@@ -1,0 +1,93 @@
+Developer Spotlight: Florian from Colimata
+
+Conducted by Dominic Smith
+
+Introduction
+
+Florian, known in the X-Plane community as Colimata, is one of those developers whose name instantly rings a bell. His work on Concorde FXP has become a real favourite among simmers, showing the kind of detail and passion that only comes from someone who truly loves what they do. What stands out most about Florian is his genuine care for his projects and the people who fly them.
+
+In this interview, Florian talks about how his journey with X-Plane began, the challenges of developing Concorde, and what keeps him inspired to keep creating for the community.
+
+Early Days
+
+Florian, to start off, could you tell us a little about yourself and how you first became interested in flight simulation and aircraft development?
+
+Flight simulation has interested me since my youth, and it still does now that I’m 45. I’m from Italy, but since I live in the far north of the country, in South Tyrol, my mother tongue is German. I clearly remember being impressed by titles such as Fighter Bomber and F-16 Combat Pilot on the Amiga. Later, when I was doing some glider flying, I looked for a realistic flight simulator to train the glider towing process. That was when I discovered X-Plane. I was impressed and have stayed with the platform ever since.
+
+As an industrial engineer (mechanical engineering), I worked in an engineering office until around 2010, when a severe economic crisis hit. That was when I decided to take the chance to become what had been at the back of my mind for a long time: an X-Plane developer.
+
+Before we get to your current projects, do you remember the first time you flew Concorde in a simulator? What version or experience first sparked your fascination with it?
+
+During the development of Concorde FXP, I had to implement VR functionality. When I first put on the headset, I was blown away. It’s a completely different experience in VR, and I felt both proud and thankful. My fascination with Concorde goes back to before the internet era. I must have seen the aircraft on television, and I remember searching for every piece of information and every photo I could find in public libraries. Years later, I was able to visit the real Concorde at the museum in Sinsheim, Germany. It was absolutely mind-blowing.
+
+Concorde and Development
+
+Many simmers know you for the Concorde FXP, which has become one of X-Plane’s most admired aircraft. What inspired you to take on such an ambitious project?
+
+Before Concorde FXP, I developed supersonic fighter jets for X-Plane. Creating Concorde had long been a dream of mine, but at first I hesitated to take on such a famous name and such a demanding project.
+
+Who would be worthy of developing Concorde? Certainly not me! But it soon became clear that a developer with experience in supersonic aircraft, and with a real passion and knowledge of Concorde, was needed. I was fortunate to have great people helping me, including Steve Wilson, Emma Bentley, Michel from France, and many others from the community. With their support I accepted the challenge.
+
+Concorde was famous for her transatlantic routes, especially between London, Paris, and New York. If you had the chance to fly on board, which route would you have chosen, and why?
+
+New York JFK to London Heathrow. The impressive Canarsie climb after take-off in New York would be worth it alone.
+
+Developing something as advanced as Concorde must have come with plenty of challenges. Were there any moments that really tested your patience or made you rethink your approach?
+
+If I listed what was simple, the list would be very short. The project was a huge leap forward for me as a developer.
+
+Creating a good flight model that worked under both subsonic and supersonic conditions was quite a task. I had to change my approach several times during development. This aircraft covers a much wider speed range than most others and getting each phase of flight right was far from easy.
+
+Another major challenge was the cockpit. It is large and highly complex. Modelling it in 3D, texturing, animating, programming the functionality (such as the CIVA), and linking thousands of datarefs was extremely time and energy consuming, but it was worth it!
+
+You’ve continued to refine Concorde through several major updates. Looking back, what are you most proud of?
+
+Concorde FXP has steadily improved over time. Not as quickly as I would have liked but always moving forward. Especially now, with version 3.50 and beyond, it offers a great and, I would say, truly unique experience. I still remember flying her across the Atlantic for the first time at Mach 2. When New York JFK appeared on the horizon, I felt incredibly happy and proud. I’m also very pleased with the full PDF manual, as strange as that may sound. I think it’s a great addition that includes a lot of interesting information.
+
+Many users mention how immersive your aircraft feel. How do you find the balance between realism and accessibility so that both casual simmers and enthusiasts can enjoy them?
+
+It was very important to me that users could truly feel the jet. The Concorde experience is not only visual; sound, interactivity, and procedures all play an important role. You are right, accessibility is a key aspect of Concorde. She is very different from other aircraft pilots might be used to. Airspeeds are higher, acceleration is faster, and reaction times are shorter. Getting it right for both enthusiasts and occasional pilots was not easy.
+
+I introduced a PRO setting that can be switched off. I also created video tutorials and included several PDF guides (10 Essentials, Navigation, and others) with the add-on. I tried to avoid unnecessary complexity, such as constant manual fuel pumping throughout the entire flight. However, for those who enjoy the full challenge, this can be activated with a single click.
+
+The Concorde community has always been very passionate. Has their feedback influenced your updates or your approach to future projects?
+
+The community is fantastic. I have to thank so many great people, especially my beta testers (just to mention a few: Craig, Frederick, Geoffrey, Gordon, Hans, Hermann, Heiko, James, John, Jos, Michael, and Thomas, but there were many more) who have worked hard to help improve the jet. Their feedback has absolutely influenced my updates. For example, one key aspect that has improved a lot since the beginning is the AFCS (Automatic Flight Control System).
+
+As with most developers, it’s a recurring question for me: does implementing a user’s idea make the aircraft objectively better? How much work would it take to add it, and which other ideas might need to be postponed to make it happen?
+
+Other Aircraft and Projects
+
+Could you tell us a little about the upcoming Adventure Pack FXP and how it compares to working on Concorde?
+
+I thought long and hard about what my next project should be. It needed to be something missing from the platform, something exciting that could make X-Plane even better. After exploring different ideas, I came up with the concept for the Adventure Pack FXP. At the moment, I’m mainly working on this collection of adventures. I think users will really enjoy it, especially as they’ll be able to use their favourite add-on aircraft within each individual adventure.
+
+You’re also well known for the F-104 Starfighter, another classic that holds a special place in aviation history. What drew you to that aircraft, and how has it evolved since its first release?
+
+The F-104 is an icon in the fighter jet world. I’ve always been impressed by how much power the pilot has at their fingertips and how much skill this aircraft demands. I really pushed the jet to its limits by adding an optional rocket thruster and a reaction control system. Users can even fly up to the edge of space with the F-104 FXP. I also wanted to give customers more variety, so I included three different variants of the aircraft, each from a different era with its own unique cockpit. Since release, we’ve had one major update. I’m still not completely satisfied with the handling, even though a lot of time has been spent improving it. It’s still on my to-do list. Ah, those to-do lists…
+
+When you’re developing these aircraft, do you work mostly solo or collaborate with others in areas such as modelling, coding, or sound design?
+
+I do most of the work myself. However, for Concorde I had several great people helping me, as mentioned earlier. On every project, I also have my much-appreciated beta testers.
+
+Beyond Development
+
+Do you have any real-world aviation experience, or has your journey been mostly through the virtual skies?
+
+I have a few dozen hours as a glider pilot, including a few solo flights. Some friends have also been kind enough to let me fly with them in their prop aircraft. Other than that, everything has been in our beloved virtual world.
+
+Outside of X-Plane, what sort of things do you enjoy doing? Are there any hobbies or interests that help you unwind or inspire your creative work?
+
+I do quite a bit of volunteer work at my church. I also attend my fitness group, Fitcamp, on a regular basis, and I enjoy hiking at the weekends.
+
+Do you ever use X-Plane purely for fun, or does it tend to feel more like work these days?
+
+When you turn your hobby into your work, you lose one hobby. I knew this before I started, and I don’t regret it. I try to use as much of my screen time as possible to be a productive developer.
+
+Finally, what keeps you motivated to keep creating for X-Plane, and what does the community mean to you personally?
+
+The community is mostly supportive, and I’ve enjoyed many interesting exchanges and comments from satisfied customers. Over time, I’ve learned that my time is limited and that it’s important to keep a healthy distance between the opinions of others and my own wellbeing. I’ve also learned that I’m not much of a networker. My strength lies in what I like to call the “busy ant” approach.
+
+I still believe that being an X-Plane developer is a privilege. It’s intense and challenging, but also very rewarding. I can only thank the great people at Laminar Research and the X-Plane.org team for the opportunity. Thank you!
+
+A big thank you to Florian for taking the time to share his story and insights. It’s always a pleasure hearing from someone so passionate about what they do, and as always, the X-Plane community is all the better for it.

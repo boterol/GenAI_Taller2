@@ -1,0 +1,53 @@
+Developer Spotlight Feature
+
+Maps2XPlane
+
+Conducted by Dominic Smith
+
+In this instalment of our Developer Spotlight, we're excited to feature Matthias, the creative force behind Maps2XPlane, renowned for its breathtakingly detailed and immersive scenery packages within X-Plane. Matthias takes us on a journey through his early fascination with aviation, the transition from a passionate hobbyist to a leading figure in X-Plane scenery development, and the collaborative spirit that defines Maps2XPlane.
+
+Matthias, your work with Maps2XPlane has significantly impacted the X-Plane community, offering some of the most immersive scenery packages available. Can you share with us the journey that led you to this point? From your early interests in aviation to your transition from a software engineer to a pioneering developer in the X-Plane world, how have your personal experiences and the people you've met along the way shaped the development of Maps2XPlane?
+
+Aviation has fascinated me since childhood. I regularly visited an airfield near my home, admiring the aircraft and pilots. Though too young to fly, I discovered flight simulators early on, starting with one of the first versions by Microsoft—though I can't recall exactly which. As a teenager, my interests broadened. Later, my education and subsequent job as a software engineer consumed much of my time. However, I eventually had the chance to fly, thanks to a colleague who got his PPL. We experienced breathtaking flights in the Alps, and I took up paragliding.
+
+I discovered X-Plane, specifically version 10, relatively late. A friend introduced me to Laminar Research's simulator, which quickly became my go-to, not least because I'm a macOS user and developer. I soon began recreating the airfield I frequented as a child, developing my first photo sceneries without the aid of tools like Ortho4XP, prompting me to create my own tool for X-Plane.
+
+My serious dive into X-Plane development began during a sabbatical in 2015/2016 when I met Nino on the Org forum. This led to the creation of Antarctica4XPlane. My journey continued with Svalbard, coinciding with Marten at Stairport Sceneries needing an X-Plane terrain mesh developer for the area. This marked my entrance into commercial add-on development.
+
+Thus, Maps2XPlane was born, transforming my hobby into a business. This shift allowed me to undertake larger projects, contributing to third-party add-ons and developing extensive large-scale scenery packages with partners like Cami De Bellis and Albert Ràfols, including Saint Croix XP, Tahiti & Windward Islands XP, and Bora Bora & Leeward Islands XP.
+
+Could you share with us how Maps2XPlane goes about selecting new projects, particularly the regions or landscapes you choose to recreate? Additionally, I'm curious about the division of labour in developing these complex sceneries. What does the process look like from initial concept to the technical aspects of creating terrain meshes? Are there specific tools or software that are essential to your workflow?
+
+For me, X-Plane exceeds its role as a mere flight simulator, to a portal for exploring Earth's numerous diverse landscapes, each teeming with beauty and intrigue. This exploratory passion often guides our project selection, leading us to regions and archipelagos we dream of visiting, such as the Faroe Islands XP, or places laden with personal memories, like the Seychelles XP.
+
+The development process is a collaborative effort. While my partners concentrate on airports and autogen overlays, I dedicate myself to sculpting the landscape, or terrain mesh. Although our division of labour is fluid, it does allow me to occasionally model objects and buildings in Blender or work on airports and heliports, however, the creation of terrain meshes remains my primary focus.
+
+At the heart of every project is data: extensive collections of photos and geospatial information. Contrary to what some may think, the challenge lies not in modelling the mesh itself but in the meticulous collection and preprocessing of data. Utilizing tools like GDAL and SAGA, we process this data extensively. The terrain mesh is then constructed using a proprietary tool, based on Laminar Research's xptools source code, which I've customized to meet our unique needs and specifications.
+
+Matthias, can you share how collaborations with partners globally have shaped Maps2XPlane's projects? Additionally, how has the X-Plane community, particularly through the Org, influenced your work and the development process?
+
+From the outset, as I've touched upon earlier, Maps2XPlane has been enriched by countless contacts with partners worldwide. These collaborators are not just colleagues; they're the heartbeat of our sceneries, infusing life into the bare landscapes we start with. Their expertise and shared insights extend beyond the immediate scope of our projects, fostering a continual learning environment that spurs my personal and professional growth.
+
+Equally, the X-Plane community, especially the Org, plays a pivotal role in our development process. There's an unparalleled motivation that comes from seeing our work appreciated by simmers, who not only enjoy exploring the detailed worlds we create but also provide invaluable feedback. This interaction not only propels us forward but also instils a cycle of learning and improvement that enhances each subsequent project. The encouragement and constructive critiques we receive are vital to our development. So, I extend a heartfelt thank you to everyone for their unwavering support and feedback, as it truly makes a difference.
+
+Reflecting on the array of projects Maps2XPlane has undertaken so far, do you have any favourites or particularly memorable experiences? And looking ahead, what exciting developments can we anticipate from Maps2XPlane? Are there specific regions or updates in the pipeline that you’re especially excited about?
+
+The question of a favourite project is truly challenging, if not impossible, to answer. Each of our scenery projects is dear to me, filled with wonderful memories as well as the inevitable stressful and difficult hours. These experiences, both good and challenging, have made me appreciate every project even more. They've been incredible learning opportunities and have brought immense joy through collaboration with our partners. Looking ahead, I'm excited about the future projects we have in store.
+
+While I'm hesitant to divulge too much at this moment, I can share that our journey will continue in the Pacific alongside Albert, with updates planned for Tahiti & Windward Islands XP and Bora Bora & Leeward Islands XP, in addition to a new scenery package. Moreover, Cami and I are gearing up for another venture into the Caribbean. Though there's an endless stream of ideas we'd love to explore, time is our only constraint. One thing, however, is for certain: my commitment to Maps2XPlane remains unwavering for the foreseeable future.
+
+Of course, the ongoing success and competitiveness of X-Plane play a crucial role. I believe the dedicated X-Plane community and we, the add-on developers, have a significant part to play in its future. Our interactions with Laminar Research, through which we relay not just our feedback but also that of our customers and the community at large, are vital in shaping our collective future. It's an exciting time, with many improvements and innovations on the horizon. In my opinion, there's much to look forward to for and with X-Plane
+
+For those intrigued by the world of X-Plane add-on development and considering dipping their toes into this creative endeavour, what guidance would you offer to get them started on the right path?
+
+For those looking to embark on the journey of X-Plane add-on development, my advice is to start with a manageable project. A small airfield, particularly one close to home, makes an ideal starting point. This approach allows you to intimately acquaint yourself with X-Plane's scenery architecture and become proficient with essential tools like WED (World Editor).
+
+Laminar Research provides comprehensive developer documents and manuals that serve as invaluable resources for beginners. Additionally, the X-Plane community, especially the dedicated individuals at the Org, offer an abundance of tutorials and is always willing to lend a hand. It’s important to approach this learning process with patience and dedication, understanding that mastering these skills takes time and passion. The path to creating add-ons is not about quick fixes but about immersing yourself in the craft and gradually building your expertise.
+
+Matthias, outside of X-Plane, can you tell us about some of your other interests? Additionally, as someone who has turned a passion into a profession, do you have any 'dream projects' you aspire to realize in the future?
+
+Outside the virtual skies of X-Plane, my heart belongs to the great outdoors, particularly the stunning Alps. Engaging in mountain biking, hiking, climbing, and paragliding amidst such scenery isn't just a pastime, it's a source of relaxation and inspiration for new projects.
+
+Regarding a 'dream project,' I find myself without a specific one in mind. Nevertheless, the journey of turning a cherished dream into reality began the moment I decided to launch my own company and delve into the creation of X-Plane add-ons. This venture, in many ways, represents the fulfilment of numerous dreams and aspirations, marking a significant milestone in my own personal journey.
+
+Matthias, thank you for giving us a glimpse into the world of Maps2XPlane and sharing your inspiring journey. It’s been truly enlightening to explore the dedication behind your stunning sceneries. We wish you every success in your future projects.

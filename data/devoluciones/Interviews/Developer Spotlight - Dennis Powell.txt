@@ -1,0 +1,95 @@
+Developer Spotlight - Dennis Powell
+
+It's been a few weeks since our last Developer Spotlight feature, so it gives me immense pleasure to introduce you to Dennis Powell, a highly respected member of the X-Plane community. Many of you will no doubt already be familiar with his wonderful freeware sceneries and liveries, but like many of us here, we all had to start our X-Plane journey somewhere, and in this Development Spotlight feature, Dennis tells us how that journey began...
+
+Hi Dennis, thanks for taking the time to talk to X-Plane.Org.
+
+Could I begin by asking about how you first got involved in flight simulation?
+
+It’s hard to say when I got started exactly, probably back in 2005. I’d just picked up “Microsoft Flight Simulator 2004 Century of Flight”, and I wanted a green helicopter. No one wanted to paint one for me, so I had to learn for myself. That led to a few repaints, which I have to say were far easier to create than with X-Plane.
+
+As far as creating airports, it all happened when I was flying into Middlebury State one day and thought the fence was too close to the runway and wondered if there was a way to fix it. That was when I discovered the joys of WED! After a lot of trial and error (the only way to learn), I finally got smart enough to watch Jan Vogel’s video tutorials and started to learn how to make airports.
+
+Could you tell us a bit more about what you create? 
+
+My creations today mostly consist of making airports for X-Plane. Sometimes there will be a repaint, usually when I buy a new payware aircraft, or if I see someone with a request that I think I can handle, I’ll give it a go. To be honest, I’m not really that good at it, so it has to be a simple design without a lot of stripes to line up.
+
+Out of the many airports and liveries you have created, what do you consider to be your best or most popular work to date?
+
+Hmm, I think it would have to be a toss-up between KBTV, Burlington International, and Offutt AFB. That was a long project by my standards, and even now, I’ve yet to finish converting it to XP12, so that’s another project in the pipeline. Burlington will always be my home airport though, as I grew up right on the flight path to runway 15, and watching planes was a daily thing.
+
+Dennis, what do you find to be the most challenging aspect of creating a scenery?
+
+Finding hangers which resemble, or are a close enough match, to those found at the real airport is pretty challenging, as is locating documentation on the airport I happen to be working on at that time. Some of the sceneries I have modelled don’t even have any pictures, so that is an additional challenge. An exception to that rule was Rutland, KRUT, as I had Google Street View for every runway, taxiway, and ramp…why couldn’t it be like that every time! Funnily enough, when I search the internet for new images of airports I have already modelled (maybe for an update), it always makes me laugh when I see my own screenshots here at the Org. So, to sum up…finding source material is the biggest challenge I face when creating sceneries. 
+
+What have been your favourite X-Plane projects so far?
+
+My favourite project would have to be KBTV, as I grew up there and that’s where I learned to fly. Sadly, I never obtained my license, but it was a start. After KBTV, it would be Offutt AFB, as I live about 8 miles from the base and can actually go and look at the real one if I need to (not too close mind).
+
+What software packages and tools do you use to develop?
+
+For the creation of sceneries, I’m using the most recent version of WED, and the latest update to GIMP. I use GIMP a lot for changing the colours on buildings, making signs etc., plus it’s about $400 cheaper than Photoshop! I also use Microsoft PowerPoint a lot, mainly for the lettering of signs, aircraft registration numbers and things like that.
+
+Dennis, whom would you consider to be your mentors or inspiration when it comes to your own X-Plane development? 
+
+I’d have to say Jan Vogel for starters. Without his excellent tutorials, I’d still be sitting here wondering what the heck I’m doing. I also look at a lot of stuff from RILockGuy (I wish I knew his real name), but his work is just amazing, especially as he can do 3D modelling that I just cannot manage for the life of me. To be honest, why he isn’t charging for his work must surely be one of life’s great mysteries!  
+
+Are you strictly freeware or are you tempted by the payware bug?
+
+Strictly freeware, and it’s going to stay that way. One of the reasons why is that I can’t do 3D modelling and rely heavily on the work of those who build the libraries we use, such as the CDB library, JB library, Handy Object Library, OpenSceneryX, MisterX and a host of others. I’ve said it before many times, but without their generous contributions, I and many others would not be able to contribute in the manner we do, so my thanks to them all. The other reason for sticking solely to freeware is that it means I can give something back to a community which has given me so much. Likewise, if someone wants to take one of my airports or repaints and then modify or improve it, then all I can say is, go for it (you don’t even have to credit me)! That’s what makes this hobby special, the sharing and the understanding that we all enjoy the same thing…X-Plane. 
+
+Real Life
+
+Do you have any experience in real aviation?
+
+Yes, a little bit, as I was a Civil Air Patrol cadet as a teenager. This meant that I got to take orientation flights and quite a number of lessons, but because I needed glasses, my dad wasn’t going to fund my pilot’s license. Now (as an adult) health issues would prevent me from getting a medical certificate, so X-Plane is my one outlet for aviation…well that and YouTube videos.
+
+Can you remember how your interest in aviation began?
+
+When I was seven, my mom remarried, and my new dad was an ex-fighter pilot. Aviation was one of the few subjects he’d talk to me about, so I grew up on stories of famous fighter pilots. Unfortunately, once I needed glasses, he gave up on the idea that I was going to be the next Chuck Yeager.
+
+Dennis, do you have any memorable flights in real life that you would like to share with us?
+
+Sure, two flights especially come to mind. The first was when I flew for the first time in a Cessna 172 and took the controls, something I will always remember. The aircraft had the registration N5121F, which you might recognize from one of my repaints. 
+
+The second flight was right after I joined the Vermont Army National Guard and got to ride in the back of a UH-1H Huey. Joe Galloway once said, “Army aviators are God’s own lunatics.” I think he must have been talking about the pilot we had that night, as I got to experience my first, and thankfully, only nighttime autorotation. I don’t know what was making more noise, the low RPM warning siren, or me screaming in the back seat. I got to fly on many other types of helicopters during my army career, but the Huey will always be my favourite.
+
+Would you like to share what you do in real life?
+
+Well, currently, I’m working in a small factory. Basically, I put bingo cards in boxes and send them down to the loader who then puts them on a pallet. It’s not the worst job I’ve ever had, and the benefits are great.
+
+When you’re not nose-deep creating in WED, what other hobbies or things do you like to do for enjoyment?
+
+I like to build plastic models, airplanes and helicopters mostly, but there is an aircraft carrier on my display stand, a 3-foot-long model of the Starship Enterprise, plus a Tyrannosaurus rex, which was the first model I ever airbrushed. I also have an airgun shooting range in my basement as I like to keep my shooting skills up. And although we haven’t had the time or money to do it for a while, I like to take road trips with my wife. There’s a lot of this country she’s never seen, and it’s wonderful to see her reaction when she sees something new.
+
+Future
+
+How do you choose your next X-Plane project?
+
+I’m not sure if there’s a process as such, sometimes it’s just, “Hey, wouldn’t that be a cool thing to try…”, or sometimes someone will put in a request for a repaint that doesn’t look too crazy. I don’t take requests anymore, as that can occasionally lead to disappointment. 
+
+Are you planning on sticking with X-Plane, or are you tempted to see what other platforms offer? 
+
+I’m working exclusively on X-Plane these days, and I don’t see that changing any time soon. As I mentioned previously, X-Plane is all about the community, something which I highly value. Personally, I think X-Plane is way ahead of any other civil sims out there, including MSFS. Microsoft has never had a love for helicopters, so when MSFS 2020 came out, I decided to take a hard pass. I still remember them quitting on FSX back in the day, and since then, I’ve never really trusted them.
+
+In what ways do you see flight simulation development changing in the future?
+
+You know, it’s funny. When I started out in this hobby, it was with MS Flight Simulator 4, back in the ’90s. We had such rudimentary graphics, almost wire frame airplanes, blobs of green for land, blue for water and such. Now, the graphics and the realism just blow me away. To be honest, I think it will just get better in the future. I know I’m probably going to have to get more memory and a better graphics card for my computer if things keep going the way they have in the past, but that’s progress for you. 
+
+Your Thoughts
+
+Is there anything the Org or community could do to help developers more?
+
+I think the direction the Org is taking right now is not only helpful but also highly useful at the same time. Not only do you have a great collection of forums, but you also have many highly capable folks offering up their knowledge for free; it’s what a community spirit should all be about. Talking of the community, and I have to say that because of X-Plane, I have made many friends here. Unfortunately, I know I’ll probably never meet most of them in person, but it’s important for them to know that they have encouraged me and made me feel like I belong here. Yes, I’m talking about you, Roger.
+
+In terms of my own wants…then I would love to put in a request for some additional art assets, namely military objects. I do a lot of work on air bases and unfortunately, there isn’t a great deal of US military models to be found in the X-Plane libraries. If my 3D modelling skills weren’t so embarrassing, I’d give it a go, but sadly, this is where my talents fall short. If some kind, talented, individual reading this would like to model a static FB-111 or a Patton tank for example, then that would be great. 
+
+How do you feel about the future of flight simulation in general?
+
+As I mentioned previously, I think flight simulation is just going to get even more realistic, perhaps even to the point where someone like myself (who can’t fly for medical reasons), won’t even miss going to a real airport and spending a few hundred bucks flying for an hour. 
+
+Lastly Dennis, what would you like people to know most about your X-Plane work? 
+
+I’d like folks to know that hopefully, like them, I’ll be sticking around X-Plane for quite some time yet. Creating my sceneries provides me with a great deal of pleasure, not only because it’s an enjoyable process, but because the X-Plane community is just so darn awesome! 
+
+Thanks again Dennis, it was a pleasure to meet you! 

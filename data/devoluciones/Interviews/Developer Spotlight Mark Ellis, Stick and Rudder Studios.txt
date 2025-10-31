@@ -1,0 +1,89 @@
+Developer Spotlight: Mark Ellis, Stick and Rudder Studios
+
+Conducted by Dominic Smith
+
+Introduction
+
+Mark Ellis is the founder of Stick and Rudder Studios, the developer behind some of X-Plane's most widely used plugins, including X-Camera, X-KeyPad, and X-ATC-Chatter. With over three decades of experience in software development and a clear passion for aviation, Mark has become a key figure in the X-Plane community.
+
+In this interview, we learn more about his journey, the origins of Stick and Rudder Studios, and what inspires Mark to keep creating.
+
+Development
+
+What inspired you to get involved in the world of flight simming, and how did it lead to creating plugins for X-Plane? What inspired you to get involved in the world of flight simming, and how did it lead to creating plugins for X-Plane?
+
+Twelve years ago, I had a job as a development executive for a large software company. I travelled a lot, and became very interested in aviation, as I spent so much time on planes. I wanted to get my private pilot’s licence, but that level of travel prevented me from doing the training consistently. To learn more about flying, I decided to use Microsoft FSX. Needless to say, I got hooked on the hobby.
+
+How did Stick and Rudder Studios start, and was it always intended to meet a specific need in the community?
+
+FSX was always a bit finicky, with many crashes and odd behaviours. As soon as X-Plane 10 came out, I switched simulators. At the time, X-Plane didn’t have a very good camera add-on. I was using EZdok in FSX, so I decided to create my own camera add-on for X-Plane, and X-Camera was born. I created Stick and Rudder Studios as a company to purchase licences and negotiate contracts with other companies as I developed more add-ons for X-Plane.
+
+What makes X-Plane such an attractive platform for plugins, and how does it stand out compared to other simulators?
+
+The SDK for X-Plane is fantastic. It offers developers incredible access to the simulator’s data and control functions. Laminar Research is also a joy to work with. They are always open to suggestions from developers and collaborate well with the community to improve the user experience.
+
+The X-Plane community is very collaborative. Although plugin developers are competitive, they are willing to share ideas and even code to help the community grow and improve. X-Camera, as an example, supports multiple integrations with other plugins. This level of collaboration wouldn’t be possible without other authors’ willingness to work together.
+
+Your plugins, like X-Camera and X-ATC-Chatter, are widely used by members here at the Org. How do you come up with ideas for these tools, and what’s your process for implementing them?
+
+In almost all cases, the plugins are developed because I personally want them. Even though I might start them, their features are very much driven by community feedback and collaboration. X-Camera and X-KeyPad had very influential early adopters who significantly shaped those plugins.
+
+What inspired X-ATC-Chatter, and how does it enhance the simming experience?
+
+There’s an interesting backstory to this. I was an avid user of Pilot2ATC. A fellow enthusiast had created a high-quality ATC clip collection that worked with Pilot2ATC. I bought it and loved it. Over time, I noticed that other users were trying to purchase the same collection but couldn’t reach the creator. Sadly, I later learned that he had passed away.
+
+I decided to step in. I contacted the owner of LiveATC.net and negotiated an agreement to collect, curate, and distribute ATC clips from their archives. Initially, I curated the first set of clips myself and later fostered a volunteer program to help expand the collection.
+
+The collection was initially available for Pilot2ATC, but many people requested a standalone player for X-Plane and MSFS. That’s how X-ATC-Chatter and FS-ATC-Chatter were born. X-ATC-Chatter also features Simple ATC, which uses high-quality text-to-speech technology to enhance the ambiance of flight simulation without the complexity of a fully functional ATC system.
+
+X-KeyPad has become incredibly popular. What devices do you think work best with it, such as the X-Touch Mini or Stream Deck?
+
+X-KeyPad works with the X-Touch Mini, all Stream Deck devices, touch monitors, and P.I. Engineering’s programmable keyboards. Personally, I love the Stream Deck devices, particularly the Stream Deck Plus. I use a Stream Deck Plus, Stream Deck XL, and a twenty-two” touch monitor with X-KeyPad virtual devices for all my flying.
+
+How do you approach balancing functionality, user-friendliness, and realism in your plugins to make them stand out?
+
+This is a challenge. X-Camera and X-KeyPad are incredibly functional, which can make them a bit complicated. Their features tend to be driven by power users. With X-ATC-Chatter, I really tried to keep things simple and resisted overcomplicating it. Some users have pushed for more enhancements to the Simple ATC feature, but I’ve encouraged them to explore more comprehensive ATC systems instead.
+
+Why did you choose X-Plane over Microsoft Flight Simulator, and have you ever considered developing for other platforms?
+
+I do offer a version of X-ATC-Chatter for MSFS (called FS-ATC-Chatter), and I’ll probably create a camera add-on once Asobo improves the MSFS 2020/2024 camera API. That said, I still prefer X-Plane. I think the flight dynamics are much better, and developing within the X-Plane community is very rewarding.
+
+With over three decades of software development experience, what skills or tools have helped you the most in creating X-Plane add-ons?
+
+I’m proficient in multiple programming languages but most comfortable with C++. Beyond technical skills, I think the most important thing is being a user of your own software and actively engaging with the community and other developers.
+
+What’s been the biggest challenge of developing for X-Plane, and how have you overcome it?
+
+The X-Plane SDK doesn’t have a robust UI framework. Creating user-friendly interfaces was initially difficult. Luckily, other developers had experimented with Dear ImGui, a very robust UI framework. It has been a game-changer for tools like X-KeyPad, especially for its configuration editors.
+
+How do you gather feedback from the X-Plane community, and are there any user suggestions that significantly shaped your work?
+
+I use the X-Plane.org forums for feedback. All my plugins go through extensive open beta programs run exclusively on those forums. Many of X-Camera’s advanced features were influenced by Thomas Rasmussen, a well-known flight simulation YouTuber. Similarly, X-KeyPad and X-ATC-Chatter were shaped by contributions from several influential power users.
+
+Do you have any upcoming projects or updates from Stick and Rudder Studios that you’re particularly excited about?
+
+All three plugins have active beta programs at the moment. I was busy with home renovations over the summer, but now that they’re complete, I’m focusing on adding new features during the winter months.
+
+Personal Questions
+
+Do you ever use X-Plane purely for fun, and if so, what kind of flights or aircraft do you enjoy the most?
+
+Yes, I prefer to fly GA aircraft. I don’t usually have the time to learn complex aircraft like the Zibo 737. I’ve been particularly fond of Aerobask planes because they’re equipped with avionics I’m more familiar with. They’re also just a blast to fly; my favourite is the Viper Jet
+
+Have you ever had the chance to experience real-world flying, and what’s been your most memorable moment?
+
+Yes, I trained for my Private Pilot’s Licence in a C172/R at the Upper Valley Flying Club in Lebanon, New Hampshire. I logged over 110 hours and was ready for my check ride when medical issues arose that prevented me from retaining my medical certificate. I wish I had started earlier, but the experience was fantastic. My first solo flight and subsequent solo cross-country trips were particularly memorable.
+
+Is there a particular plugin that you’re most proud of?
+
+X-KeyPad. It’s the most technically challenging plugin I’ve developed.
+
+How do you balance the demands of running Stick and Rudder Studios with your personal life?
+
+I’m retired, and working on X-Plane plugins is a hobby I love. I’ve also found that creating high-quality, well-documented plugins with few bugs significantly reduces the time needed for support.
+
+When you’re not developing plugins, what do you enjoy doing in your free time?
+
+I enjoy remodelling projects on my house and walking my dog.
+
+Thank you, Mark, for sharing your insights and experiences. It’s been a pleasure learning about your journey with Stick and Rudder Studios!

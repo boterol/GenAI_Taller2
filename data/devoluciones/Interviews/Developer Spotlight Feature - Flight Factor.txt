@@ -1,0 +1,69 @@
+Developer Spotlight Feature
+
+Flight Factor
+
+Conducted by Dominic Smith
+
+In this edition of our Developer Spotlight, we are thrilled to introduce Roman, a pivotal figure behind Flight Factor, a name synonymous with innovation and realism in the X-Plane community. In this engaging interview, Roman shares his captivating journey from a flight simulation enthusiast to co-founding one of the most influential development teams in the world of X-Plane. He delves into the inspirations behind creating Flight Factor's acclaimed aircraft models, the challenges, and triumphs of pushing technological boundaries, and his vision for the future of flight simulation.
+
+Roman, could we start by discussing how your journey with flight simulation began, and what pivotal moments led to the establishment of Flight Factor and its success in the X-Plane community?
+
+I was an enthusiast of XP7 during my late teens. The dream of becoming a pilot had always been ingrained in me, yet in 1990s Ukraine, it seemed like a pursuit without direction. After completing my university education, I rekindled my interest in simulation while pursuing my PhD. This coincided with the release of XP9, and the possibility of creating my own aircraft sparked genuine excitement within me. I began building these aircraft, initially offering a few models for free before realizing their potential for monetization.
+
+My first project, the SSJ100, was modestly constructed but marked my initial financial success in the market. This led to the creation of additional models, and in 2012, fate introduced me to Philipp Menzel. Together, we embarked on the collaborative effort to construct the Boeing 777 model. The introduction of the 'Death Model' revealed the vast financial opportunities within the XP market.
+
+By this time, I had completed my doctoral studies and had become an engineer for an oil futures trading company. Despite the ostensibly prestigious nature of the job, I found it monotonous and uninspiring. The aircraft I produced were initially under the moniker "Ramzzess Aviation Design Bureau," a playful nod to Soviet nomenclature. It was later rebranded to Flight Factor when our first joint model with Philipp was released.
+
+Could you walk us through the intricate process of developing a new aircraft model, like the eagerly anticipated Boeing 777, and explain how Flight Factor manages to blend technical precision with accessibility for sim pilots of all skill levels?
+
+The development process heavily depends on the type of model we're working on. For the new Boeing 777 model, which I know many of you are eagerly awaiting, we embarked on a project that we initiated entirely from scratch. The motivation behind starting anew was the recognition of the inherent challenges in innovating within the constraints of proven technologies. We found ourselves overly attached to existing frameworks, which made the introduction of new elements particularly arduous. As a result, three years ago, we made a strategic decision to revamp everything, incorporating cutting-edge technologies. This approach not only allows for the seamless integration of new features but also significantly enhances the complexity of the models without compromising the user experience in terms of frame rate and accuracy.
+
+Our model adheres strictly to the standards outlined in the FCOM (Flight Crew Operating Manual). This means that any aspect not detailed in the manual might not be accurately represented in reality. To ensure the highest level of precision, we delve into more comprehensive documentation, including all available maintenance records. Our extensive collection of training materials, along with insights from actual pilots, plays a crucial role in the meticulous development of the model. As part of my commitment to this project, I pursued proficiency as a 777 pilot, progressing from being a private pilot to a commercial pilot, and eventually, a certified flight instructor. Two years ago, after meeting the technical requirements, I underwent training to become a Boeing pilot and have since maintained my rating.
+
+In our quest to deliver the most realistic and authentic training experience, we acknowledge that our model might not be as immediately user-friendly as some might wish. To mitigate this, my partner Denis takes great care to oversee the usability aspects. We are currently focused on creating comprehensive documentation to ensure that users find the model as approachable as possible.
+
+However, it's important to understand that engaging with training software inherently involves a learning curve. The software is designed to accommodate users gradually, allowing them to explore its intricacies at their own pace. Nonetheless, for those aspiring to pilot a Boeing aircraft, a foundational understanding is indispensable.
+
+Roman, facing the complexities of aircraft development, what significant challenges has your team encountered, and how have these been addressed? Are there any achievements or milestones in this journey that you hold in high regard?
+
+At the heart of Flight Factor, we are a team deeply versed in the nuances of aircraft development. The task of coding for complex models is daunting, requiring a profound understanding of the aircraft's actual systems. Denis and I, as the core aviation specialists on our team, bring nearly a decade and a half of experience in the industry. Our expertise extends beyond coding; it includes deciphering manuals and grasping the intricate mechanics of aircraft operations.
+
+The current Flight Factor team consists of ten individuals, yet only Denis and I possess the comprehensive engagement with aviation needed for such detailed work. While we are fortunate to have team members with real-world flying experience, most of it is at the private pilot level. We also have exceptionally skilled programmers who, despite their lack of flying credentials, excel in their domain. The challenge lies in blending these varied skills into a cohesive unit. Achieving a user-friendly frame rate for our models is particularly demanding, as it requires balancing visual fidelity with the constraints of available resources. Our commitment to realism and aesthetic detail inevitably strains our resource allocation.
+
+A significant hurdle we've faced during development has been the ongoing armed conflict in our region. Our team is spread across Russia, Ukraine, Belarus, and Latvia, making us intimately affected by these circumstances. This conflict has impacted us deeply, affecting not just the physical capacity of some team members to work but also the collective mental well-being of our entire team.
+
+In what ways does community feedback play a role in Flight Factor's development process, and how do you navigate incorporating this feedback into updates and new projects while ensuring the continued realism and accuracy of your models?
+
+While our development isn't solely driven by community feedback, it's certainly influenced by our dedication to meeting the community's needs. We make a concerted effort to integrate suggestions and requests from forums into our models, valuing the community's input highly. Although we adhere to a rigorous standard for our models, we are always attuned to user preferences. If certain features receive negative feedback, we consider refining or simplifying them accordingly.
+
+For example, our older models featured a virtual flight attendant designed to assist users in various scenarios. Despite its intended utility, feedback indicated that many found this assistant more irksome than helpful. Interestingly, rather than removing this feature in the new Boeing 777 model, we chose to expand upon it. We recognize that operating a modern airliner goes beyond the pilot's manoeuvres. It encompasses a holistic process, including checklist reviews, passenger announcements, and coordination with ground staff.
+
+Understanding that our users have diverse preferences, we decided against removing the feature. Instead, we've introduced a wide range of customization options. This allows users to tailor the virtual assistant's involvement to their liking. The key to utilizing these options effectively is a willingness to engage with the manuals and understand the setup process.
+
+How does Flight Factor maintain the high level of realism and accuracy in aircraft systems and flight dynamics that your models are known for?
+
+For system accuracy, our process is straightforward. We adhere to the specific standards outlined in our manuals, with additional complexities at the discretion of each individual programmer. Sometimes, due to personal interest or the simplicity of the task, I may program a system more deeply than the documentation requires. Generally, our systems strictly follow the guidelines established in the FCOM.
+
+Regarding aircraft performance, we have a set of manoeuvres and required announcements that mirror those found in standard training courses, all within our standard framework. Abnormal situations are programmed with utmost accuracy, utilizing insights from both full-flight simulations and real aircraft to inform our development. Over time, we aim to expand the repertoire of these procedures and manoeuvres, continually enhancing the model's realism.
+
+In assessing flight dynamics, our model is subjected to a series of rigorous tests. These include evaluating climb rates at specific power settings and conducting level flight tests to check N1 indications against predetermined altitude, speed, and weight parameters. The standards mandate that our results must be within 5% of the values specified in the manuals. By my recollection, there are thirteen such tests that the model must pass to confirm its accuracy in representing flight dynamics.
+
+Roman, without revealing specifics, could you hint at what updates or advancements the X-Plane community might expect from Flight Factor, especially regarding the existing fleet, in the near future?
+
+At present, I'm not in a position to share detailed information about specific upcoming models. However, it's clear that updates for our existing fleet are on the horizon. In the near term, the X-Plane community can eagerly anticipate the release of updated models including the Boeing 777, Boeing 787, and a second iteration of our Airbus A350. Additionally, our 757/767 models will continue to receive regular updates, with plans for a new version to be unveiled in due course.
+
+Could you share more about the dynamics within the Flight Factor team, particularly how you've adapted your collaboration methods to continue delivering complex simulations under the current global conditions?
+
+You might already be familiar with some of us; our team hovers around ten people, more or less. The majority of our team members treat their roles at Flight Factor as their primary job. We're a diverse group, with a couple of individuals focusing on C++ modules, a few more dedicated to various coding tasks, and four members who are experts in 3D art. For specific needs, such as creating liveries, we occasionally seek third-party help.
+
+Our collaboration mainly happens online, a method we've embraced well before it became a widespread norm. Although we traditionally met up biennially at the MAKS - Moscow Aerospace Show, recent events have made such meetings less feasible. Despite this, some of us live in the same cities and manage to meet up in person from time to time. Nevertheless, the bulk of our collaboration occurs online, as we have been accustomed to doing even before it became a popular practice.
+
+In light of the continuous technological advancements and updates within the X-Plane platform, how do these changes influence Flight Factor's approach to developing and updating aircraft models?
+
+Technological advancements within the X-Plane platform are a double-edged sword. We are genuinely pleased with the progress because it opens up new opportunities to enhance the complexity of our models and make the art more realistic. However, this advancement comes with the necessity to rerun tests and revisit details with each new update, which can be quite challenging at times and consumes a significant amount of time. For instance, the release of XP 12 extended the development process of our new Boeing model by four months, as we had to allocate that time to address and update aspects for the existing models.
+
+As Flight Factor looks to the future within the evolving landscape of flight simulation, what are your aspirations for the company's role and contributions to the X-Plane community and beyond, especially regarding the development of semi-professional models and community engagement?
+
+This question is indeed broad. Flight Factor undoubtedly holds a significant place as one of the major entities within the XP community, with our influence being unmistakable. My hope is for our requests to Laminar Research to receive swifter responses. On a personal note, I aspire for the community to remain unified and for the market to broaden, attracting an increasing number of enthusiasts and developers, alongside the unveiling of more complex and immersive models.
+
+Flight Factor is deeply involved in crafting semi-professional models that are suited not just for large-scale entertainment but also for specific training scenarios. We are hopeful about securing certification for one of our key projects, the FNTPII, within this year.

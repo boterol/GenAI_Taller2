@@ -1,0 +1,80 @@
+Developer Spotlight: Claudio Nicolotti, SimCoders
+
+Conducted by Dominic Smith
+
+Introduction
+
+In our latest Developer Spotlight, we’re excited to feature Claudio Nicolotti, the founder of SimCoders. Claudio’s journey from computer engineering to flying the Embraer E195 is as impressive as the add-ons he’s created. Starting with his first add-on, HeadShake, Claudio has built SimCoders into a name well-known for its attention to detail and realism, and one that many X-Plane users will be familiar with. Read on to find out more about Claudio and SimCoders.
+
+Background to SimCoders
+
+Claudio, could you tell us a bit about yourself and your background in aviation and flight simulation?
+
+My aviation journey began at 18 when I earned my Private Pilot License (PPL). After completing a degree in computer engineering and spending about a decade working as an engineer, I decided to pursue my passion further and began training for a frozen ATPL. During the COVID period, I worked for a photogrammetry company, and now I’m fortunate to work as a First Officer for an Italian airline, flying the Embraer E195 out of the beautiful city of Florence. Our primary mission is feeding the hubs in Munich and Frankfurt from various airports across Europe, especially Italy, which means I get to fly over the Alps daily. My interest in flight simulation started with X-Plane 9, where I began experimenting with its SDK, curious about its potential.
+
+How did SimCoders come to be? Was there a specific moment or idea that came about?
+
+The journey toward creating SimCoders began with HeadShake, my first add-on. As a PPL pilot flying aircraft like the C172 and PA28, I often faced long winters without much flying, so I needed a tool to stay proficient with real-world procedures. This prompted me to start modifying Carenado aircraft, like the C210, making them more realistic based on my experience and the POH. Over time, these tweaks grew in complexity, so I began organizing the code and adding new features systematically. Eventually, this work evolved into a structured product, and I decided to release it to the X-Plane.org community. That’s how SimCoders and the first Reality Expansion Pack (for the Carenado C210 on X-Plane 10) were born.
+
+Can you share the story behind the development of the first Reality Expansion Pack? What challenges did you face?
+
+The biggest challenges were mostly bureaucratic, as starting a business in Italy, especially 13 years ago, was not a simple task. However, my passion for aviation and simulation kept me focused and determined.
+Development Process 
+
+What is your philosophy when it comes to creating REPs? How do you decide which aircraft to enhance?
+
+When creating Reality Expansion Packs (REPs), I choose aircraft based on several criteria: the quality of the 3D model and sounds, the ease of modifying the existing model and its functionality, the availability of documentation, images, and videos, and the willingness of the original author to collaborate on improvements (so far, everyone has been supportive). My personal experience with the aircraft or similar models, as well as how much I like the airplane in real life, also play a significant role.
+
+Can you walk us through the typical process of developing a Reality Expansion Pack, from idea to final release?
+
+Development typically starts with setting up the basic framework in REP’s code, which acts as scaffolding for the features to come. I begin by implementing checklists and performance tables, which, along with the POH, serve as the foundation for coding and subsequent testing. REP’s codebase consists of modular components, each simulating a specific part of the engine, airframe, or systems. My task is to assemble and configure these modules, like LEGO pieces, to match the real aircraft’s parameters. Sometimes, entirely new components must be created, which is a rewarding process that allows me to dive deep into technical details and learn about aviation technologies.
+
+How do you research and implement the level of detail we see in your REPs, such as advanced systems and flight dynamics?
+
+Data points for configuring systems like engine power, fuel consumption, temperatures, flight dynamics, and more come from official documentation (POH, Maintenance Manuals, Engine Operator Manuals), video recordings of instruments, and feedback from pilots who fly the specific aircraft we are modelling. This approach has been especially detailed for planes like the C172, PA28 Arrow, and SF.260, as I’ve flown these models and gathered extensive real-world data on them.
+
+Community & Collaboration Engagement
+
+How do you engage with the X-Plane.org community to gather feedback or decide on new features?
+
+I actively engage with the X-Plane.org community by responding to every forum post and email, whether it’s feedback or support requests. I believe maintaining direct communication with users is essential as they should feel that there’s a dedicated team behind the product, motivated to improve it and attentive to their needs. This approach ensures members of the X-Plane.org community never feel abandoned or unheard.
+
+Do you collaborate with other developers or companies in the X-Plane ecosystem? If so, can you share any insights into those partnerships?
+
+Collaborating with other developers in the X-Plane ecosystem is always a rewarding experience. For example, while working with Javier Rollon on the SF.260, we divided tasks as he handled the 3D modelling while I focused on onboard systems, flight dynamics, and sounds. Similarly, I’m collaborating with Mihir Panchal of PAE on the Beech Bonanza, with a similar division of responsibilities. Thranda presented a different approach; since their aircraft are sold separately from REP, they provided extensive access to their codebase, making it easier to ensure compatibility and enhance their planes without excessive effort. These partnerships allow us to combine expertise and deliver even better experiences to users.
+
+Products & Features
+
+Which REP are you most proud of, and why? Is there one that was particularly challenging to develop?
+
+There are several projects I’m particularly proud of. The SIAI-Marchetti SF.260 stands out because it’s used by some military flight schools in Europe for initial pilot training before transitioning to real SF.260s. These schools chose it for its precise simulation of onboard systems, especially the military version with its fuel transfer pumps and fuel-injected engine, as well as the accurate flight dynamics. When I started flying the Piper Super Cub for my tailwheel endorsement, I was amazed at how closely the real aircraft matched the experience in X-Plane using REP. The Carenado C210 is another one I’m proud of; it’s one I use most often for relaxing in X-Plane. While Carenado hasn’t released a new version for X-Plane 12, we’ve managed to update it via REP to keep it compatible, at least for now.
+
+Are there any new features or products in development that you’re excited to share with the Org community?
+
+Looking ahead, the upcoming version 5.0 of REP is focused on two main areas: first, replacing 2D windows with a fully VR-compatible 3D tablet and a new graphical interface; second, further improving internal systems, particularly the engine, to enhance the functionality of the entire system and make REP more platform-agnostic. I don’t have a specific release date planned yet, as I need to balance development with my duties as a pilot.
+
+Personal Perspective & Thoughts
+
+What’s your favourite aircraft to fly in X-Plane, and why?
+
+My favourite aircraft to fly in X-Plane is the SF.260 because it’s incredibly versatile. You can do everything with it, VFR and IFR cross-country flights, IFR training, aerobatics, it’s the perfect all-rounder.
+
+What do you think sets SimCoders apart in the world of flight simulation?
+
+What sets SimCoders apart in the flight simulation world, in my opinion, is the combination of product quality and our relationship with users. The connection with the X-Plane.org community is at the heart of everything we do. For example, it’s common for us to exchange holiday greetings with long-time users, and we often give away licenses to loyal followers who have been with us since the X-Plane 10 days. This connection allows us to gather valuable feedback, especially from real pilots, which helps us continually improve.
+
+The Future
+
+How do you see flight simulation evolving in the coming years, and what role does SimCoders aim to play in that future?
+
+In my personal view, the world of flight simulation is evolving in two distinct directions. The first, which is more mainstream, focuses on "less realistic" but "more fun" experiences, think of a more arcade-like and casual approach. In this space, add-ons often feel "disposable," with users quickly moving on after a while. Every time a new add-on is released, it’s often touted as a “gamechanger,” when in reality, it might just be a rehash of old ideas. This path, while profitable, seems to be leading to a decline in the overall quality of content, with some notable exceptions. The second path is more niche, focusing on a realistic and more hardcore simulation. This is the direction I personally prefer, and it’s also the one X-Plane is currently following. My philosophy is that it’s better to have fewer features but do them well than to have many features, graphics, and content done poorly.
+
+Are there any plans to expand beyond X-Plane or into other areas of simulation?
+
+At the moment, we have no specific plans to expand to other platforms. I’ve tested REP on MSFS, but I’m not convinced it represents the future (or even part of it) for SimCoders. The constant changes from Microsoft/Asobo with every update would require us to redo the REP work each time, and since we have a small team, this would leave us with no time for anything else. Once REP 5.0 is ready, I might revisit the possibility of working on other sims like MSFS, but honestly, I’m not overly concerned or interested in MSFS. I believe X-Plane, although slowly, is moving in the right direction.
+
+What would you like the X-Plane.org community to know most about SimCoders?
+
+What I’d like the X-Plane.org community to know is that SimCoders is not just a business looking to make money to survive. What really drives us is the passion and inspiration behind what we do. We’re here because we genuinely enjoy creating and improving realistic flight experiences. If we make some money along the way, that’s great, but it’s not our primary goal. We’ve kept the price of REP the same for over 10 years (still $19.99, even for the latest packs) because our focus is on producing high-quality content and making a lasting impact on the simulation community. Our work is driven by a true love for the craft, and the satisfaction of seeing members of the X-Plane.org community enjoy our creations is what keeps us motivated, not just financial gain.
+
+Thank you, Claudio, for sharing your journey and passion with the X-Plane.org community. It’s been a pleasure learning about SimCoders, and we wish you all the very best with your future projects!

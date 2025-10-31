@@ -1,0 +1,111 @@
+Brett S. Blunt, Brilliant, and Probably Right
+
+Conducted by Dominic Smith
+
+Few people have shaped the Org quite like Brett S. He's sharp, direct, and doesn’t suffer fools gladly. Ask a smart question and you'll learn something. Ask a daft one and, if you're lucky, you’ll get one of the finest putdowns in the community.
+
+But that’s only part of the picture. Brett is also incredibly knowledgeable, quietly patient, and always willing to help. From helicopter flight modelling to forum moderation, he’s been part of the Org’s backbone for years.
+
+We thought it was time to shine a light on someone who helps keep the place running.
+
+Getting Started
+
+Hi Brett. Let’s start at the beginning, how did you first get involved with X-Plane, and what led you to the Org?
+
+I first discovered X-Plane during the v2.x run, and even back then it was a huge improvement over anything else I'd tried for helicopters, so I was immediately hooked. Austin was always very responsive when issues were pointed out or things that could be improved. That was a huge change too compared to the competition. You didn't get maybe one or two patches over the lifecycle like most; it was a constant stream here.
+
+I was involved with some of the earlier X-Plane sites (anyone remember the X-Plane Freeware Registry?) and then the first incarnation of the Org as well. It's by far the biggest and best place for everything X-Plane related.
+
+You’ve been a familiar face on the Org for years now, but was there a moment when you felt you went from being “just a user” to someone people looked to for help or guidance?
+
+Since I've been using X-Plane forever and creating content, including some default Laminar aircraft since v3, I have a pretty good handle on what works and what doesn't, and understand a lot of the inherent sim limitations.
+
+Aviation Background
+
+Do you have any real-world aviation experience, or has it always been a sim-based interest for you?
+
+I started my aviation journey as a helicopter mechanic and later Flight Engineer on CH-47s in the US Army. After six years of active duty, I left the Army and got my civilian A&P licence, then started helicopter flight training. I was between jobs at the time, so was flying daily, and was able to get my PPL(H) in less than a month.
+
+I worked for a FedEx contractor that operated a fleet of C208 Caravans for a year or so, but I really missed helicopters. I started working for a small ag operator as a combination A&P mechanic, truck driver, and helicopter loader, who let me ferry ships between jobs to build time. I was able to get my CPL(H) in about a year, then started spraying crops.
+
+My boss was nuts, to be honest, letting a low-time pilot even ferry stuff. I had 43 hours TT when he hired me, just over 150 TT when I started spraying crops, and my initial Bell 47 "checkout" was a couple of laps around a field. I hadn't flown anything at all for about a year. Must not have scared him too bad!
+
+I loved the flying part of that job, not so much everything else. You moved a couple of times a year and never got a planned day off during a season. It was seven days a week, weather permitting, starting before daylight and finishing after dark, with a break in the middle of the day.
+
+I made a career change out of aviation after about 12 years of it, and sims became my substitute. I've been a sim user since the early 80s. Given the cost of staying current enough to be safe and competent, I just couldn't justify it. I haven't flown a real helicopter since the last time I got paid to. I'm currently in IT, which is a very different challenge.
+
+From left to right: Brett flying a Hiller 12E on an ag job in upstate New York, 1993–1994, coming in for a refill. Side view of Chinook 67-18503, Brett’s assigned airframe in Korea during 1987. As a Flight Engineer, he was responsible for that aircraft, including most of its maintenance and inspections.
+
+Developer Work
+
+You’ve also built freeware helicopters in the past, so what drew you to that side of things, and what did you enjoy most about the process?
+
+I started off creating helicopters because there were very few around and none that were particularly accurate. With my background, I think I had a better handle on how to set one up than most folks. Knowing how a real one works and feels is huge! I'm not an artist for sure. My focus was always getting the handling and performance as close as possible.
+
+Helicopters are notoriously tricky to get right in X-Plane, so were there any particular challenges that stood out when building your own?
+
+One of the things I really try hard to do is work within the limits of the default sim flight modelling. If you cheat and use things in a way that Laminar doesn't intend, or override via script or plugin, it'll usually bite you later when the sim changes.
+
+Overall, it keeps on getting better. Always remember GIGO: garbage in equals garbage out. Do your homework and get every bit of information you can find. Flight and maintenance manuals are a start. Older military stuff is usually very well documented, and you can even find flight test reports.
+
+I've assisted numerous other developers along the way, donated several to Laminar for inclusion in the sim, or helped them tweak the flight modelling. I've also had a few commercial customers that used X-Plane for either development or marketing purposes.
+
+Are there any features or quirks in X-Plane’s flight model, especially when it comes to helicopters, that you think more people should understand or appreciate?
+
+Learning to fly a helicopter without an instructor to (repeatedly) save your butt and show you the right way is hard! Most people would ball it up in a matter of seconds in a typical light helicopter with no artificial stability. It takes hours of practice, and there are no shortcuts. Just like a real one.
+
+I highly recommend starting off in a simple ship with no artificial stability so you can learn the basics. If you can afford it, full-sized controls are worth every penny. We are supposed to see updated helicopter rotor modelling in v12.4. The alpha I've tested was a nice improvement in many areas.
+
+The Moderator Hat
+
+Being a moderator can’t always be easy (understatement of the year), so what are some of the challenges you’ve run into over the years, especially when trying to keep the peace without scaring folks off?
+
+I think most users have no idea how much goes on behind the scenes to keep the site clean and organised. It's constant. There are always a few members who simply cannot play well with others and live to troll or get offended way too easily. Add to that the kids who aren't being supervised by parents, and it can be a mess!
+
+Do you think the way people behave on forums has changed much over time? Has it got better or worse, and what do you reckon is behind that?
+
+It's definitely changed in recent years as X-Plane gets more mainstream. In the old days, with a much higher price point and less focus on eye candy, you got mostly serious adult simmers. The average age here has dropped considerably from what I can see.
+
+The attitude can be a bit different in the younger crowd, for sure. There's less patience to learn the background skills and more desire to jump right into flying a complex study-level airliner, or even better, to develop one with zero experience. Sure, this is just a generalisation and doesn't apply to everyone, but we see this pattern over and over. Just look at the Aircraft Development Notices or Zibo forum sections and you'll see plenty of both :)
+
+X-Plane Changes
+
+Have there been any changes to X-Plane over the years that really impressed you, or others that left you frustrated?
+
+The systems and flight modelling just keep on getting better. The only frustrating thing to me in recent years is how much longer it takes to get changes merged into a release. In many cases, it's over a year. The rotor modelling improvements I mentioned above were basically finalised in early 2024, for example.
+
+From a technical perspective, are there things you wish more developers or users paid attention to when it comes to aircraft realism?
+
+Flight modelling! A fantastic 3D model wrapped around something that flies nothing like the real thing is such a waste. Most end users (and some developers) can't tell the difference, unfortunately.
+
+Flying & Simming
+
+Do you still fly for fun, or has it become more about testing and helping others these days?
+
+Not a ton of either these days. I've got a few folks I regularly test for and hope to release updates on a couple of my projects whenever we get v12.4. If I ever get the time, I'd like to redo the videos for the helicopter flight school section. All the source videos were lost years ago. If nothing else, maybe when I retire in five or so years. I spend more time playing around doing autorotations or aerial refuelling than anything else for the "fun" flying.
+
+When you do get the chance to jump in the cockpit, what’s your go-to aircraft? Fixed-wing, rotary, or something else entirely?
+
+99% helicopters here, with the occasional GA bush plane, older warbird, or VTOL thrown in. I have zero interest in airliners or watching something fly around on autopilot.
+
+The Road Ahead
+
+What’s your take on where X-Plane is going these days, especially with the new Laminar store and how that might affect places like the Org?
+
+I'm not a fan of the X-Plane Store concept. I get why they are doing it (money!), but it can only hurt the existing third-party stores like the Org.
+
+The way they've handled the optional "identity" piece in the sim so far doesn't exactly inspire confidence. It's been a cluster. Developers are also going to feel the pain if Laminar actually starts vetting add-ons for their store with vague, arbitrary "approval" standards.
+
+There are certainly areas Laminar could be spending their limited resources on that would better benefit their users. We are very fortunate to have a bunch of great third-party developers here. Some really go above and beyond. Good riddance to the ones who completely abandoned their X-Plane customers and jumped ship to MSFS chasing a buck. I get the financial aspect, but the way a couple handled it was really poor, in my opinion.
+
+If you were handed the controls for a day, not permanently, just long enough to push a few buttons, is there anything you’d tweak, fix, or quietly make disappear? Could be something in X-Plane, the Org, or anything else that springs to mind. For the sim itself, I'd shift the priorities back to flight and systems modelling first, eye candy second. But I also understand I'm not their typical mainstream customer these days.
+
+Brett in uniform inside a Chinook, taken in Korea around 1985 or early 1986.
+
+Final Note
+
+Finally, Brett, you’ve helped a lot of people over the years, often without much fanfare, it must be said. Is there a moment or message that’s stuck with you, something that made it all feel worthwhile?
+
+It's nice to see someone stick with it and really learn helicopters, whether just flying them in the sim or even in the real world.
+
+Many thanks to Brett for sharing his time, stories, and thoughts on X-Plane. He might tell you off in the forums, but let’s be honest...you probably deserved it.

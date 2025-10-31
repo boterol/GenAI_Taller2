@@ -1,0 +1,129 @@
+Interview with Q8Pilot: One of Flight Simulation’s Most Respected YouTubers
+
+Conducted by Dominic Smith
+
+Introduction
+
+If you’re into flight simulation, chances are you’ve come across Q8Pilot on YouTube. His channel has become a go-to place for simmers looking for honest reviews, in-depth tutorials, and high-quality flight sim content.
+
+But how did it all begin? What keeps him motivated to create? And what does he really think about X-Plane, MSFS, and the future of flight simulation?
+
+I had the pleasure of sitting down with Q8Pilot to chat about his journey, his thoughts on the sim world, and of course, to settle the ultimate debate, Boeing or Airbus?
+
+Early Days & YouTube Journey
+
+Q8Pilot, let’s start at the beginning. What first got you into aviation? Was it a lifelong love, or did you stumble into it at some point?
+
+Aviation has always been a passion of mine. As a young boy, I was fascinated by the sight of aircraft soaring through the sky. My favourite part of traveling was the airport experience; watching planes take off and land never failed to captivate me.
+
+Did you have a favourite sim when you were younger? If so, what was it, and what made it special?
+
+My first experience with a flight simulator was on my Amiga 500. It was a very basic sim with terrible graphics, but at the time, it felt amazing because it was my first real encounter with flight simulation. Flight Simulator 98 was my first proper experience with flight simulation, and from that point on, I was hooked. I’ve owned pretty much every iteration of the Microsoft Flight Simulator franchise ever since.
+
+You’ve built an amazing YouTube channel that so many people in the flight sim world know and love. How did it all start? Was it something you planned, or did you just start making videos for fun and it grew from there?
+
+My YouTube channel started from my passion for teaching and sharing knowledge. Back in college, I was a Mathematics tutor, and teaching was something I really enjoyed and found very rewarding.
+
+I never planned to start a YouTube channel, and I certainly never imagined it would grow to such a huge following. It all began with simple tutorials and How-To guides that I thought might help others. The incredible feedback and support from the community are what motivated me to keep going.
+
+I consider myself very fortunate to have built such a wonderful community and to have made so many friendships along the way.
+
+Was there a moment when you realised, “Okay, this is really taking off” (no pun intended)? Maybe a video that went viral or a specific milestone that made it feel real?
+
+The video that really got things going was my first X-Plane 10 Complete Settings Guide. It seems to have helped a lot of people and was the moment I realised how much I enjoyed teaching and sharing knowledge.
+
+I saw that I could offer real value to this growing community, and from that point on, I never stopped creating content.
+
+Flight simulation has changed a lot over the years. What was the first sim you ever used, and how did it shape your passion for aviation? How do you think simming today compares? Are there things you miss from the old days or is everything just miles better now?
+
+My introduction to flight simulation began with the early sims on the Amiga 500. The flight simulation hobby has grown tremendously and now covers a far wider range of possibilities compared to ten, or even five, years ago. Modern simulators offer a much more accurate representation of the real world, with realistic flight physics and a vast selection of addons that provide in-depth simulation of their real-world counterparts.
+
+On top of that, we now have much better hardware and software designed to complement flight simulators, increasing both immersion and realism. What started as a modest hobby has evolved into something that, in many ways, resembles reality itself.
+
+What’s been the biggest challenge in running a successful YouTube channel?
+
+Starting and growing a YouTube channel is no simple task. It takes hard work, research, dedication, commitment, and consistency, not to mention both financial and time investments. My biggest challenge has been balancing a full-time job, family life, and finding enough time to create high-quality content for the community.
+
+When choosing an aircraft for a video, how do you go about it? Do you spend time learning it beforehand, or do you just "wing it" (as I do) and figure things out as you go?
+
+My goal is always to provide unbiased, honest, and insightful reviews for the community. I like to spend time with each aircraft to first understand it from a flight simmer’s perspective. I pay close attention to every aspect of the aircraft and have developed a scoring system that helps me deliver consistent and high-quality reviews.
+
+Do you ever speak with the aircraft developer before reviewing it? Or do you prefer to go in fresh and experience it like any other simmer?
+
+I don’t normally reach out to developers, but I always welcome them if they approach me. From the start, I make it very clear that even if I receive an add-on as a press copy, my review will always reflect my unbiased opinion.
+
+Most developers are completely fine with this and understand my approach. However, there are a few who don’t like it and expect more of a commercial promotion for their products, which is something I’m not willing to do on the channel.
+
+Let’s talk about your setup, the one we all envy! What’s your current computer for streaming and content creation?
+
+Computer Specs
+Operating System: Windows 11 Pro 64-bit
+Processor: Intel 13th Gen Raptor Lake Core i9-13900K (5.5GHz)
+Liquid Cooler: Corsair iCUE H170i ELITE (140mm Fans, 420mm Radiator)
+Motherboard: ROG STRIX Z790-E GAMING WIFI
+RAM: G.Skill Trident Z5 RGB (Intel XMP) 64GB (2 x 32GB) DDR5 6000
+Storage: 4 x 2TB M.2 SSD
+Graphics Card: ZOTAC Gaming GeForce RTX 4090 Trinity OC 24GB GDDR6X (384-bit, 21 Gbps, PCIe 4.0)
+Power Supply: ASUS ROG Thor 1600W Titanium PSU
+Case: Corsair Obsidian Series 1000D Super-Tower
+Monitor: ROG STRIX XG43UQ 4K Ultra 43-inch Ultra-Wide (144Hz)
+What software do you use for streaming and post-production? Are there any particular tools that make your workflow easier?
+
+Streaming Software: StreamLabs OBS
+ Recording Software: OBS Studio
+Graphics & Video Editing: Adobe Photoshop, Adobe Premiere
+How long does a typical video take to put together? Live streams come out as they are, but your regular videos must take a fair bit of work. What’s the process like?
+
+Video creation is a long and detailed process. It starts with writing the script, followed by recording the video, recording voiceovers, and then editing to ensure the best audio quality. The final step is rendering the video. On average, it takes about two hours to produce a five-minute video.
+
+MSFS vs X-Plane 
+
+You use both MSFS and X-Plane, so how do you see them from a market standpoint? Is there a clear divide in their audiences?
+
+This is always a touchy subject, as it can spark endless debates in the comments section of any video or stream on YouTube.
+
+There is a clear distinction between the X-Plane and MSFS audiences. X-Plane users tend to be more focused on the flying aspect of simulation and are less concerned with the world they fly in. MSFS users, on the other hand, are drawn to the graphical capabilities of the sim. X-Plane has a smaller but more dedicated user base, while MSFS dominates in market share, attracting a broader audience that includes both gamers and flight sim enthusiasts.
+
+As an expert simmer, how do you personally compare the two? Do you think one excels in certain areas over the other?
+
+Absolutely. X-Plane excels in flight dynamics and physics, while MSFS offers a more realistic representation of the world.
+
+With MSFS 2024, Microsoft seems to be leaning more toward Xbox users. Do you think that shift will affect hardcore PC simmers?
+
+The Microsoft Flight Simulator franchise is certainly targeting a broader audience, particularly those who are gamers at heart. X-Plane, on the other hand, is focused on serious flight enthusiasts and training academies, those who prioritize a platform that closely resembles real-world flying and supports real-world flight training.
+
+What would you love to see in the future of X-Plane? Is there anything missing that would take it to the next level?
+
+The only area where X-Plane still falls short is graphics. While this aspect has been improving, I still feel it has a long way to go.
+
+Fun & Final Thoughts
+
+Do you have a favourite aircraft to fly in X-Plane, or is that like asking you to pick a favourite child?
+
+This question made me laugh! It’s definitely difficult to choose just one. X-Plane developers offer a wide range of excellent study-level aircraft, and with so many great options, it’s hard to pick a favourite.
+
+What do you think makes flight simming such a special hobby? Is it the realism, the community, the endless learning, or maybe all of the above?
+
+It is most certainly all of the above. The one thing I am especially grateful for is the many friendships and the wonderful people I have met over the years.
+
+If you could give one piece of advice to someone looking to start a flight sim YouTube channel, what would it be? (Other than "don’t forget to hit record!")
+
+Be original and develop your own unique style and approach.
+
+No matter how much you admire another creator, never copy their content or channel. Learn from experienced content creators but focus on building something that reflects who you are.
+
+And of course, be patient and persistent.
+
+Outside of YouTube and flight simming, what do you enjoy doing? Or is aviation just always on the brain?
+
+I really enjoy playing music on my Oud, horseback riding, and spending quality time with my kids.
+
+Okay, now the most serious question of all. If your life depended on it, which would you choose…Boeing or Airbus? And no sitting on the fence! 
+
+Make no mistake about it. If it ain’t Boeing, I ain’t going! :)
+
+Lastly, any final thoughts for the X-Plane.Org community? A message to your viewers or anything you'd like to share?
+
+The X-Plane.Org community is one of the best things that has ever happened to X-Plane users.
+
+I would like to express my heartfelt gratitude to everyone who has developed and shared their work with the flight sim community on the Org. I want them all to know that their contributions are extremely valuable and deeply appreciated.

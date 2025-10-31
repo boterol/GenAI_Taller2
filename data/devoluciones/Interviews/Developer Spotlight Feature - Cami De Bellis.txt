@@ -1,0 +1,121 @@
+Developer Spotlight Feature - Cami De Bellis
+
+Conducted by Dominic Smith
+
+ 
+
+Welcome back to our Developer Spotlight series, where we dive deep into the world of X-Plane development. Today, we're thrilled to feature a name that needs no introduction among X-Plane enthusiasts - Cami De Bellis.
+
+Cami's extraordinary sceneries have graced our virtual skies for over 15 years. Renowned for her painstaking attention to detail and the stunning realism of her designs, she has skillfully balanced her efforts between freeware and payware projects, enhancing our X-Plane experiences across diverse and enchanting locations worldwide.
+
+Now, it's time to take a different journey. Let's leave the runway for a while and venture behind the scenes, exploring Cami's inspirations, her development process, and her vision for the future of flight simulation. 
+
+Development
+
+Hi Cami, thank you for taking the time to speak to X-Plane.Org.
+
+Could I begin by asking what initially drew you to the world of flight simulator development, and when did this journey begin for you?
+
+Since childhood, airplanes and aviation have always enchanted me. I can recall telling my parents that I would become an airplane pilot one day. While my father saw my future in a more traditional role, my mother suggested I might become an architect. As life unfolded, I discovered Microsoft Flight Simulator in 2004. I noticed that many of the sceneries didn't align with reality, which inspired me to start creating and modifying these environments for personal use. Thus, the seeds of flight simulation development were sown. By 2007, I had discovered the wonders of X-Plane and it was love at first sight.
+
+For those readers who don't know you, can you provide an overview of your creations and the nature of your work?
+
+My primary focus is on developing X-Plane sceneries. On occasion, I dabble in aircraft paintings, but sceneries are my true passion.
+
+Cami, out of all your airports, which do you believe are your best or most well-received works?
+
+I've had great success with several projects. For freeware, my Micronesia, Polynesia, and Melanesia sceneries have been particularly popular. Among my commercial products, Bhutan's Paro and Nepal's Kathmandu sceneries stand out.
+
+Can you give us an idea of some of the challenges you face when creating sceneries?
+
+The journey has been filled with challenges at every turn! Starting from scratch, I had to learn how to build sceneries and navigate software in four languages, which is quite an undertaking. Now with the advent of X-Plane 12, some sceneries that worked perfectly in version 11, need adjustments to perform correctly and without errors. 
+
+Which of your projects hold a special place in your heart and why?
+
+The projects that resonate most with me are Paro, Kathmandu and St. Croix. These were done in collaboration with my good friend Matthias Seewald (Maps2XP), as he has always encouraged me to improve my skills. The St. Croix project in the Caribbean was particularly exhaustive. We put a lot of effort into researching every detail, which involved collecting thousands of pictures from around the web.
+
+What software packages and tools form your development toolkit?
+
+I primarily rely on Blender and SketchUp, and AC3D. Recently, I've been getting to grips with Substance Painter. I also utilize ShaderMap, Photoshop, WED, Ortho4XP, XSmartforest, XGrinder, X-Plane Mesh editing (developed by my friend Joz in Brazil), GeraOrthophoto, Apply decals, and XPublisher. I'm continually learning, seeking out tutorials and watching countless hours of instructional videos on the web.
+
+Development
+
+Cami, are there any individuals or groups in the development world who have inspired you or played a mentorship role?
+
+While I wouldn't say I've had a traditional mentor, I've been greatly inspired by many individuals in the community, including Italian developers like Cekko and Lorenzo aka LoreAir. There have been others, but the list is long, and my memory isn't as sharp as it used to be!
+
+Do you primarily focus on developing Payware, Freeware, or both, and what's your reasoning behind this?
+
+I invest my time and passion in creating both freeware and payware. The highly detailed, large-scale projects require significant time and dedication. After developing 135 freeware sceneries over 15 years, I ventured into creating payware ones. It took me a decade to feel confident enough in the quality of my work to make that transition, but I finally made the leap. 
+
+Team Collaboration
+
+Could you tell us a bit about your development process, do you work solo or collaborate with others?
+
+While I primarily handle the development process myself, I've been collaborating with Matthias Seewald on sceneries for several years now. In the past, I’ve worked with Joz from Recife, Brazil, Paolo Grifantini from the Italian community, and Walter Schombachler from Switzerland. I'd also like to add Bruce Blackshaw from Australia to this list, a true gentleman and a delight to work with. Currently, however, my main collaboration is with Maps2XP. We're working on a secret project which I've been studying for some time, and which was originally announced some six or seven years ago.
+
+Real Life
+
+Do you have any real-life aviation experience?
+
+Yes, I attended a private pilot course to acquire a Private Pilot License (PPL) and even made my solo flight. Regrettably, due to life's circumstances, I wasn't able to complete the certification process. However, I still hope to finish and fulfil this long-held dream, as it would mean so much to me.
+
+What kindled your love for aviation?
+
+My fascination with aviation is lifelong! As a little girl, I dreamt of flying, and after experiencing my first flight, I was utterly captivated!
+
+Do you have any memorable real-life flight experiences you could share with us?
+
+I have many! A particularly vivid memory involves a return flight from New York to Brussels on Northwest Airlines. Just after takeoff, I noticed an unusual tremor on the plane. Shortly after, all but one of the Boeing 747's engines shut down, and we had to make an emergency glide back to JFK. Upon landing, we were greeted by a runway coated in foam and hundreds of firefighters. This experience taught my husband to never underestimate my instincts when it comes to aviation!
+
+Could you share a little about what you do when you're not developing sceneries for X-Plane?
+
+Absolutely! I currently live alone in a small town in the province of Reggio Emilia, Italy. For years, I worked as a secretary in an office dealing with foreign affairs and legal practices. In my younger days, I was a fashion model and even held a beauty queen title. Presently, I share my life with four beloved dachshunds and enjoy long walks in nature. I'm also an avid reader, particularly fond of the works of great Italian masters.
+
+Cami, do you have any other hobbies or interests beyond flight simulation?
+
+For a time, I collected Barbie dolls and amassed a collection of 500 pieces. I love to travel, though I haven't done so in a while, and I enjoy walking in the mountains. Watching the sunset at the beach is another favourite pastime of mine. I also like to watch a lot of TV, especially news and thriller movies, and I have a particular fondness for plants and flowers.
+
+Have you ever considered making X-Plane development your full-time occupation?
+
+The idea has certainly crossed my mind, but there's still more I need to learn, particularly when it comes to normal maps. Plus, it would require a significant amount of time and energy, something I'm not currently able to commit to, but who knows what the future might hold?
+
+Future
+
+How do you decide on your next project or design?
+
+I'm currently finalising a long-awaited project which will be published shortly. Normally, Matthias and I jointly decide on our future ventures, as we both have a shared fondness for islands, especially those in the Caribbean.
+
+Do you plan to stay with X-Plane or are you tempted by other platforms? 
+
+I've always been loyal to X-Plane, and whilst I've developed for Microsoft Flight Simulator in the past, I must admit it was a bit of a wild west, as there were many (in my experience) dishonest individuals and little respect for copyright laws. In fact, I recently discovered someone had stolen my entire CDB library and claimed it as their own, not even bothering to change the names of the objects. It's disheartening to see such disregard for my hours of research, creation, analysis, and study. This is, unfortunately, the dark side of software design, which is both upsetting and sad to see. 
+
+How do you see the future of X-Plane development?
+
+X-Plane is already an exceptional simulator, the best in my opinion, but I believe the near future holds some pleasant surprises for us, and it’s my sincere hope that I'll be around to witness them.
+
+Your Thoughts
+
+In what ways can platforms like X-Plane.Org better support developers like yourself and the X-Plane community as a whole?
+
+Personally, I've always received excellent support from members of X-Plane.Org, especially from Nicolas, the owner, who's been consistently caring and supportive. In general, I'd love to see platforms foster greater respect for copyright laws and establish teams to produce tutorial content, such as how to use tools like Blender and Substance Painter for scenery development.
+
+What are your thoughts on the future of flight simulation as a whole?
+
+I foresee flight simulation becoming increasingly more realistic, which will be a tremendous help to real pilots and provide ordinary people with an opportunity to explore the magical world of aviation.
+
+In your opinion, how can communities or platforms better support developers?
+
+I can't stress enough the value of good tutorials, those which show progression. Providing step-by-step guides and explanations for developers at various levels of expertise can be incredibly beneficial.
+
+Lastly, Cami, is there anything specific you'd like our readers to know about you and your work?
+
+Certainly. Many readers might be surprised to learn that I'm a woman over 55 years old and that I've dedicated the last 15 years of my life to working with X-Plane. Sometimes, I devote as many as 12 hours a day to creating, developing, and studying objects, sceneries, and everything related to flight simulation.
+
+On a more personal note, for the past nine months, I've been courageously battling a serious illness. But like everything else I do; I'm giving it everything I've got. I draw a lot of strength from my work and the support of the X-Plane community. I'm looking forward to sharing more of my creations in the future.
+
+In closing, I want to express a shared appreciation for Cami's contributions to the X-Plane community. In every scenery she creates, there's an unmistakable blend of meticulous attention to detail and a clear passion for her craft. What's more, her invaluable CDB library has empowered countless other freeware scenery developers to enrich their own creations with high-quality objects.
+
+Beyond her technical skills, it's Cami's positive and generous spirit that truly sets her apart. It's evident that she genuinely cares about what she does and about the community she's a part of. From the perspective of those who know her work, it's clear that her contributions go far beyond simply creating sceneries - they're about sharing her love for flight simulation and helping others to do the same. Whether it's through her detailed and stunning sceneries, her invaluable resource library, or her kind interactions, Cami's dedication to flight simulation truly makes a difference in our community.
+
+Cami, your strength and resilience in the face of adversity are truly inspirational. As you continue to navigate through your health challenges, please know that our thoughts and well wishes are with you. We hope for your speedy recovery and look forward to seeing your continued creations for many more years to come!

@@ -1,0 +1,111 @@
+Developer Spotlight Feature - NHAdrian
+
+Conducted by Dominic Smith
+
+Welcome to our latest Developer Spotlight feature, where we are thrilled to introduce NHAdrian, an accomplished X-Plane developer known for his innovative and realistic creations. In this in-depth interview, NHAdrian shares his journey in flight simulation development, his passion for aviation, and his commitment to delivering high-quality and authentic experiences to the X-Plane community.
+
+Development 
+
+Hi Adrian, thanks for taking the time to speak to X-Plane.Org. Could I start by asking how your journey in flight simulator development began, and what aspects first captured your interest?
+
+I began developing for X-Plane around XP10, initially making changes to sceneries to better align them with reality. Later, I started modifying aeroplanes to implement new avionics, and features, in which to enhance their realism. During this process, I learned the basics of Plane Maker, World Editor, SASL scripting, AC3D, and became familiar with X-Plane's OBJ8 file format.
+
+Could you describe the type of designs you create and your involvement in these projects?
+
+My initial freeware releases involved modifying existing aircraft (such as the renowned C152 Mod, or the ASK-21 and ASK-21E gliders) and collaborating with the HungaryVFR team on Hungarian scenery development. The first commercial products I introduced were the innovative NHRacer and NHAcro multicopters for X-Plane. The groundbreaking AirCar is another notable creation of mine. Additionally, I partnered with Vertigo on the XA42 project to develop a stunningly realistic aerobatic plane that not only utilises XP12's new rendering system but also pushes the particle system to its maximum potential.
+
+Which of your X-Plane models do you believe are the most well-known or well-regarded?
+
+Both multirotors have gained recognition for their unique nature, and AirCar seems to be gaining quite a lot of traction as well.
+
+Adrian, what challenges do you typically face when working on a project?
+
+Achieving realism in terms of physics, visuals, and systems is the most challenging aspect.
+
+Out of the X-Plane projects you have created so far, which one has been your favourite to work on?
+
+Oh, that’s easy, the multicopters have undoubtedly been my favourites!
+
+What made them so much fun?
+
+Their agility, responsiveness, and stability make them a delight to fly, while various flight assist modes cater to both beginners and advanced pilots. I incorporated a racing computer feature that allows pilots to measure and compare their performance against themselves or others, and even create their own custom tracks using the provided accessories. Furthermore, the NHAcro is capable of inverted flight, offering pilots limitless acrobatic freedom!
+
+What software packages and tools do you use for your X-Plane development?
+
+I use Plane Maker, AC3D, Substance Painter, SASL scripting, FMOD, manual OBJ8 editing if required, World Editor, and some CAD tools.
+
+Are there any individuals in the X-Plane world who have served as mentors or sources of inspiration in the development world for you?
+
+While I mostly learned through trial and error during my freeware and commercial projects, Lionel Zamouth provided valuable advice at the beginning of my SASL scripting journey.
+
+Do you create both payware and freeware? If so, what led you to develop both types of content?
+
+Initially, I developed freeware primarily for personal use, aiming to improve and customise my experience. I then released these as freeware to support the community. Later, I decided to create payware projects that were unique, like the NHRacer and NHAcro multicopters, which were the first realistic, agile, and well-handling multirotors for X-Plane. Similarly, AirCar is the first realistic representation of a car in X-Plane that can also fly, and my next project will fill a gap in the Experimental world as well, I can promise!
+
+The Team
+
+Do you work as part of a team or solely by yourself? 
+
+I work independently.
+
+With which X-Plane developers or teams have you collaborated, and what were their roles?
+
+I collaborated with Vertigo and PWDT for a joint payware release. I am also a member of the HungaryVFR Team and was previously a member of the LevelUP Team.
+
+Real Life
+
+Adrian, do you have any real-life aviation experience?
+
+Yes, I completed my PPL four years ago and have been flying continuously as a hobby pilot ever since. I have type ratings on C152, C172, Zlin 142, Socata TB9, Socata Rallye, and Aero AT3.
+
+That's an impressive range of aircraft! Among them, do you have a favourite, and if so, why?
+
+Each of them has its own unique characteristics and purposes. For instance, the TB9 is comfortable for longer journeys, the Zlin is an agile aerobatic trainer, the AT3 is a small, responsive plane for shorter fun flights, and the Cessnas are excellent basic training planes with incredibly forgiving flight characteristics. As a result, I appreciate them all!
+
+What triggered your interest in aviation?
+
+I have always been fascinated by aviation. As a child, I started building model aeroplanes. RC modelling became my hobby, and I experimented with various vehicles, from helicopters and aeroplanes to cars and boats. When I had the opportunity to build my own PC which was powerful enough to run X-Plane, I began practising in a simulation environment, eventually leading to real-life flying experiences.
+
+Are there any real-life flights that stand out in your memory?
+
+Every flight is memorable in its own way, as I cherish every minute spent in the air, whether as a passenger or as a pilot.
+
+Adrian, would you like to share your professional background outside of X-Plane development?
+
+I hold a degree in mechanical engineering and initially worked in the industrial sector. I spent many years as a welding engineer before transitioning to my current role as a leading developer at a company.
+
+Apart from aviation, what other hobbies or activities do you enjoy?
+
+Real aviation is now my primary hobby, but I occasionally fly my RC planes as well. Additionally, I consider simulator development a hobby, as I work on it in my spare time and genuinely enjoy it!
+
+Have you ever thought about pursuing flight simulator development as a full-time career?
+
+Not really. In my opinion, it should remain a hobby because being forced to do it as a job might diminish my inspiration and enthusiasm.
+
+Future 
+
+How do you decide on your next design or project?
+
+As I've mentioned earlier, all my projects have originated from personal interests. Whether I required a training platform or was simply curious about my own capabilities (or those of X-Plane), these factors have guided my decisions. Moving forward, I plan to continue along this path, and my upcoming project will also incorporate many personal aspects.
+
+Will you continue to focus on X-Plane, or do you have any plans to develop for other simulator platforms in the future?
+
+I began my journey developing for XP10, then XP11, and now XP12 and as such have no plans to transition to MSFS. Why? Because I believe X-Plane is not only a simulator but also a valuable engineering tool, and one that I truly enjoy!
+
+Your Thoughts
+
+What can websites like X-Plane.Org do to better support developers and the hobby?
+
+A primary issue is that many review writers and forum members without real-life experience make judgements and comments on products, which can mislead others. It would be beneficial to have a closed group of members with sufficient real-life experience to accurately assess realism. These members should provide honest feedback, both positive and critical.
+
+What are your thoughts on the future of flight simulation in general?
+
+I believe VR will become increasingly popular. However, based on my personal experience, a full-size flight control is essential for the most realistic user experience, including realistic pedals with brakes and a stick or yoke. Unfortunately, only a few quality and affordable hardware options are currently available.
+
+What can the X-Plane community do to best support developers?
+
+It’s crucial that the community provide honest and valuable feedback.
+
+Lastly Adrian, what would you like people to know most about your X-Plane work?
+
+Firstly, I'd like to thank you, Dom, and X-Plane.Org for giving me the opportunity to be part of this Developer Spotlight feature. As for my work, I want people to know that all of my projects are designed to be as realistic as possible. I am committed to maintaining high standards and will never publish anything that doesn't meet my personal expectations just for the sake of making money.
